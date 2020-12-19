@@ -1,6 +1,7 @@
 ---
 title: "Hi"
 date: 2019-04-18T15:34:30-04:00
+og_image: /assets/images/bio-photo.jpeg
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
