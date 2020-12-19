@@ -1,7 +1,6 @@
 ---
 title: "Latest Update"
 date: 2020-12-18T15:34:30-04:00
-layout: splash
 classes:
   - landing
   - dark-theme
