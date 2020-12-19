@@ -9,6 +9,7 @@ header:
   overlay_filter: "0.1"
   overlay_image: /assets/images/bio-photo.jpeg
   og_image: /assets/images/bio-photo.jpeg
+  teaser: /assets/images/bio-photo.jpeg
 categories:
   - blog
 tags:

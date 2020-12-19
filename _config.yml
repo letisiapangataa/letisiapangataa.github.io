@@ -14,9 +14,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Letisia Pangata'a
+title_separator: "|"
 email: contact@letisiapangataa.com
 description: >- # this means to ignore newlines until "baseurl:"
   Official Technical Portfolio
+url: https://letisiapangataa.github.io
+repository: "letisiapangataa/letisiapangataa.github.io"
+masthead_title: "Official Technical Portfolio"
 twitter_username: letisiapangataa
 github_username: letisiapangataa
 minimal_mistakes_skin: default
@@ -54,6 +58,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-github-metadata
 
 author:
   name   : "Letisia Pangata'a"
@@ -78,6 +83,8 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/letisiapangataa"
+
+teaser: /assets/images/500x300.png
 
 
 defaults:
