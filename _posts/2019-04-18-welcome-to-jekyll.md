@@ -1,6 +1,7 @@
 ---
-title: "Welcome to Jekyll!"
+title: "Hi"
 date: 2019-04-18T15:34:30-04:00
+header.image: /assets/images/500x300.png
 categories:
   - blog
 tags:
