@@ -57,7 +57,6 @@ plugins:
 
 author:
   name   : "Letisia Pangata'a"
-  avatar : "/assets/images/bio-photo.jpeg"
   bio    : "UoA/CS. Tech/Tongan."
   links:
     - label: "Website"
