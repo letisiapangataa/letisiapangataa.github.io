@@ -16,7 +16,7 @@
 title: Letisia Pangata'a
 title_separator: "|"
 email: contact@letisiapangataa.com
-description: "Letisia's Technical Blog"
+description: ""
 url: https://letisiapangataa.github.io
 repository: "letisiapangataa/letisiapangataa.github.io"
 masthead_title: "Official Technical Portfolio"
@@ -65,7 +65,7 @@ author:
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://letisiapangataa.github.io"
+      url: "https://letisiapangataa.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/letisiapangataa"

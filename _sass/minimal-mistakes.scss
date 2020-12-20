@@ -71,3 +71,32 @@
 .page__hero--overlay #goog-wm-sb {
     color: #fff;
 }
+
+.page .page__inner-wrap .page__content,
+.page .page__inner-wrap .page__meta,
+.page .page__inner-wrap .comment__date,
+.page .page__inner-wrap .page__share {
+    position: relative;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    clear: both;
+    font-size: 0.7em;
+    color: #8e8b8b;
+    line-height: 2;
+}
+
+.greedy-nav .visible-links a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    height: 1px;
+    background: #7a82889c;
+    width: 100%;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-transform: scaleX(0) translate3d(0, 0, 0);
+    transform: scaleX(0) translate3d(0, 0, 0);
+}
