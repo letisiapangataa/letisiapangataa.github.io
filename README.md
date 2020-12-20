@@ -1,3 +1,3 @@
 # Letisia's Technical Notes
 
-I've just wanted a little space to be able to document my technical failures and successes.
+I just wanted a little area where I'd be able to document my technical failures and successes.
