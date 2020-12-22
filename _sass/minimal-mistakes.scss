@@ -108,3 +108,10 @@
     max-width: 200px;
     border-radius: 50%;
 }
+
+@media (min-width: 64em) {
+    .author__avatar img {
+        padding: 5px;
+        border: 0px solid #f2f3f3;
+    }
+}
