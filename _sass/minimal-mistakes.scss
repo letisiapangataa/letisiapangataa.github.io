@@ -114,7 +114,7 @@
 @media (min-width: 64em) {
     .author__avatar img {
         padding: 0px;
-        border: 1.5px solid #ffffff;
+        border: 2px solid #ffffff;
         box-shadow: 7px 7px 0px #00ff00d1;
     }
 }
@@ -268,12 +268,18 @@ input[type="submit"],
     font-size: 0.6875em;
 }
 
+.page__title {
+    margin-top: 11px;
+    line-height: 2;
+}
+
 .archive__subtitle {
     padding-bottom: 0.5em;
     font-size: 1.3em;
     color: #000000;
     border-bottom: 1px solid #f2f3f3;
     font-family: 'JetBrains Mono', monospace;
+    text-shadow: 2px 2.5px 0 #89ddff;
 }
 
 .page__hero--overlay .page__title {
@@ -499,3 +505,12 @@ h6 {
     font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     font-weight: bold;
 }
+
+
+/*
+.page__lead,
+.page__meta-readtime,
+.page__title {
+    font-family: 'JetBrains Mono', monospace;
+    background: #000000de;
+}*/

@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Letisia Pangata'a
+title: Let's Get Technical / Letisia Pangata'a
 title_separator: "|"
 email: contact@letisiapangataa.com
-description: ""
+description: "Join Letisia Pangata'a in discussion of our current and future innovations of technology. Follow me on Social Media via Twitter, Instagram, TikTok and YouTube."
 url: https://letisiapangataa.github.io
 repository: "letisiapangataa/letisiapangataa.github.io"
-masthead_title: "Letisia's Technical Portfolio"
+masthead_title: "Letisia's Technology Portfolio"
 twitter_username: letisiapangataa
 github_username: letisiapangataa
 minimal_mistakes_skin: default
