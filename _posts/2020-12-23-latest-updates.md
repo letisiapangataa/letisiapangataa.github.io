@@ -15,4 +15,4 @@ It's just a fancy way of saying a blog to document my career.
 
 I don't often have avenues to express myself technically in an honest and insightful way. 
 
-To provide an "Official Technical Portfolio" would provide great insight not only for myself but for others to tap into technical observations that I've made or have gathered an interest for. 
+This public technical document would provide great insight not only for myself, but for others to tap into technical observations I've made or have gathered an interest for. 
