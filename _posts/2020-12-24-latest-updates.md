@@ -1,5 +1,6 @@
 ---
 title: "Latest Updates"
+thumbnail: "assets/images/latest-updates-prev.png"
 image: "assets/images/latest-updates-prev.png"
 header:
   overlay_color: "#000"
