@@ -11,8 +11,8 @@ tags:
   - current
 ---
 
-It's just a fancy way of saying a blog to document my career.
+It's just a fancy way of saying a blog to document my journey.
 
-I don't often have avenues to express myself technically in an honest and insightful way. 
+I don't often have avenues to express myself technically in an honest and insightful way.
 
-This public technical document would provide great insight not only for myself, but for others to tap into technical observations I've made or have gathered an interest for. 
+This public technical document would provide great insight not only for myself, but for others to tap into technical observations I've made or have gathered an interest for.
