@@ -1,10 +1,10 @@
 ---
-title: "Get Ready!"
+title: "Ready or Not"
 image: "assets/images/latest-updates-prev.png"
 header:
   overlay_color: "#000"
   overlay_filter: "0.0"
-  overlay_image: "assets/images/latest-updates.jpg"
+  overlay_image: "assets/images/latest-updates-prev.png"
 categories:
   - updates
 tags:
