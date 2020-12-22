@@ -1,6 +1,6 @@
 ---
 title: "Ready or Not"
-image: "assets/images/latest-updates-prev.png"
+related_image: "assets/images/latest-updates-prev.png"
 header:
   overlay_color: "#000"
   overlay_filter: "0.0"
