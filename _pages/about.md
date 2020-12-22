@@ -3,7 +3,7 @@ title: Mālō lei lei. Kia Ora. Hello.
 permalink: /about/
 ---
 
-Kia ora, I'm Letisia Pangata'a. Ko hoku hingoa ko Letisia Tatimoa Pangata'a. *(translation: My name is Letisia Tatimoa Pangata'a)*
+Kia ora, I'm Letisia Pangata'a. Ko hoku hingoa ko Letisia Tatimoa Pangata'a. ***(translation: My name is Letisia Tatimoa Pangata'a)***
 
 I can be found in the wonders of Aotearoa, New Zealand.
 
@@ -11,4 +11,4 @@ In third person, a budding Technology Entrepreneur and Creative Designer. Skills
 
 My interests and passions vary from creative arts, business and entrepreneurship, to science and technology.
 
-Contact information can be found via [Email](mailto:lpan375@aucklanduni.ac.nz) or [LinkedIn](https://www.linkedin.com/in/letisiapangataa/). 
+Contact information can be found via [Email](mailto:lpan375@aucklanduni.ac.nz) or [LinkedIn](https://www.linkedin.com/in/letisiapangataa/).

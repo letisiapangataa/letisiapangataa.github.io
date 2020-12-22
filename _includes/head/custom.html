@@ -4,10 +4,12 @@
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@letisiapangataa">
-<meta name="twitter:title" content="{{ page.title }}"> {% if page.description %}
-<meta name="twitter:description" content="{{ page.meta_description }}"> {% else %}
-<meta name="twitter:description" content="{{ page.content | strip_html | xml_escape
-      | truncate: 200 }}"> {% endif %}
+<meta name="twitter:title" content="{{ page.title }}">
+  {% if page.description %}
+    <meta name="twitter:description" content="{{ page.meta_description }}">
+  {% else %}
+    <meta name="twitter:description" content="{{ page.content | strip_html | xml_escape | truncate: 200 }}">
+  {% endif %}
 
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
