@@ -1,5 +1,5 @@
 ---
-title: "Latest Updates"
+title: "You can call it a "BlogFolio"."
 header:
   overlay_color: "#000"
   overlay_filter: "0.0"
