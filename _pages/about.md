@@ -3,7 +3,7 @@ title: Mālō lei lei. Kia Ora. Hello.
 permalink: /about/
 ---
 
-Kia ora, I'm Letisia Pangata'a. Ko hoku hingoa ko Letisia Tatimoa Pangata'a. ***(translation: My name is Letisia Tatimoa Pangata'a)***
+Kia ora, I'm Letisia Pangata'a. Ko hoku hingoa ko Letisia Tatimoa Pangata'a. **(translation: My name is Letisia Tatimoa Pangata'a)**
 
 I can be found in the wonders of Aotearoa, New Zealand.
 
