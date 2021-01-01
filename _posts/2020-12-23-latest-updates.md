@@ -13,6 +13,6 @@ tags:
 
 It's just a fancy way of saying a blog to document my journey.
 
-This is a public technical document that would provide great insight not only for myself, but for others to tap into technical observations I've made or have gathered an interest for.
+This is a public technical, academic document, that would provide great insight not only for myself, but for others to tap into technical observations that I've made or have gathered an interest for.
 
-I'll be documenting my work, discussions and technology projects for this upcoming year.
+In this portfolio, I'll be documenting my work, education, discussions and entrepreneurial technology projects.
