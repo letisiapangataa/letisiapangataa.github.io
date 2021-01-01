@@ -64,9 +64,6 @@ author:
   avatar : "assets/images/letisia-pangataa.png"
   bio    : "UoA/CS. Tech/Tongan."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://letisiapangataa.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/letisiapangataa"
