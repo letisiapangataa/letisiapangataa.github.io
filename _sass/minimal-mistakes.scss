@@ -514,3 +514,9 @@ h6 {
     font-family: 'JetBrains Mono', monospace;
     background: #000000de;
 }*/
+
+.page__meta p,
+.comment__date p {
+    margin: 0;
+    font-size: 0.85em;
+}
