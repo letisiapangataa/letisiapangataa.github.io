@@ -7,7 +7,7 @@ Kia ora, I'm Letisia Pangata'a. Ko hoku hingoa ko Letisia Tatimoa Pangata'a. **(
 
 I can be found in the wonders of Aotearoa, New Zealand.
 
-In third person, a budding Technology Entrepreneur and Creative Designer. Skills in Computer Programming and Software Engineering. I enjoy thinking outside of the box and looking into futuristic innovations.
+Skills in Computer Programming and Software Engineering. I enjoy thinking outside of the box and looking into futuristic innovations.
 
 My interests and passions vary from creative arts, business and entrepreneurship, to science and technology.
 
