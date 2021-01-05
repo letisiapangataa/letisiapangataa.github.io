@@ -20,7 +20,7 @@ In my past, I've worked on mobile and tablet applications, I've also started, *f
 
 In that case, besides serious startup projects, I plan to master major technologies and programming languages. To practice and master such skillset I'll be publishing small applications. I'll be sure to document significant milestones in that process to come.
 
-In regards to the following year, I'm taking Stage 2 and Stage 3 papers sparingly this year and next year. I'll be sure to share my journey on University which has been it's own journey, as well as dive into think pieces and valuable notes on course material.
+In regards to the following year, I'm taking Stage 2 and Stage 3 papers sparingly this year and next year. I'll be sure to share my journey on University which has been it's own challenging journey, as well as dive into think pieces and valuable notes on course material.
 
 There's plenty to look forward to and plenty of work to get done. I'm often under the radar with my strategies and work process, and believe it's wise to do so. 
 
