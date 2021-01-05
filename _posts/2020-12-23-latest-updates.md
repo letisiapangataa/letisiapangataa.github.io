@@ -13,6 +13,4 @@ tags:
 
 It's just a fancy way of saying a blog to document my journey.
 
-This is a public technical academic portfolio. My intention is to provide notice and in-depth insight not only for myself, but for others to tap into technical observations that I've made or have gathered an interest for.
-
-In this portfolio, I'll be documenting my work, education, discussions and entrepreneurial technology projects.
+My intention is to provide in-depth insight not only for myself, but for others to tap into technical observations that I've made or have gathered an interest for.
