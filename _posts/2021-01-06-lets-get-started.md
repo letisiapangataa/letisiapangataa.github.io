@@ -8,7 +8,6 @@ header:
 categories:
   - blog
   - goals
-  - 2021
 tags:
   - blog
 ---
