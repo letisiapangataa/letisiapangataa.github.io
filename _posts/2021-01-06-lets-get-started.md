@@ -16,12 +16,12 @@ That's for me to know and for you to find out.
 
 *"What am I working on? What am I doing? What am I up to?"*
 
-In my past, I've worked on mobile and tablet applications, I've also started, *for emphasis, started not succeeded* my own technology startup "Code Tutor" turned "Code Tutor ®" to "Code Tutor ® Education" which is a story on its own that I'd soon find the time to discuss how that has led into the project I am working on now.
+In my past, I've worked on mobile and tablet applications, I've also started, *for emphasis, started not succeeded* my own technology startup "Code Tutor" turned "Code Tutor ®" to "Code Tutor ® Education" which is a story on its own that I'll soon find the time to discuss how that has led into the project I am working on now.
 
-In that case, besides serious startup projects, I plan to master major technologies and programming languages. To practice and master such skillset I'll be publishing small applications. I'd be sure to document significant milestones in that process to come.
+In that case, besides serious startup projects, I plan to master major technologies and programming languages. To practice and master such skillset I'll be publishing small applications. I'll be sure to document significant milestones in that process to come.
 
 In regards to the following year, I'm taking Stage 2 and Stage 3 papers sparingly this year and next year. I'll be sure to share my journey on University which has been it's own journey, as well as dive into think pieces and valuable notes on course material.
 
-There's plenty to look forward to and plenty of work to get done. I'm often under the radar with my strategies and work process, and believe that it's wise to do so. 
+There's plenty to look forward to and plenty of work to get done. I'm often under the radar with my strategies and work process, and believe it's wise to do so. 
 
 *We can never speak too soon and you never know who's watching.*
