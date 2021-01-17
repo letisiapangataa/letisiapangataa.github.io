@@ -9,4 +9,4 @@ I can be found in the wonders of Aotearoa, New Zealand.
 
 My interests and passions vary from creative arts, business and entrepreneurship, to science and technology.
 
-Contact information can be found via [Email](mailto:lpan375@aucklanduni.ac.nz) or [LinkedIn](https://www.linkedin.com/in/letisiapangataa/).
+Contact information can be found via [Email](mailto:contact@letisiapangataa.com) or [LinkedIn](https://www.linkedin.com/in/letisiapangataa/).
