@@ -4,7 +4,6 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.0"
   overlay_image: assets/images/latest-updates.jpg
-  teaser: assets/images/latest-updates-thumb.png
 categories:
   - blog
   - goals
