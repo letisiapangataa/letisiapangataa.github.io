@@ -1,6 +1,12 @@
 /* ========================================================================== Default skin ========================================================================== */
 
 
+/* ========================================================================== Default skin ========================================================================== */
+
+
+/* ========================================================================== Default skin ========================================================================== */
+
+
 /*!
  * Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
  * Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
@@ -1216,7 +1222,7 @@ textarea {
 label {
     display: block;
     margin-bottom: 0.25em;
-    color: #3d4144;
+    color: #000000;
     cursor: pointer;
 }
 
@@ -3053,6 +3059,8 @@ th {
 @media (min-width: 80em) {
     .search-content .search-input {
         font-size: 2.441em;
+        font-weight: bold;
+        color: #9c0ffe;
     }
 }
 
@@ -3084,6 +3092,8 @@ th {
 @media (min-width: 80em) {
     .search-content .archive__item {
         width: 50%;
+        padding-top: 1em;
+        font-size: 1em;
     }
 }
 
@@ -4779,7 +4789,8 @@ body {
 
 .archive__item-excerpt {
     margin-top: 0;
-    font-size: 0.75em;
+    font-size: 0.7em;
+    line-height: 2em;
 }
 
 .archive__item-excerpt+p {
@@ -4794,6 +4805,8 @@ body {
     position: relative;
     border-radius: 4px;
     overflow: hidden;
+    margin-bottom: 1em;
+    margin-top: 1em;
 }
 
 .archive__item-teaser img {
@@ -5853,7 +5866,7 @@ body {
     animation-delay: 0.15s;
     z-index: 20;
     background: #272727;
-    /* box-shadow: 11px 10px 0px #00ff00d1; */
+    box-shadow: 11px 10px 0px #00ff00d1;
 }
 
 .greedy-nav {
@@ -5894,7 +5907,7 @@ body {
     -webkit-animation-delay: 0.45s;
     animation-delay: 0.45s;
     background-color: #272727;
-    /* box-shadow: 0px -12px 0px #00ff00d1; */
+    box-shadow: 5px -12px 0px #b6b6b6a1;
 }
 
 .page__hero--overlay .page__title,
@@ -6245,4 +6258,64 @@ h6 {
     color: #646769;
     font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     font-size: .75em;
+}
+
+form {
+    margin: 0 0 0 0;
+    padding: 0em;
+    background-color: white;
+}
+
+form button,
+input[type="submit"] {
+    font-size: 0.8em;
+    margin-top: 1em;
+    padding: 1em 3em 1em 3em;
+    width: 80%;
+    border: 1px solid;
+    border-color: #282828;
+}
+
+input {
+    font-size: 1.2em;
+    padding: 1em 3em 1em 0.8em;
+    width: 80%;
+    border: 1px solid;
+    border-color: #282828;
+    margin-top: 1em;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+input[type="submit"] {
+    color: #FFFFFF;
+    background: #282828;
+    font-weight: bold;
+}
+
+.mc-field-group {
+    font-size: 0.75em;
+}
+
+.search-content__inner-wrap {
+    max-width: 90%;
+}
+
+.search-content__form {
+    background-color: transparent;
+    font-size: 0.7em;
+    margin-bottom: 4em;
+    color: #000;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.required {
+    color: #282828;
+    font-weight: bold;
+}
+
+.search-content .results__found {
+    margin-top: 0.5em;
+    font-size: 0.8em;
+    font-weight: bold;
+    font-family: 'JetBrains Mono', monospace;
 }

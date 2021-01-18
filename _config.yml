@@ -67,19 +67,12 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/letisiapangataa"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/letisiapangataa"
-
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/letisiapangataa"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/letisiapangataa"
 
 teaser: /assets/images/500x300.png
 
