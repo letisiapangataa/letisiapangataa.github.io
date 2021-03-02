@@ -16,7 +16,7 @@
 title: Letisia's Technology Portfolio
 title_separator: "|"
 email: contact@letisiapangataa.com
-description: "Join Letisia Pangata'a in discussion of our current and future innovations of technology."
+description: "Join Letisia Pangata'a in discussion of our current and future innovations of technology. Inspired by my interests and Tongan heritage, making connections and sharing perceptive conceptual ideas."
 url: https://letisiapangataa.github.io
 repository: "letisiapangataa/letisiapangataa.github.io"
 masthead_title: "Letisia's Technology Portfolio"
@@ -62,11 +62,17 @@ plugins:
 author:
   name   : "Letisia Pangata'a"
   avatar : "assets/images/letisia-pangataa.png"
-  bio    : "UoA/CS. Tech/Tongan."
+  bio    : "Mālō e lelei, ko hoku hingoa ko Letisia Tatimoa Pangata'a. Inspired by my interests and Tongan heritage, making connections and sharing perceptive conceptual ideas."
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/letisiapangataa"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/letisiapangataa"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:contact@letisiapangataa.com"
 
 footer:
   links:
