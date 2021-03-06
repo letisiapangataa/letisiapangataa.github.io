@@ -9,4 +9,4 @@ You'll find me in the keywords of creative arts, business and entrepreneurship, 
 
 Inspired by my passions and Tongan heritage, you'll find insights and ideas on interests and works that I'll be looking forward to showcasing in the near future. 
 
-Much ofa's and thanks, Letisia.
+Much ofa's, Letisia.
