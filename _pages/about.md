@@ -3,6 +3,8 @@ title: Mālō e Lelei. Kia Ora. Hello.
 permalink: /about/
 ---
 
+*Founder/Designer. Tech/Tongan. CS/UoA.*
+
 You'll find me in the keywords of creative arts, business and entrepreneurship, to science and technology.
 
-I am inspired by my passion to create and my Tongan heritage. I've had a fortunate technological upbringing, and am consistently seeking quality creative technological solutions to contribute to a futuristic society.
+Inspired by my passions and Tongan heritage, you'll find insights and ideas on interests and works that I'll be looking forward to showcasing in the near future (not now but it'll come).
