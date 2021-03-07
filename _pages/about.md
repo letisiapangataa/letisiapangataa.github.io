@@ -5,6 +5,6 @@ permalink: /about/
 
 You'll find me under the keywords of creative arts, business and entrepreneurship, to science and technology.
 
-Inspired by my passions and Tongan heritage, join me as I share insights, updates and ideas on works that I'll be looking forward to showcasing in the near future. Otherwise, to keep up to date, follow me on Social Media via Twitter, Instagram and YouTube.
+Inspired by my passions and Tongan heritage, join me as I share insights, updates and ideas on works that I'll be looking forward to showcasing in the near future. Feel free to follow me on Social Media via Twitter, Instagram and YouTube.
 
 Mālō aupito' from Aotearoa, New Zealand.
