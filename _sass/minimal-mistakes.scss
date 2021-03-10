@@ -4,6 +4,7 @@
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
 /*!
  * Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
  * Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
@@ -861,7 +862,7 @@ tr, td, th { vertical-align: middle; }
 .toc__menu li ul li ul li ul li ul li ul > li a { padding-left: 3.25rem; }
 
 /* ========================================================================== FOOTER ========================================================================== */
-.page__footer { clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%; margin-top: 3em; color: #646769; -webkit-animation: intro 0.3s both; animation: intro 0.3s both; -webkit-animation-delay: 0.45s; animation-delay: 0.45s; background-color: #f2f3f3; }
+.page__footer { clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%; margin-top: 1em; color: #646769; -webkit-animation: intro 0.3s both; animation: intro 0.3s both; -webkit-animation-delay: 0.45s; animation-delay: 0.45s; background-color: #f2f3f3; }
 
 .page__footer::after { clear: both; content: ""; display: table; }
 
@@ -1573,7 +1574,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 @media (min-width: 64em) { .sidebar { float: left; width: calc(200px - 1em); opacity: 0.75; -webkit-transition: opacity 0.2s ease-in-out; transition: opacity 0.2s ease-in-out; }
   .sidebar:hover { opacity: 1; }
-  .sidebar.sticky { overflow-y: auto;                                                                                     /* calculate height of nav list viewport height - nav height - masthead x-padding
+  .sidebar.sticky { overflow-y: auto;                                                                                                                           /* calculate height of nav list viewport height - nav height - masthead x-padding
 */ max-height: calc(100vh - 2em - 2em); } }
 @media (min-width: 80em) { .sidebar { width: calc(300px - 1em); } }
 .sidebar > * { margin-top: 1em; margin-bottom: 1em; }
@@ -1717,7 +1718,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 .icon { display: inline-block; fill: currentColor; width: 1em; height: 1.1em; line-height: 1; position: relative; top: -0.1em; vertical-align: middle; color: #fff; text-shadow: 2px 2px 0px #00ff0099; }
 
-.page__footer { clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%; margin-top: 3em; color: #ffffff; -webkit-animation: intro 0.3s both; animation: intro 0.3s both; -webkit-animation-delay: 0.45s; animation-delay: 0.45s; background-color: #272727; box-shadow: 5px -12px 0px #b6b6b6a1; }
+.page__footer {clear: both;float: left;margin-left: 0;margin-right: 0;width: 100%;margin-top: 1em;color: #ffffff;-webkit-animation: intro 0.3s both;animation: intro 0.3s both;-webkit-animation-delay: 0.45s;animation-delay: 0.45s;background-color: #272727;box-shadow: 5px -12px 0px #b6b6b6a1;}
 
 .page__hero--overlay .page__title, .page__hero--overlay .page__meta, .page__hero--overlay .comment__date, .page__hero--overlay .comment__date, .page__hero--overlay .comment__date, .page__hero--overlay .comment__date, .page__hero--overlay .page__lead, .page__hero--overlay .btn, .page__hero--overlay #goog-wm-sb, .page__hero--overlay #goog-wm-sb, .page__hero--overlay #goog-wm-sb, .page__hero--overlay #goog-wm-sb { color: #fff; text-shadow: 0px 0px 2px #9a00ff; font-family: 'JetBrains Mono', monospace; }
 
@@ -1807,7 +1808,7 @@ input { font-size: 1.2em; padding: 1em 3em 1em 0.8em; width: 80%; border: 1px so
 
 input[type="submit"] { color: #FFFFFF; background: #282828; font-weight: bold; }
 
-.mc-field-group {font-size: 0.85em;}
+.mc-field-group { font-size: 0.85em; }
 
 .search-content__inner-wrap { max-width: 90%; }
 
