@@ -1,3 +1,3 @@
-# Letisia's Technical Notes
+# Letisia's World
 
-Where I document my technical interests, failures and successes.
+Doing me whenever, wherever.
