@@ -13,6 +13,7 @@
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
 /*!
  * Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
  * Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
@@ -1582,7 +1583,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 @media (min-width: 64em) { .sidebar { float: left; width: calc(200px - 1em); opacity: 0.75; -webkit-transition: opacity 0.2s ease-in-out; transition: opacity 0.2s ease-in-out; }
   .sidebar:hover { opacity: 1; }
-  .sidebar.sticky { overflow-y: auto;                                                                                                                                                                                                                                                                                                                                                                                                                                           /* calculate height of nav list viewport height - nav height - masthead x-padding
+  .sidebar.sticky { overflow-y: auto;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 /* calculate height of nav list viewport height - nav height - masthead x-padding
 */ max-height: calc(100vh - 2em - 2em); } }
 @media (min-width: 80em) { .sidebar { width: calc(300px - 1em); } }
 .sidebar > * { margin-top: 1em; margin-bottom: 1em; }
@@ -1717,7 +1718,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 .author__avatar img { max-width: 230px; border-radius: 0; }
 
-@media (min-width: 64em) { .author__avatar img {padding: 0px;border: 0px solid #f0c7c940;box-shadow: 11px 10px 0px #fbff00;} }
+@media (min-width: 64em) { .author__avatar img {padding: 0px;border: 1px solid #000000;box-shadow: 11px 10px 0px #fbff00;} }
 .greedy-nav a { display: block; margin: 0 1rem; color: #ffffff; text-decoration: none; -webkit-transition: none; transition: none; text-shadow: 2px 2px 0px #00ff0099; font-weight: bold; font-family: 'JetBrains Mono', monospace; }
 
 .masthead { position: relative; border-bottom: 0px solid #f2f3f3; -webkit-animation: intro 0.3s both; animation: intro 0.3s both; -webkit-animation-delay: 0.15s; animation-delay: 0.15s; z-index: 20; background: #272727; box-shadow: 11px 10px 0px #00ff00d1; }
