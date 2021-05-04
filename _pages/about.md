@@ -1,5 +1,5 @@
 ---
-title: Mālō e Lelei. Kia Ora. Hello.
+title: Mālō e lelei. Kia Ora. Hello.
 permalink: /about/
 ---
 
