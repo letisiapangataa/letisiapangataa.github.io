@@ -22,6 +22,7 @@ repository: "letisiapangataa/letisiapangataa.github.io"
 masthead_title: "Letisia's Technology Portfolio"
 twitter_username: letisiapangataa
 github_username: letisiapangataa
+d
 minimal_mistakes_skin: default
 search: true
 
@@ -62,7 +63,7 @@ plugins:
 author:
   name   : "Letisia Pangata'a"
   avatar : "assets/images/letisia-pangataa.png"
-  bio    : ""
+  bio    : "making + creating magic 🪄 "
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
@@ -73,6 +74,9 @@ author:
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/channel/UCnWTpRSfYSxAWmCRUpl4PBQ/featured"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-link"
+      url: "https://www.linkedin.com/in/letisiapangataa/"
 
 footer:
   links:
