@@ -41,6 +41,9 @@
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
 /*!
  * Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
  * Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
@@ -941,7 +944,7 @@ tr, td, th { vertical-align: middle; }
 @media (min-width: 80em) { .search-content__inner-wrap { max-width: 1280px; } }
 .search-content__form { background-color: transparent; }
 
-.search-content .search-input {display: block;margin-bottom: 0;padding: 0;border: none;outline: none;box-shadow: none;background-color: transparent;font-size: 2em;font-weight: bold;color: #000000;}
+.search-content .search-input { display: block; margin-bottom: 0; padding: 0; border: none; outline: none; box-shadow: none; background-color: transparent; font-size: 2em; font-weight: bold; color: #000000; }
 
 @media (min-width: 64em) { .search-content .search-input { font-size: 1.953em; } }
 @media (min-width: 80em) { .search-content .search-input { font-size: 2.441em; font-weight: bold; color: #89ddff; } }
@@ -1610,14 +1613,14 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 @media (min-width: 64em) { .sidebar { float: left; width: calc(300px - 1em); opacity: 0.75; -webkit-transition: opacity 0.2s ease-in-out; transition: opacity 0.2s ease-in-out; }
   .sidebar:hover { opacity: 1; }
-  .sidebar.sticky { overflow-y: auto;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 /* calculate height of nav list viewport height - nav height - masthead x-padding
+  .sidebar.sticky { overflow-y: auto;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   /* calculate height of nav list viewport height - nav height - masthead x-padding
 */ max-height: calc(100vh - 2em - 2em); padding: 15px; } }
 @media (min-width: 80em) { .sidebar { width: calc(300px - 1em); } }
 .sidebar > * { margin-top: 1em; margin-bottom: 1em; }
 
 .sidebar h2, .sidebar h3, .sidebar h4, .sidebar h5, .sidebar h6 { margin-bottom: 0; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; }
 
-.sidebar p, .sidebar li { font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 0.75em; line-height: 1.5; }
+.sidebar p, .sidebar li {font-family: 'JetBrains Mono', monospace;font-size: 0.65em;line-height: 1.5;background: #feeeff;padding: 0.8em;}
 
 .sidebar img { width: 100%; text-align: center; }
 
@@ -1655,7 +1658,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 .author__urls-wrapper li:last-child a { margin-bottom: 0; }
 
-.author__urls-wrapper .author__urls span.label { padding-left: 5px; background: #d5ff00; font-size: revert; font-family: 'JetBrains Mono', monospace; }
+.author__urls-wrapper .author__urls span.label { padding-left: 5px; background: #d5ff00; font-size: small; font-family: 'JetBrains Mono', monospace; }
 
 @media (min-width: 64em) { .author__urls-wrapper { display: block; } }
 .author__urls-wrapper button { position: relative; margin-bottom: 0; }
@@ -1772,7 +1775,7 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 
 .page__footer-copyright { font-family: 'JetBrains Mono', monospace; font-size: 0.6875em; text-shadow: none; }
 
-.page__title { margin-top: 11px; line-height: 2; text-shadow: 2px 2.5px 0 #fffb00; }
+.page__title { margin-top: 11px; line-height: 2; text-shadow: 0.1em 0.1em 0 #fdefff; }
 
 .archive__subtitle { padding-bottom: 0.5em; font-size: 1.3em; color: #000000; border-bottom: 1px solid #f2f3f3; font-family: 'JetBrains Mono', monospace; text-shadow: 2px 2.5px 0 #89ddff; }
 
@@ -1823,7 +1826,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 .greedy-nav .hidden-links li:last-child { border-bottom: none; }
 
 @media (min-width: 64em) { .sidebar { opacity: 1; -webkit-transition: opacity 0.2s ease-in-out; transition: opacity 0.2s ease-in-out; } }
-.sidebar .author__name { font-size: 1.8em; line-height: 1.3; text-shadow: 2px 2.5px 0 #89ddff; font-family: 'JetBrains Mono', monospace; text-align: center; }
+.sidebar .author__name { font-size: 1.8em; line-height: 1.5; font-family: 'JetBrains Mono', monospace; text-align: center; padding-bottom: 0.5em; }
 
 h1, h2, h3, h4, h5, h6 { margin: 0em 0 0.5em; line-height: 1.2; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-weight: bold; }
 
