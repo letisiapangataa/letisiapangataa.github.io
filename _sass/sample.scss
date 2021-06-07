@@ -1621,7 +1621,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 .sidebar h2, .sidebar h3, .sidebar h4, .sidebar h5, .sidebar h6 { margin-bottom: 0; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; }
 
-.sidebar p, .sidebar li { font-family: 'JetBrains Mono', monospace; font-size: 0.65em; line-height: 1.5; background: #feeeff; padding: 0.8em; }
+.sidebar p, .sidebar li {font-family: 'JetBrains Mono', monospace;font-size: 0.65em;line-height: 0;padding: 0.5em;list-style: none;}
 
 .sidebar img { width: 100%; text-align: center; }
 
@@ -1659,7 +1659,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 .author__urls-wrapper li:last-child a { margin-bottom: 0; }
 
-.author__urls-wrapper .author__urls span.label { padding-left: 5px; background: #d5ff00; font-size: small; font-family: 'JetBrains Mono', monospace; }
+.author__urls-wrapper .author__urls span.label {padding-left: 5px;font-size: small;font-family: 'JetBrains Mono', monospace;line-break: anywhere;}
 
 @media (min-width: 64em) { .author__urls-wrapper { display: block; } }
 .author__urls-wrapper button { position: relative; margin-bottom: 0; }
@@ -1672,7 +1672,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 .author__urls.is--visible { display: block; }
 
-@media (min-width: 64em) { .author__urls { display: block; position: relative; margin: 0; padding: 0; border: 0; box-shadow: none; margin-right: 3.5em; padding-left: 3.0em; width: 50%; } }
+@media (min-width: 64em) { .author__urls {display: inline-block;position: relative;margin: 0;padding: 0;border: 0;box-shadow: none;margin-right: 3.5em;padding-left: 3.0em;width: 50%;} }
 .author__urls:before { display: block; content: ""; position: absolute; top: -11px; left: calc(50% - 10px); width: 0; border-style: solid; border-width: 0 10px 10px; border-color: #f2f3f3 transparent; z-index: 0; }
 
 @media (min-width: 64em) { .author__urls:before { display: none; } }
