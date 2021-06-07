@@ -9,4 +9,4 @@ Inspired by my interests and Tongan heritage, focused on providing creative insi
 
 Mālō aupito’ from Aotearoa, New Zealand.
 
-![](https://i.imgflip.com/3rtjwb.jpg)
+<img src="https://i.imgflip.com/3rtjwb.jpg"/>

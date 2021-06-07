@@ -37,6 +37,9 @@
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
 /*!
  * Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
  * Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
@@ -824,9 +827,9 @@ tr, td, th { vertical-align: middle; }
 
 .greedy-nav .hidden-links.hidden { display: none; }
 
-.greedy-nav .hidden-links a { margin: 0; padding: 10px 20px; font-size: 1em; }
+.greedy-nav .hidden-links a { margin: 0; padding: 10px 20px; font-size: 1em; text-shadow: none; color: black; }
 
-.greedy-nav .hidden-links a:hover { color: #53595e; background: #dbdddf; }
+.greedy-nav .hidden-links a:hover { color: #53595e; background: #fff; }
 
 .greedy-nav .hidden-links:before { content: ""; position: absolute; top: -11px; right: 10px; width: 0; border-style: solid; border-width: 0 10px 10px; border-color: #f2f3f3 transparent; display: block; z-index: 0; }
 
@@ -1121,7 +1124,7 @@ div.highlighter-rouge > pre, div.highlighter-rouge pre.highlight, figure.highlig
 .transparent { opacity: 0; }
 
 /* https://developer.yahoo.com/blogs/ydn/clip-hidden-content-better-accessibility-53456.html */
-.visually-hidden, .screen-reader-text, .screen-reader-text span, .screen-reader-shortcut { position: absolute !important; clip: rect(1px, 1px, 1px, 1px); height: 1px !important; width: 1px !important; border: 0 !important; overflow: hidden; }
+.visually-hidden, .screen-reader-text, .screen-reader-text span, .screen-reader-shortcut {position: absolute !important;clip: rect(1px, 1px, 1px, 1px);height: 1px !important;width: 1px !important;border: 0 !important;overflow: hidden;background: #fff;}
 
 body:hover .visually-hidden a, body:hover .visually-hidden input, body:hover .visually-hidden button { display: none !important; }
 
@@ -1228,9 +1231,9 @@ body:hover .visually-hidden a, body:hover .visually-hidden input, body:hover .vi
 .social-icons .fa-xing, .social-icons .fa-xing-square { color: #006567; }
 
 /* Navicons ========================================================================== */
-.navicon { position: relative; width: 1.5rem; height: 0.25rem; background: #6f777d; margin: auto; -webkit-transition: 0.3s; transition: 0.3s; }
+.navicon {position: relative;width: 1.5rem;height: 0.25rem;background: #ffffff;margin: auto;-webkit-transition: 0.3s;transition: 0.3s;}
 
-.navicon:before, .navicon:after { content: ""; position: absolute; left: 0; width: 1.5rem; height: 0.25rem; background: #6f777d; -webkit-transition: 0.3s; transition: 0.3s; }
+.navicon:before, .navicon:after {content: "";position: absolute;left: 0;width: 1.5rem;height: 0.25rem;background: #ffffff;-webkit-transition: 0.3s;transition: 0.3s;}
 
 .navicon:before { top: -0.5rem; }
 
@@ -1247,7 +1250,7 @@ body:hover .visually-hidden a, body:hover .visually-hidden input, body:hover .vi
 @supports (pointer-events: none) { .greedy-nav__toggle:before { content: ''; position: fixed; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; background-color: #fff; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; pointer-events: none; } }
 .greedy-nav__toggle.close:before { opacity: 0.9; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; pointer-events: auto; }
 
-.greedy-nav__toggle:hover .navicon, .greedy-nav__toggle:hover .navicon:before, .greedy-nav__toggle:hover .navicon:after { background: #53595e; }
+.greedy-nav__toggle:hover .navicon, .greedy-nav__toggle:hover .navicon:before, .greedy-nav__toggle:hover .navicon:after {background: #63ff00;}
 
 .greedy-nav__toggle:hover.close .navicon { background: transparent; }
 
@@ -1470,7 +1473,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 .archive { margin-top: 1em; margin-bottom: 2em; }
 
 @media (min-width: 64em) { .archive { float: right; width: calc(100% - 300px); padding-right: 0; } }
-@media (min-width: 80em) { .archive {width: calc(100% - 290px);padding-right: 70px;padding-left: 70px;} }
+@media (min-width: 80em) { .archive { width: calc(100% - 290px); padding-right: 70px; padding-left: 70px; } }
 .archive__item { position: relative; }
 
 .archive__item a { position: relative; z-index: 10; }
@@ -1606,7 +1609,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 @media (min-width: 64em) { .sidebar { float: left; width: calc(300px - 1em); opacity: 0.75; -webkit-transition: opacity 0.2s ease-in-out; transition: opacity 0.2s ease-in-out; }
   .sidebar:hover { opacity: 1; }
-  .sidebar.sticky { overflow-y: auto;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         /* calculate height of nav list viewport height - nav height - masthead x-padding
+  .sidebar.sticky { overflow-y: auto;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           /* calculate height of nav list viewport height - nav height - masthead x-padding
 */ max-height: calc(100vh - 2em - 2em); padding: 15px; } }
 @media (min-width: 80em) { .sidebar { width: calc(300px - 1em); } }
 .sidebar > * { margin-top: 1em; margin-bottom: 1em; }
@@ -1741,10 +1744,10 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 .author__avatar img { max-width: 245px; border-radius: 100%; }
 
-@media (min-width: 64em) { .author__avatar img {padding: 0px;/* border: 1px solid #0808086b; *//* box-shadow: 0px 10px 0px #fbff00; */} }
+@media (min-width: 64em) { .author__avatar img { padding: 0px; /* border: 1px solid #0808086b; */ /* box-shadow: 0px 10px 0px #fbff00; */ } }
 .greedy-nav a { display: block; margin: 0 1rem; color: #3400ff; text-decoration: none; -webkit-transition: none; transition: none; text-shadow: 3px 3px 0px #000000; font-weight: bold; font-family: 'JetBrains Mono', monospace; color: #FFFF; }
 
-.masthead {position: relative;border-bottom: 3px solid #63ff00;-webkit-animation: intro 0.3s both;animation: intro 0.3s both;-webkit-animation-delay: 0.15s;animation-delay: 0.15s;z-index: 20;background: #7600ff;box-shadow: 11px 10px 0px #63ff00;}
+.masthead { position: relative; border-bottom: 3px solid #63ff00; -webkit-animation: intro 0.3s both; animation: intro 0.3s both; -webkit-animation-delay: 0.15s; animation-delay: 0.15s; z-index: 20; background: #7600ff; box-shadow: 11px 10px 0px #63ff00; }
 
 .greedy-nav { position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; min-height: 2em; background: none; }
 
@@ -1790,7 +1793,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 .greedy-nav img { -webkit-transition: none; transition: none; }
 
-.greedy-nav__toggle { -ms-flex-item-align: center; align-self: center; height: 2rem; border: 0; outline: none; background-color: transparent; cursor: pointer; }
+.greedy-nav__toggle {-ms-flex-item-align: center;align-self: center;height: 2rem;border: 0;outline: none;background-color: transparent;cursor: pointer;}
 
 .greedy-nav .visible-links { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; -webkit-box-flex: 1; -ms-flex: 1; flex: 1; overflow: hidden; }
 
@@ -1806,9 +1809,9 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 .greedy-nav .hidden-links.hidden { display: none; }
 
-.greedy-nav .hidden-links a { margin: 0; padding: 10px 20px; font-size: 1em; color: #282828; }
+.hidden-links a { margin: 0; padding: 10px 20px; font-size: 1em; color: #00ff00; }
 
-.greedy-nav .hidden-links a:hover { text-shadow: 2px 2.5px 0 #89ddff; background-color: white; }
+.greedy-nav .hidden-links a:hover { color: 0.5882352941; background-color: white; }
 
 .greedy-nav .hidden-links:before { content: ""; position: absolute; top: -11px; right: 10px; width: 0; border-style: solid; border-width: 0 10px 10px; border-color: #f2f3f3 transparent; display: block; z-index: 0; }
 
@@ -1838,7 +1841,7 @@ form button, input[type="submit"] { font-size: 0.8em; margin-top: 1em; padding: 
 
 input { font-size: 1.2em; padding: 1em 3em 1em 0.8em; width: 80%; border: 1px solid; border-color: #282828; margin-top: 1em; font-family: 'JetBrains Mono', monospace; }
 
-input[type="submit"] {color: #FFFFFF;background: #080808;font-weight: bold;}
+input[type="submit"] { color: #FFFFFF; background: #080808; font-weight: bold; }
 
 .mc-field-group { font-size: 0.85em; }
 
