@@ -44,6 +44,8 @@
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
 /*!
  * Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
  * Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
@@ -1613,14 +1615,14 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 @media (min-width: 64em) { .sidebar { float: left; width: calc(300px - 1em); opacity: 0.75; -webkit-transition: opacity 0.2s ease-in-out; transition: opacity 0.2s ease-in-out; }
   .sidebar:hover { opacity: 1; }
-  .sidebar.sticky { overflow-y: auto;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   /* calculate height of nav list viewport height - nav height - masthead x-padding
+  .sidebar.sticky { overflow-y: auto;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               /* calculate height of nav list viewport height - nav height - masthead x-padding
 */ max-height: calc(100vh - 2em - 2em); padding: 15px; } }
 @media (min-width: 80em) { .sidebar { width: calc(300px - 1em); } }
 .sidebar > * { margin-top: 1em; margin-bottom: 1em; }
 
 .sidebar h2, .sidebar h3, .sidebar h4, .sidebar h5, .sidebar h6 { margin-bottom: 0; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; }
 
-.sidebar p, .sidebar li {font-family: 'JetBrains Mono', monospace;font-size: 0.65em;line-height: 1.5;background: #feeeff;padding: 0.8em;}
+.sidebar p, .sidebar li { font-family: 'JetBrains Mono', monospace; font-size: 0.65em; line-height: 0; padding: 0.5em; list-style: none; }
 
 .sidebar img { width: 100%; text-align: center; }
 
@@ -1653,12 +1655,12 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 .author__bio { margin: 0; }
 
-@media (min-width: 64em) { .author__bio { margin-top: 10px; margin-bottom: 20px; text-align: center; } }
+@media (min-width: 64em) { .author__bio {margin-top: 20px;margin-bottom: 30px;text-align: center;} }
 .author__urls-wrapper { position: relative; display: table-cell; vertical-align: middle; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; z-index: 20; cursor: pointer; }
 
 .author__urls-wrapper li:last-child a { margin-bottom: 0; }
 
-.author__urls-wrapper .author__urls span.label { padding-left: 5px; background: #d5ff00; font-size: small; font-family: 'JetBrains Mono', monospace; }
+.author__urls-wrapper .author__urls span.label { padding-left: 5px; font-size: small; font-family: 'JetBrains Mono', monospace; line-break: anywhere; }
 
 @media (min-width: 64em) { .author__urls-wrapper { display: block; } }
 .author__urls-wrapper button { position: relative; margin-bottom: 0; }
@@ -1671,7 +1673,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 .author__urls.is--visible { display: block; }
 
-@media (min-width: 64em) { .author__urls { display: block; position: relative; margin: 0; padding: 0; border: 0; box-shadow: none; margin-right: 3.5em; padding-left: 3.0em; width: 50%; } }
+@media (min-width: 64em) { .author__urls { display: inline-block; position: relative; margin: 0; padding: 0; border: 0; box-shadow: none; margin-right: 3.5em; padding-left: 3.0em; width: 50%; } }
 .author__urls:before { display: block; content: ""; position: absolute; top: -11px; left: calc(50% - 10px); width: 0; border-style: solid; border-width: 0 10px 10px; border-color: #f2f3f3 transparent; z-index: 0; }
 
 @media (min-width: 64em) { .author__urls:before { display: none; } }
@@ -1826,7 +1828,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 .greedy-nav .hidden-links li:last-child { border-bottom: none; }
 
 @media (min-width: 64em) { .sidebar { opacity: 1; -webkit-transition: opacity 0.2s ease-in-out; transition: opacity 0.2s ease-in-out; } }
-.sidebar .author__name { font-size: 1.8em; line-height: 1.5; font-family: 'JetBrains Mono', monospace; text-align: center; padding-bottom: 0.5em; }
+.sidebar .author__name { font-size: 1.8em; line-height: 1.5; font-family: 'JetBrains Mono', monospace; text-align: center; }
 
 h1, h2, h3, h4, h5, h6 { margin: 0em 0 0.5em; line-height: 1.2; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-weight: bold; }
 
