@@ -22,7 +22,6 @@ repository: "letisiapangataa/letisiapangataa.github.io"
 masthead_title: "Letisia's Technology Portfolio"
 twitter_username: letisiapangataa
 github_username: letisiapangataa
-d
 minimal_mistakes_skin: default
 search: true
 
@@ -66,28 +65,22 @@ author:
   bio    : "making + creating magic 🪄 "
   links:
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fab fa-fw"
       url: "https://twitter.com/letisiapangataa"
     - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+      icon: "fab fa-fw"
       url: "https://instagram.com/letisiapangataa"
     - label: "YouTube"
-      icon: "fab fa-fw fa-youtube"
+      icon: "fab fa-fw"
       url: "https://www.youtube.com/channel/UCnWTpRSfYSxAWmCRUpl4PBQ/featured"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-link"
-      url: "https://www.linkedin.com/in/letisiapangataa/"
 
 footer:
   links:
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/letisiapangataa"
     - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/letisiapangataa"
     - label: "YouTube"
-      icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/channel/UCnWTpRSfYSxAWmCRUpl4PBQ/featured"
 
 
