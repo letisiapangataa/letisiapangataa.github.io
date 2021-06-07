@@ -1857,3 +1857,14 @@ input[type="submit"] { color: #FFFFFF; background: #080808; font-weight: bold; }
 .required { color: #282828; font-weight: bold; }
 
 .search-content .results__found { margin-top: 0.5em; font-size: 0.8em; font-weight: bold; font-family: 'JetBrains Mono', monospace; }
+
+.img-about {
+  max-width: 95%;
+  width: auto\9;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  text-align: center;
+  border: 1px solid #000000;
+}
