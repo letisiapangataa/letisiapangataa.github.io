@@ -1,5 +1,10 @@
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
 /*!
  * Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
  * Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
@@ -697,11 +702,11 @@
  
  .greedy-nav .visible-links a:hover:before { -webkit-transform: scaleX(1); -ms-transform: scaleX(1); transform: scaleX(1); }
  
- .greedy-nav .hidden-links {position: absolute;top: 100%;right: 0;margin-top: 15px;padding: 5px;border: 1px solid #f2f3f3;border-radius: 4px;background: #fff;-webkit-box-shadow: 0;box-shadow: 0;}
+ .greedy-nav .hidden-links { position: absolute; top: 100%; right: 0; margin-top: 15px; padding: 5px; border: 1px solid #f2f3f3; border-radius: 4px; background: #fff; -webkit-box-shadow: 0; box-shadow: 0; }
  
  .greedy-nav .hidden-links.hidden { display: none; }
  
- .greedy-nav .hidden-links a {margin: 0;padding: 10px 20px;font-size: 1em;text-shadow: 1px 2px 0 #00ff0047;color: black;}
+ .greedy-nav .hidden-links a { margin: 0; padding: 10px 20px; font-size: 1em; text-shadow: 1px 2px 0 #00ff0047; color: black; }
  
  .greedy-nav .hidden-links a:hover { color: #53595e; background: #fff; }
  
@@ -809,10 +814,10 @@
  @media (min-width: 80em) { .search-content__inner-wrap { max-width: 1280px; } }
  .search-content__form { background-color: transparent; }
  
- .search-content .search-input { display: block; margin-bottom: 0; padding: 0; border: none; outline: none; box-shadow: none; background-color: transparent; font-size: 2em; font-weight: bold; color: #000000; }
+ .search-content .search-input { display: block; margin-bottom: 0; padding: 0; border: none; outline: none; box-shadow: none; background-color: transparent; font-size: 1em; font-weight: bold; color: #000000; }
  
  @media (min-width: 64em) { .search-content .search-input { font-size: 1.953em; } }
- @media (min-width: 80em) { .search-content .search-input { font-size: 2.441em; font-weight: bold; color: #89ddff; } }
+ @media (min-width: 80em) { .search-content .search-input { font-size: 2.441em; font-weight: bold; color: #000000; } }
  .search-content.is--visible { display: block; visibility: visible; }
  
  .search-content.is--visible::after { content: ""; display: block; }
@@ -1470,10 +1475,12 @@
  
  .author__urls-wrapper li:last-child a { margin-bottom: 0; }
  
- .author__urls-wrapper .author__urls span.label { padding-left: 5px; font-size: small; font-family: 'JetBrains Mono', monospace; line-break: anywhere; }
+ .author__urls-wrapper .author__urls span.label { font-size: 1.1em; font-family: 'JetBrains Mono', monospace; line-break: anywhere; }
  
  @media (min-width: 64em) { .author__urls-wrapper { display: block; } }
  .author__urls-wrapper button { position: relative; padding: 1em; margin-bottom: 0; font-size: 0.9em; }
+ 
+ .author__urls-wrapper button a { font-size: 1em; }
  
  @supports (pointer-events: none) { .author__urls-wrapper button:before { content: ''; position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; } }
  .author__urls-wrapper button.open:before { pointer-events: auto; }
@@ -1481,7 +1488,7 @@
  @media (min-width: 64em) { .author__urls-wrapper button { display: none; } }
  .author__urls { display: none; position: absolute; right: 0; padding: 2em; margin-top: 15px; padding: 10px; list-style-type: none; border: 1px solid #f2f3f3; border-radius: 4px; background: #fff; /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); */ cursor: default; }
  
- .author__urls.is--visible { display: block; padding: 1em; line-height: 2em; font-size: 2.2em; }
+ .author__urls.is--visible { display: block; padding: 0.95em; line-height: 1em; font-size: 1.9em; }
  
  @media (min-width: 64em) { .author__urls { display: inline-block; position: relative; margin: 0; padding: 0; border: 0; box-shadow: none; width: 100%; } }
  .author__urls:before { display: block; content: ""; position: absolute; top: -11px; left: calc(50% - 10px); width: 0; border-style: solid; border-width: 0 10px 10px; border-color: #f2f3f3 transparent; z-index: 0; }
@@ -1496,7 +1503,7 @@
  
  .author__urls a { display: block; margin-bottom: 5px; padding-right: 0; padding-left: 0em; padding-top: 0px; padding-bottom: 0px; color: inherit; font-size: 0.85em; text-decoration: none; text-decoration-line: blink; text-transform: lowercase; }
  
- .author__urls a:hover { text-decoration: underline; }
+ .author__urls a:hover { font-weight: bold; }
  
  .wide .sidebar__right { margin-bottom: 1em; }
  
@@ -1556,14 +1563,14 @@
  
  .author__avatar img { max-width: 245px; border-radius: 100%; }
  
- @media (min-width: 64em) { .author__avatar img { padding: 0px; } }
+ @media (min-width: 64em) { .author__avatar img {padding: 0px;} }
  .greedy-nav a { display: block; margin: 0 1rem; color: #3400ff; text-decoration: none; -webkit-transition: none; transition: none; text-shadow: 3px 3px 0px #000000; font-weight: bold; font-family: 'JetBrains Mono', monospace; color: #FFFF; }
  
  .masthead { position: relative; border-bottom: 3px solid #63ff00; -webkit-animation: intro 0.3s both; animation: intro 0.3s both; -webkit-animation-delay: 0.15s; animation-delay: 0.15s; z-index: 20; background: #7600ff; box-shadow: 11px 10px 0px #63ff00; }
  
  .greedy-nav { position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; min-height: 2em; background: none; }
  
- .icon { display: inline-block; fill: currentColor; width: 1em; height: 1.1em; line-height: 1; position: relative; top: -0.1em; vertical-align: middle; color: #fff; text-shadow: 2px 2px 0px #00ff0099; }
+ .icon { display: inline-block; fill: currentColor; width: 1em; height: 1.1em; line-height: 1; position: relative; top: -0.1em; vertical-align: middle; color: #fff; }
  
  .page__footer { clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%; margin-top: 1em; color: #ffffff; -webkit-animation: intro 0.3s both; animation: intro 0.3s both; -webkit-animation-delay: 0.45s; animation-delay: 0.45s; background-color: #080808; box-shadow: 5px -12px 0px #63ff00; font-size: 1.05em; text-shadow: 3px 3px 0px #000000; }
  
@@ -1616,7 +1623,7 @@
  
  .greedy-nav .visible-links a:hover:before { -webkit-transform: scaleX(1); -ms-transform: scaleX(1); transform: scaleX(1); }
  
- .greedy-nav .hidden-links {position: absolute;top: 100%;right: 0;margin-top: 15px;padding: 21px;font-size: 1.2em;/* border: 1px solid #f2f3f3; */border-radius: 0;background: #fff;/* -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); *//* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); */}
+ .greedy-nav .hidden-links { position: absolute; top: 100%; right: 0; margin-top: 15px; padding: 21px; font-size: 1.2em; /* border: 1px solid #f2f3f3; */ border-radius: 0; background: #fff; /* -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); */ /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); */ }
  
  .greedy-nav .hidden-links.hidden { display: none; }
  
@@ -1628,7 +1635,7 @@
  
  .greedy-nav .hidden-links:after { content: ""; position: absolute; top: -10px; right: 10px; width: 0; border-style: solid; border-width: 0 10px 10px; border-color: #fff transparent; display: block; z-index: 1; }
  
- .greedy-nav .hidden-links li {display: block;border-bottom: 0;}
+ .greedy-nav .hidden-links li { display: block; border-bottom: 0; }
  
  .greedy-nav .hidden-links li:last-child { border-bottom: none; }
  
