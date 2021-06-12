@@ -3,8 +3,11 @@ title: Mālō e lelei. Kia Ora. Hello.
 permalink: /about/
 ---
 
-Inspired by my interests and Tongan heritage, focused on providing my creative insight and current discipline in science, into upcoming personal and professional projects.
+Student of computers with a passion for creative arts, business and entrepreneurship, to science and technology. 
+
+Inspired by my interests and Tongan heritage, focused on providing creative insight and discipline in science into personal and professional projects.
 
 Mālō aupito’ from Aotearoa, New Zealand.
-
-<p><img src="https://i.imgflip.com/3rtjwb.jpg" class="img-about"/>
+\
+\
+<img src="https://i.imgflip.com/3rtjwb.jpg" class="img-about"/>
