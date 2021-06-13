@@ -67,9 +67,6 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw"
       url: "https://twitter.com/letisiapangataa"
-    - label: "Instagram"
-      icon: "fab fa-fw"
-      url: "https://instagram.com/letisiapangataa"
     - label: "YouTube"
       icon: "fab fa-fw"
       url: "https://www.youtube.com/channel/UCnWTpRSfYSxAWmCRUpl4PBQ/featured"
@@ -78,8 +75,6 @@ footer:
   links:
     - label: "Twitter"
       url: "https://twitter.com/letisiapangataa"
-    - label: "Instagram"
-      url: "https://instagram.com/letisiapangataa"
     - label: "YouTube"
       url: "https://www.youtube.com/channel/UCnWTpRSfYSxAWmCRUpl4PBQ/featured"
 
