@@ -62,7 +62,6 @@ plugins:
 author:
   name   : "Letisia Pangata'a"
   avatar : "assets/images/letisia-pangataa.png"
-  bio    : "making + creating magic 🪄 "
   links:
     - label: "Twitter"
       icon: "fab fa-fw"
