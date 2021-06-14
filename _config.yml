@@ -62,20 +62,22 @@ plugins:
 author:
   name   : "Letisia Pangata'a"
   avatar : "assets/images/letisia-pangataa.png"
+  bio    : ""
   links:
-    - label: "Twitter"
+    - label: "Github"
       icon: "fab fa-fw"
-      url: "https://twitter.com/letisiapangataa"
+      url: "https://github.com/letisiapangataa"
     - label: "YouTube"
       icon: "fab fa-fw"
       url: "https://www.youtube.com/channel/UCnWTpRSfYSxAWmCRUpl4PBQ/featured"
 
 footer:
   links:
-    - label: "Twitter"
-      url: "https://twitter.com/letisiapangataa"
+    - label: "Github"
+      url: "https://github.com/letisiapangataa"
     - label: "YouTube"
       url: "https://www.youtube.com/channel/UCnWTpRSfYSxAWmCRUpl4PBQ/featured"
+    
 
 
 teaser: /assets/images/500x300.png
