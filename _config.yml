@@ -61,7 +61,7 @@ plugins:
 
 author:
   name   : "Letisia Pangata'a"
-#  avatar : ""
+  avatar : "assets/images/letisia-pangataa.png"
   bio    : ""
   links:
     - label: "Github"
