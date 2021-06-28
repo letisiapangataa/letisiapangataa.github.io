@@ -1,6 +1,10 @@
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
 /*!
  * Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
  * Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
@@ -1228,9 +1232,9 @@
  
  .page__taxonomy .sep { display: none; }
  
- .page__taxonomy strong { margin-right: 10px; }
+ .page__taxonomy strong {margin-right: 0em;font-family: 'JetBrains Mono', monospace;}
  
- .page__taxonomy-item { display: inline-block; margin-right: 5px; margin-bottom: 8px; padding: 5px 10px; text-decoration: none; border: 1px solid #b6b6b6; border-radius: 4px; }
+ .page__taxonomy-item { display: inline-block; margin-right: 5px; margin-bottom: 8px; padding: 0px 0px; text-decoration: none; border: 0px solid #b6b6b6; border-radius: 4px; font-family: 'JetBrains Mono', monospace; font-size: 0.9em; }
  
  .page__taxonomy-item:hover { text-decoration: none; color: #235e70; }
  
@@ -1562,13 +1566,13 @@
  @media (min-width: 64em) { .author__avatar img { padding: 0px; } }
  .greedy-nav a { display: block; margin: 0 1rem; color: #3400ff; text-decoration: none; -webkit-transition: none; transition: none; text-shadow: 3px 3px 0px #000000; font-weight: bold; font-family: 'JetBrains Mono', monospace; color: #FFFF; }
  
- .masthead { position: relative; border-bottom: 3px solid #63ff00; -webkit-animation: intro 0.3s both; animation: intro 0.3s both; -webkit-animation-delay: 0.15s; animation-delay: 0.15s; z-index: 20; background: #7600ff; box-shadow: 11px 10px 0px #63ff00; }
+ .masthead { position: relative; border-bottom: 0px solid #63ff00; -webkit-animation: intro 0.3s both; animation: intro 0.3s both; -webkit-animation-delay: 0.15s; animation-delay: 0.15s; z-index: 20; background: #7600ff; box-shadow: 11px 13px 0px #63ff00; }
  
  .greedy-nav { position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; min-height: 2em; background: none; }
  
  .icon { display: inline-block; fill: currentColor; width: 1em; height: 1.1em; line-height: 1; position: relative; top: -0.1em; vertical-align: middle; color: #fff; }
  
- .page__footer {clear: both;float: left;margin-left: 0;margin-right: 0;width: 100%;margin-top: 1em;color: #ffffff;-webkit-animation: intro 0.3s both;animation: intro 0.3s both;-webkit-animation-delay: 0.45s;animation-delay: 0.45s;background-color: #080808;box-shadow: 5px -12px 0px #63ff00;font-size: 1.05em;}
+ .page__footer { clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%; margin-top: 1em; color: #ffffff; -webkit-animation: intro 0.3s both; animation: intro 0.3s both; -webkit-animation-delay: 0.45s; animation-delay: 0.45s; background-color: #080808; box-shadow: 5px -12px 0px #63ff00; font-size: 1.05em; }
  
  .page__hero--overlay .page__title, .page__hero--overlay .page__meta, .page__hero--overlay .comment__date, .page__hero--overlay .comment__date, .page__hero--overlay .comment__date, .page__hero--overlay .comment__date, .page__hero--overlay .page__lead, .page__hero--overlay .btn, .page__hero--overlay #goog-wm-sb, .page__hero--overlay #goog-wm-sb, .page__hero--overlay #goog-wm-sb, .page__hero--overlay #goog-wm-sb { color: #fff; text-shadow: 0px 0px 2px #9a00ff; font-family: 'JetBrains Mono', monospace; }
  
@@ -1663,4 +1667,8 @@
  .search-content .results__found { margin-top: 0.5em; font-size: 0.7em; font-weight: bold; font-family: 'JetBrains Mono', monospace; }
  
  .img-about { max-width: 95%; width: auto\9; height: auto; vertical-align: middle; border: 0; -ms-interpolation-mode: bicubic; text-align: center; border: 1px solid #000000; }
+ 
+ time { font-family: 'JetBrains Mono', monospace; font-size: 0.9em; text-transform: lowercase; }
+ 
+ .page__meta p, .comment__date p, .comment__date p { font-family: 'JetBrains Mono', monospace; font-size: 0.8em; }
  
