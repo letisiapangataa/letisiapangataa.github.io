@@ -5,6 +5,8 @@
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
 /*!
  * Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
  * Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
@@ -801,9 +803,9 @@
  
  .layout--search .archive__item-teaser { margin-bottom: 0.25em; }
  
- .search__toggle { margin-left: 1rem; margin-right: 1rem; height: 2rem; border: 0; outline: none; color: #6f777d; background-color: transparent; cursor: pointer; -webkit-transition: 0.2s; transition: 0.2s; }
+ .search__toggle { margin-left: 1rem; margin-right: 1rem; height: 2rem; border: 0; outline: none; color: #ffffff; text-shadow: 3px 3px 0px #000000; background-color: transparent; cursor: pointer; -webkit-transition: 0.2s; transition: 0.2s; }
  
- .search__toggle:hover { color: #53595e; }
+ .search__toggle:hover { color: #e4e1e1; }
  
  .search-icon { width: 100%; height: 100%; }
  
@@ -1232,7 +1234,7 @@
  
  .page__taxonomy .sep { display: none; }
  
- .page__taxonomy strong {margin-right: 0em;font-family: 'JetBrains Mono', monospace;}
+ .page__taxonomy strong { margin-right: 0em; font-family: 'JetBrains Mono', monospace; }
  
  .page__taxonomy-item { display: inline-block; margin-right: 5px; margin-bottom: 8px; padding: 0px 0px; text-decoration: none; border: 0px solid #b6b6b6; border-radius: 4px; font-family: 'JetBrains Mono', monospace; font-size: 0.9em; }
  
