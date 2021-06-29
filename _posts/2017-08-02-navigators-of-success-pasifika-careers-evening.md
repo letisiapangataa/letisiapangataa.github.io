@@ -1,5 +1,5 @@
 ---
-title: "Navigators of Success : Pasifika Careers Evening"
+title: "Navigators of Success : Pāsifika Careers Evening"
 header:
   overlay_color: "#000"
   overlay_filter: "0.0"
