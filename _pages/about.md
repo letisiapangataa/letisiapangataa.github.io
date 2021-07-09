@@ -3,7 +3,7 @@ title: Mālō e lelei. Kia Ora. Hello.
 permalink: /about/
 ---
 
-<img src="https://res.cloudinary.com/louiy9obu/image/upload/v1625817010/geezer_xd9e9n.jpg
+<img src="https://res.cloudinary.com/louiy9obu/image/upload/v1625834248/official_cruella_mfzzqo.png
 " class="img-about" width="100%"/>
 
 <p></p>
