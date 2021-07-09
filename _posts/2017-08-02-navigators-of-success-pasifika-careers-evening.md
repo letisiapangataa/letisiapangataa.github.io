@@ -7,7 +7,7 @@ header:
   teaser: https://res.cloudinary.com/louiy9obu/image/upload/v1625757115/p1_bloowo.png
 explore:
   - university-of-auckland
-tags:
+categories:
   - academia
 ---
 
