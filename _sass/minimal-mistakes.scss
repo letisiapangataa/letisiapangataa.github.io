@@ -9,6 +9,12 @@
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
 /*!
  * Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
  * Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
@@ -1202,7 +1208,7 @@
  
  .page__hero--overlay a { color: #fff; }
  
- .page__hero--overlay .wrapper { padding-left: 1em; padding-right: 1em; }
+ .page__hero--overlay .wrapper { padding-left: 3em; padding-right: 3em; }
  
  @media (min-width: 80em) { .page__hero--overlay .wrapper { max-width: 1280px; } }
  .page__hero--overlay .page__title, .page__hero--overlay .page__meta, .page__hero--overlay .comment__date, .page__hero--overlay .page__lead, .page__hero--overlay .btn, .page__hero--overlay #goog-wm-sb { color: #fff; text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); }
@@ -1370,7 +1376,7 @@
  
  .grid__item .archive__item-excerpt { display: none; }
  
- @media (min-width: 48em) { .grid__item .archive__item-excerpt { display: block; font-size: 0.75em; } }
+ @media (min-width: 48em) { .grid__item .archive__item-excerpt { display: block; font-size: 0.6em; line-height: 1.9; } }
  @media (min-width: 37.5em) { .grid__item .archive__item-teaser { max-height: 200px; } }
  @media (min-width: 48em) { .grid__item .archive__item-teaser { max-height: 120px; } }
  .feature__wrapper { clear: both; margin-bottom: 2em; border-bottom: 1px solid #f2f3f3; }
@@ -1565,7 +1571,7 @@
  
  .greedy-nav .visible-links a:before { content: ""; position: absolute; left: 0; bottom: 0px; height: 1px; background: #7a82889c; width: 100%; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; -webkit-transform: scaleX(0) translate3d(0, 0, 0); transform: scaleX(0) translate3d(0, 0, 0); }
  
- .author__avatar img {max-width: 245px;border: 1px solid #b6b6b6;border-radius: 100%;}
+ .author__avatar img {max-width: 270px;border: 1px solid #000000;}
  
  @media (min-width: 64em) { .author__avatar img { padding: 0px; } }
  .greedy-nav a { display: block; margin: 0 1rem; color: #3400ff; text-decoration: none; -webkit-transition: none; transition: none; text-shadow: 3px 3px 0px #000000; font-weight: bold; font-family: 'JetBrains Mono', monospace; color: #FFFF; }
@@ -1594,7 +1600,7 @@
  
  .page__footer-copyright { font-family: 'JetBrains Mono', monospace; font-size: 0.6875em; text-shadow: none; }
  
- .page__title { margin-top: 11px; line-height: 2; }
+ .page__title { margin-top: 11px; line-height: 2; font-size: 2.2em; }
  
  .archive__subtitle { padding-bottom: 0.5em; font-size: 1.3em; color: #000000; border-bottom: 1px solid #f2f3f3; font-family: 'JetBrains Mono', monospace; text-shadow: 2px 2.5px 0 #89ddff; }
  
@@ -1670,7 +1676,7 @@
  
  .search-content .results__found { margin-top: 0.5em; font-size: 0.7em; font-weight: bold; font-family: 'JetBrains Mono', monospace; }
  
- .img-about { max-width: 95%; width: auto\9; height: auto; vertical-align: middle; border: 0; -ms-interpolation-mode: bicubic; text-align: center; border: 1px solid #000000; }
+ .img-about { max-width: 100%; width: auto\9; height: auto; vertical-align: middle; border: 0; -ms-interpolation-mode: bicubic; text-align: center; border: 1px solid #000000; box-shadow: 11px 12px #9600f9; }
  
  time { font-family: 'JetBrains Mono', monospace; font-size: 0.9em; text-transform: lowercase; }
  
