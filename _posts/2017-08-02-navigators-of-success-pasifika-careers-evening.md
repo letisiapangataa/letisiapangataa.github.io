@@ -11,7 +11,7 @@ categories:
   - academia
 ---
 
-**"An evening dedicated to inspiring and connecting Pacific Island students at the University of Auckland with various pathways and opportunities into a professional career in the private and public sectors."**
+"An evening dedicated to inspiring and connecting Pacific Island students at the University of Auckland with various pathways and opportunities into a professional career in the private and public sectors."
 
 <img src="https://res.cloudinary.com/louiy9obu/image/upload/v1625757027/20689952_1711196635852439_1965073630211180377_o_jcdjmh.png
 " class="img-about"/>
