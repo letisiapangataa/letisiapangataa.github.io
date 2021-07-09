@@ -5,8 +5,6 @@ header:
   overlay_filter: "0.0"
   overlay_image: https://res.cloudinary.com/louiy9obu/image/upload/v1624882393/20785998_1711198989185537_6493858462513609277_o_wc5ny0.jpg
   teaser: https://res.cloudinary.com/louiy9obu/image/upload/v1625757115/p1_bloowo.png
-explore:
-  - university-of-auckland
 categories:
   - academia
 ---
