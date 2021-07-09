@@ -9,10 +9,6 @@ categories:
   - projects
 ---
 
-Alexa play "Work" by Rihanna ft. Drake.
-
-<img src="https://res.cloudinary.com/louiy9obu/image/upload/v1625825061/200929.530.556_s8eatq.jpg" width="60%" />
-
 I insist you check it out via the navigation bar above.
 
 I've finally found the time in between my semester break to setup my **[Projects](https://letisiapangataa.github.io/projects/)** (check it out) page. I've always wanted to get all my work in documentation form to keep record on my projects.
