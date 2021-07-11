@@ -4,8 +4,10 @@
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
-<meta property="og:title" content="Letisia's Technology Portfolio" />
+<meta property="og:title" content="{{ page.title }}" />
 <meta property="og:url" content="https://letisiapangataa.github.io" />
+{% if page.description %}
+<meta name="og:description" content="{{ page.meta_description }}"> {% else %}
 <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
 <meta property="og:type" content="website" />
 
