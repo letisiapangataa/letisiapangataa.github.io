@@ -4,9 +4,6 @@ permalink: /projects/
 author_profile: true
 ---
 <p></p>
-<img src="https://res.cloudinary.com/louiy9obu/image/upload/c_scale,w_1500/v1626002590/letisias_projects_fjlv67.png
-" width="100%"/>
-
 Over the trajectory of my career, I've developed and worked on many projects that showcase my skillsets and creativity, whether they're personal profitable works to startup and professional projects. 
 
 Each project has provided me a set of challenges and accomplishments from project management, visual design and software development.
