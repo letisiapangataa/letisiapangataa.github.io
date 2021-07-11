@@ -39,6 +39,7 @@
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
 /*!
  * Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
  * Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
@@ -1190,7 +1191,7 @@
  
  @media (min-width: 64em) { .page { float: right; width: calc(100% - 330px); padding-right: 100px; } }
  @media (min-width: 80em) { .page { width: calc(100% - 300px); padding-right: 200px; padding-left: 70px; } }
- .page .page__inner-wrap { float: left; margin-top: -2em; margin-left: 0; margin-right: 0; margin-bottom: 1em; width: 100%; clear: both; }
+ .page .page__inner-wrap {float: left;margin-top: 2em;margin-left: 0;margin-right: 0;margin-bottom: 1em;width: 100%;clear: both;}
  
  .page .page__inner-wrap .page__content, .page .page__inner-wrap .page__meta, .page .page__inner-wrap .comment__date, .page .page__inner-wrap .page__share { position: relative; float: left; margin-left: 0; margin-right: 0; width: 100%; clear: both; }
  
@@ -1468,7 +1469,7 @@
    .sidebar:hover { opacity: 1; }
    .sidebar.sticky { overflow-y: auto; padding: 15px; } }
  @media (min-width: 80em) { .sidebar { width: calc(300px - 1em); } }
- .sidebar > * {margin-top: 1em;margin-bottom: 4em;}
+ .sidebar > * { margin-top: 1em; margin-bottom: 4em; }
  
  .sidebar h2, .sidebar h3, .sidebar h4, .sidebar h5, .sidebar h6 { margin-bottom: 0; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; }
  
@@ -1616,7 +1617,7 @@
  
  .page__hero--overlay { position: relative; margin-bottom: 2em; padding: 3em 0em 3em 0em; clear: both; background-size: cover; background-repeat: no-repeat; background-position: center; -webkit-animation: intro 0.3s both; animation: intro 0.3s both; -webkit-animation-delay: 0.25s; animation-delay: 0.25s; box-shadow: 5px 14px 0px #9a00ff; border-bottom: 1px solid #000; }
  
- #main {padding-top: 0.2em;padding-bottom: 2em;}
+ #main { padding-top: 0.2em; padding-bottom: 2em; }
  
  .page__hero--overlay .page__title { text-shadow: 3px 2px 0px #00ff00; }
  
