@@ -23,6 +23,14 @@
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
 /*!
  * Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
  * Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
@@ -627,7 +635,7 @@
  
  .masthead__inner-wrap::after { clear: both; content: ""; display: table; }
  
- @media (min-width: 80em) { .masthead__inner-wrap {max-width: 1280px;} }
+ @media (min-width: 80em) { .masthead__inner-wrap { max-width: 1280px; } }
  .masthead__inner-wrap nav { z-index: 10; }
  
  .masthead__inner-wrap a { text-decoration: none; }
@@ -1182,7 +1190,7 @@
  
  .page__title + .page__meta, .page__title + .comment__date { margin-top: -0.5em; }
  
- .page__lead { font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 1.25em; }
+ .page__lead { font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 1.1em; }
  
  .page__content h2 { padding-bottom: 0.5em; border-bottom: 1px solid #f2f3f3; }
  
@@ -1221,11 +1229,11 @@
  @media (min-width: 80em) { .page__hero--overlay .wrapper { max-width: 1280px; } }
  .page__hero--overlay .page__title, .page__hero--overlay .page__meta, .page__hero--overlay .comment__date, .page__hero--overlay .page__lead, .page__hero--overlay .btn, .page__hero--overlay #goog-wm-sb { color: #fff; text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); }
  
- .page__hero--overlay .page__lead { max-width: 768px; }
+ .page__hero--overlay .page__lead { max-width: 100%; }
  
  .page__hero--overlay .page__title { font-size: 1.953em; }
  
- @media (min-width: 37.5em) { .page__hero--overlay .page__title { font-size: 2.441em; } }
+ @media (min-width: 37.5em) { .page__hero--overlay .page__title { font-size: 2em; } }
  .page__hero-image { width: 100%; height: auto; -ms-interpolation-mode: bicubic; }
  
  .page__hero-caption { position: absolute; bottom: 0; right: 0; margin: 0 auto; padding: 2px 5px; color: #fff; font-family: Georgia, Times, serif; font-size: 0.6875em; background: #000; text-align: right; z-index: 5; opacity: 0.5; border-radius: 4px 0 0 0; }
@@ -1584,7 +1592,7 @@
  @media (min-width: 64em) { .author__avatar img { padding: 0px; } }
  .greedy-nav a { display: block; margin: 0 1rem; color: #3400ff; text-decoration: none; -webkit-transition: none; transition: none; text-shadow: 3px 3px 0px #000000; font-weight: bold; font-family: 'JetBrains Mono', monospace; color: #FFFF; }
  
- .masthead {position: relative;border-bottom: 0px solid #63ff00;-webkit-animation: intro 0.3s both;animation: intro 0.3s both;-webkit-animation-delay: 0.15s;animation-delay: 0.15s;z-index: 20;background: #7600ff;box-shadow: 11px 13px 0px #63ff00;border-bottom: 1px solid #000;}
+ .masthead { position: relative; border-bottom: 0px solid #63ff00; -webkit-animation: intro 0.3s both; animation: intro 0.3s both; -webkit-animation-delay: 0.15s; animation-delay: 0.15s; z-index: 20; background: #7600ff; box-shadow: 11px 13px 0px #63ff00; border-bottom: 1px solid #000; }
  
  .greedy-nav { position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; min-height: 2em; background: none; }
  
@@ -1592,13 +1600,13 @@
  
  .page__footer { clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%; margin-top: 1em; color: #ffffff; -webkit-animation: intro 0.3s both; animation: intro 0.3s both; -webkit-animation-delay: 0.45s; animation-delay: 0.45s; background-color: #080808; box-shadow: 5px -12px 0px #63ff00; font-size: 1.05em; }
  
- .page__hero--overlay .page__title, .page__hero--overlay .page__meta, .page__hero--overlay .comment__date, .page__hero--overlay .comment__date, .page__hero--overlay .comment__date, .page__hero--overlay .comment__date, .page__hero--overlay .page__lead, .page__hero--overlay .btn, .page__hero--overlay #goog-wm-sb, .page__hero--overlay #goog-wm-sb, .page__hero--overlay #goog-wm-sb, .page__hero--overlay #goog-wm-sb { color: #fff; text-shadow: 0px 0px 2px #9a00ff; font-family: 'JetBrains Mono', monospace; line-height: 1.8; }
+ .page__hero--overlay .page__title, .page__hero--overlay .page__meta, .page__hero--overlay .comment__date, .page__hero--overlay .comment__date, .page__hero--overlay .comment__date, .page__hero--overlay .comment__date, .page__hero--overlay .page__lead, .page__hero--overlay .btn, .page__hero--overlay #goog-wm-sb, .page__hero--overlay #goog-wm-sb, .page__hero--overlay #goog-wm-sb, .page__hero--overlay #goog-wm-sb { color: #fff; text-shadow: 0px 0px 2px #9a00ff; font-family: 'JetBrains Mono', monospace; line-height: 1.5; }
  
  body { margin: 0; padding: 0; color: #000000; font-family: -apple-system, BlinkMacSystemFont, "Source Code Pro" "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; line-height: 1.5; background: #ffffff; }
  
  b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, #goog-wm-sb, #goog-wm-sb, .highlight, .archive__item-teaser { -webkit-transition: none; transition: none; }
  
- .page__hero--overlay {position: relative;margin-bottom: 2em;padding: 3em 0;clear: both;background-size: cover;background-repeat: no-repeat;background-position: center;-webkit-animation: intro 0.3s both;animation: intro 0.3s both;-webkit-animation-delay: 0.25s;animation-delay: 0.25s;box-shadow: 5px 14px 0px #9a00ff;border-bottom: 1px solid #000;}
+ .page__hero--overlay { position: relative; margin-bottom: 2em; padding: 5em 0em 5em 0em; clear: both; background-size: cover; background-repeat: no-repeat; background-position: center; -webkit-animation: intro 0.3s both; animation: intro 0.3s both; -webkit-animation-delay: 0.25s; animation-delay: 0.25s; box-shadow: 5px 14px 0px #9a00ff; border-bottom: 1px solid #000; }
  
  #main { padding-top: 2em; padding-bottom: 2em; }
  
@@ -1608,11 +1616,11 @@
  
  .page__footer-copyright { font-family: 'JetBrains Mono', monospace; font-size: 0.6875em; text-shadow: none; }
  
- .page__title { margin-top: 50px; line-height: 1; font-size: 1.73em; text-shadow: 2px 2.5px 0 #ffe400; font-family: 'JetBrains Mono'; }
+ .page__title { margin-top: 50px; line-height: 1; font-size: 1.73em; text-shadow: 2px 2.5px 0 #63ff00; font-family: 'JetBrains Mono'; }
  
- .archive__subtitle { padding-bottom: 0.5em; font-size: 1.3em; color: #000000; border-bottom: 1px solid #f2f3f3; font-family: 'JetBrains Mono', monospace; text-shadow: 2px 2.5px 0 #ffe400; }
+ .archive__subtitle {padding-bottom: 0.5em;font-size: 1.3em;color: #000000;border-bottom: 1px solid #f2f3f3;font-family: 'JetBrains Mono', monospace;text-shadow: 2px 2.5px 0 #63ff00;}
  
- .page__hero--overlay .page__title {text-shadow: 3px 2px 0px #00ff00;font-family: 'JetBrains Mono';}
+ .page__hero--overlay .page__title { font-family: 'JetBrains Mono'; text-shadow: 0px 0px 2px #9a00ff; }
  
  .archive__item a[rel="permalink"] { position: static; color: #000000; font-size: 0.9em; text-decoration-line: initial; }
  
@@ -1658,7 +1666,7 @@
  .greedy-nav .hidden-links li:last-child { border-bottom: none; }
  
  @media (min-width: 64em) { .sidebar { opacity: 1; -webkit-transition: opacity 0.2s ease-in-out; transition: opacity 0.2s ease-in-out; } }
- .sidebar .author__name { font-size: 1.8em; line-height: 1.5; font-family: 'JetBrains Mono', monospace; text-shadow: 2px 2.5px 0 #ffe400; }
+ .sidebar .author__name { font-size: 1.8em; line-height: 1.5; font-family: 'JetBrains Mono', monospace; }
  
  h1, h2, h3, h4, h5, h6 { margin: 0em 0 0.5em; line-height: 1.2; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-weight: bold; }
  
