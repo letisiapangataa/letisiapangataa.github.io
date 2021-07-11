@@ -3,15 +3,16 @@ title: "Projects by Letisia Pangata'a"
 permalink: /projects/
 author_profile: true
 ---
+<p></p>
+<img src="https://res.cloudinary.com/louiy9obu/image/upload/c_scale,w_1500/v1626002590/letisias_projects_fjlv67.png
+" width="100%"/>
 
 Over the trajectory of my career, I've developed and worked on many projects that showcase my skillsets and creativity, whether they're personal profitable works to startup and professional projects. 
-
-<img src="https://res.cloudinary.com/louiy9obu/image/upload/v1625813555/IMG_3928_qpz8il.jpg
-" width="100%"/>
 
 Each project has provided me a set of challenges and accomplishments from project management, visual design and software development.
 
 Below is a list of projects I've worked on independently or collaboratively (if noted),  I've carefully listed a brief description of each product and project history, its successes and failures to its technology stack and specialized features.
+
 <p></p>
 # 2013
 ## Windows 8 Applications
