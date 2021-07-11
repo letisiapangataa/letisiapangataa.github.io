@@ -6,6 +6,7 @@ layout: default
 <meta property="og:url" content="https://letisiapangataa.github.io" />
 {% if page.description %}
 <meta name="og:description" content="{{ page.meta_description }}"> {% else %}
+<meta name="og:description" content="{{ page.content | strip_html | xml_escape | truncate: 200 }}"> {% endif %}
 <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
 <meta property="og:type" content="website" />
 
