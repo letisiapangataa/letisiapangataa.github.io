@@ -2,6 +2,14 @@
 layout: archive
 ---
 
+<meta property="og:title" content="{{ page.title }}" />
+<meta property="og:url" content="https://letisiapangataa.github.io" />
+{% if page.description %}
+<meta name="og:description" content="{{ page.meta_description }}"> {% else %}
+<meta name="og:description" content="{{ page.content | strip_html | xml_escape | truncate: 200 }}"> {% endif %}
+<meta property="og:image" content="https://res.cloudinary.com/louiy9obu/image/upload/v1610972500/letsgo_dprdjr.jpg" />
+<meta property="og:type" content="website" />
+
 {{ content }}
 
 <div id="mc_embed_signup">
