@@ -1,5 +1,5 @@
 ---
-title: "Projects by Letisia Pangata'a"
+title: "Portfolio"
 permalink: /projects/
 author_profile: true
 ---
@@ -9,7 +9,16 @@ Each project has provided me a set of challenges and accomplishments from projec
 
 Below is a list of projects I've worked on independently or collaboratively (if noted),  I've carefully listed a brief description of each product and project history, its successes and failures to its technology stack and specialized features.
 
+---------------
+# Contents
+
+<p></p>**[2013](#2013)** - Windows 8 Applications
+<p></p>**[2014](#2014)** - Kids Holiday Program (Educational Course)
+<p></p>**[2015](#2015)** - Code Tutor ® Education
+<p></p>**[2016](#2016-to-present)** - Undergraduate Student
+
 <p></p>
+---------------
 # 2013
 ## Windows 8 Applications
 ### Laradise Projects
@@ -169,10 +178,10 @@ Under significant development stages during the startup process, I've implemente
 
 ---------------
 # 2016 to Present
-## Undergraduate Degree
+## Undergraduate Student
 ### University of Auckland
 
-Tackling academia as orginally a self-taught computer programmer and designer, it provided a fresh set of challenges. Academia structured, style of learning took dispute with my creative and practical learning style. 
+Tackling academia as a self-taught computer programmer and designer, provided a fresh set of challenges. Academia structured, style of learning took dispute with my creative and practical learning style. 
 
 ---------------
 <p></p>
