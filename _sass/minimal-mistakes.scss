@@ -44,6 +44,21 @@
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
 /*!
  * Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
  * Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
@@ -1195,7 +1210,7 @@
  
  @media (min-width: 64em) { .page { float: right; width: calc(100% - 330px); padding-right: 100px; } }
  @media (min-width: 80em) { .page { width: calc(100% - 300px); padding-right: 200px; padding-left: 70px; } }
- .page .page__inner-wrap { float: left; margin-top: 2em; margin-left: 0; margin-right: 0; margin-bottom: 1em; width: 100%; clear: both; }
+ .page .page__inner-wrap { float: left; margin-top: 0em; margin-left: 0; margin-right: 0; margin-bottom: 1em; width: 100%; clear: both; }
  
  .page .page__inner-wrap .page__content, .page .page__inner-wrap .page__meta, .page .page__inner-wrap .comment__date, .page .page__inner-wrap .page__share { position: relative; float: left; margin-left: 0; margin-right: 0; width: 100%; clear: both; }
  
@@ -1296,7 +1311,7 @@
  @media (min-width: 64em) { .taxonomy__index { grid-template-columns: repeat(3, 1fr); } }
  .taxonomy__index a { display: -webkit-box; display: -ms-flexbox; display: flex; padding: 0.25em 0; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; color: inherit; text-decoration: none; border-bottom: 1px solid #f2f3f3; }
  
- .back-to-top { display: block; clear: both; color: #646769; font-size: 0.6em; text-transform: uppercase; text-align: right; text-decoration: none; }
+ .back-to-top { display: block; clear: both; color: #000000; font-size: 0.8em; text-transform: inherit; text-align: right; font-weight: bold; text-decoration: none; padding-top: 2em; }
  
  .page__comments { float: left; margin-left: 0; margin-right: 0; width: 100%; clear: both; }
  
@@ -1329,12 +1344,12 @@
  
  .comment__date a { text-decoration: none; }
  
- .page__related { clear: both; float: left; margin-top: 2em; padding-top: 1em; border-top: 1px solid #f2f3f3; }
+ .page__related { clear: both; margin-top: 1em; padding-top: 0em; }
  
  .page__related::after { clear: both; content: ""; display: table; }
  
- @media (min-width: 64em) { .page__related { float: right; width: calc(100% - 200px); } }
- @media (min-width: 80em) { .page__related { width: calc(100% - 300px); } }
+ @media (min-width: 64em) { .page__related { float: right; } }
+ @media (min-width: 80em) { .page__related { width: calc(100% - 400px); } }
  .page__related a { color: inherit; text-decoration: none; }
  
  .page__related-title { margin-bottom: 10px; font-size: 0.75em; text-transform: uppercase; }
@@ -1343,17 +1358,17 @@
  @media (min-width: 80em) { .wide .page { padding-right: 0; } }
  @media (min-width: 64em) { .wide .page__related { padding-right: 0; } }
  @media (min-width: 80em) { .wide .page__related { padding-right: 0; } }
- .archive { margin-top: 1.5em; margin-bottom: 2em; }
+ .archive { margin-top: 0em; margin-bottom: 2em; }
  
  @media (min-width: 64em) { .archive { float: right; width: calc(100% - 300px); padding-right: 0; } }
  @media (min-width: 80em) { .archive { width: calc(100% - 290px); padding-right: 70px; padding-left: 70px; } }
- .archive__item { position: relative; }
+ .archive__item { position: relative; padding-bottom: 1em; padding-top: 1em; border-bottom: 1px solid #f2f3f3; }
  
  .archive__item a { position: relative; z-index: 10; }
  
  .archive__item a[rel="permalink"] { position: static; }
  
- .archive__subtitle { margin: 1.414em 0 0.5em; padding-bottom: 0.5em; font-size: 1em; color: #646769; border-bottom: 1px solid #f2f3f3; }
+ .archive__subtitle { margin: 0; padding-bottom: 0.5em; font-size: 1em; color: #646769; border-bottom: 1px solid #f2f3f3; }
  
  .archive__subtitle + .list__item .archive__item-title { margin-top: 0.5em; }
  
@@ -1380,7 +1395,7 @@
  @media (min-width: 64em) { .archive__item-caption { padding: 5px 10px; } }
  .archive__item-caption a { color: #fff; text-decoration: none; }
  
- .list__item .page__meta, .list__item .comment__date { margin: 0 0 4px; font-size: 0.6em; }
+ .list__item .page__meta, .list__item .comment__date { margin: 11px 0px 0px; font-size: 0.6em; }
  
  @media (min-width: 64em) { .archive .grid__wrapper { margin-right: -200px; } }
  @media (min-width: 80em) { .archive .grid__wrapper { margin-right: -300px; } }
@@ -1473,7 +1488,7 @@
    .sidebar:hover { opacity: 1; }
    .sidebar.sticky { overflow-y: auto; padding: 15px; } }
  @media (min-width: 80em) { .sidebar { width: calc(300px - 1em); } }
- .sidebar > * { margin-top: 1em; margin-bottom: 4em; }
+ .sidebar > * { margin-top: 0em; margin-bottom: 0em; }
  
  .sidebar h2, .sidebar h3, .sidebar h4, .sidebar h5, .sidebar h6 { margin-bottom: 0; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; }
  
@@ -1603,9 +1618,9 @@
  .author__avatar img { max-width: 100%; border: 1px solid #000000; }
  
  @media (min-width: 64em) { .author__avatar img { padding: 0px; } }
- .greedy-nav a { display: block; margin: 0 1rem; color: #3400ff; text-decoration: none; -webkit-transition: none; transition: none; text-shadow: 3px 3px 0px #000000; font-weight: bold; font-family: 'JetBrains Mono', monospace; color: #FFFF; }
+ .greedy-nav a { display: block; margin: 0 1rem; color: #3400ff; text-decoration: none; -webkit-transition: none; transition: none; text-shadow: 3px 3px 0px #000000; font-family: 'JetBrains Mono', monospace; color: #FFFF; }
  
- .masthead { position: relative; border-bottom: 0px solid #63ff00; -webkit-animation: intro 0.3s both; animation: intro 0.3s both; -webkit-animation-delay: 0.15s; animation-delay: 0.15s; z-index: 20; background: #7600ff; box-shadow: 11px 13px 0px #63ff00; border-bottom: 1px solid #000; }
+ .masthead { position: relative; border-bottom: 0px solid #63ff00; -webkit-animation: intro 0.3s both; animation: intro 0.3s both; -webkit-animation-delay: 0.15s; animation-delay: 0.15s; z-index: 20; background-color: #080808; box-shadow: 11px 13px 0px #63ff00; border-bottom: 1px solid #000; padding: 1em; }
  
  .greedy-nav { position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; min-height: 2em; background: none; }
  
@@ -1619,9 +1634,9 @@
  
  b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, #goog-wm-sb, #goog-wm-sb, .highlight, .archive__item-teaser { -webkit-transition: none; transition: none; }
  
- .page__hero--overlay {position: relative;margin-bottom: 2em;padding: 5em 0em 4em 0em;clear: both;background-size: cover;background-repeat: no-repeat;background-position: center;-webkit-animation: intro 0.3s both;animation: intro 0.3s both;-webkit-animation-delay: 0.25s;animation-delay: 0.25s;box-shadow: 5px 14px 0px #9a00ff;border-bottom: 1px solid #000;}
+ .page__hero--overlay { position: relative; margin-bottom: 0.3em; padding: 5em 0em 4em 0em; clear: both; background-size: cover; background-repeat: no-repeat; background-position: center; -webkit-animation: intro 0.3s both; animation: intro 0.3s both; -webkit-animation-delay: 0.25s; animation-delay: 0.25s; box-shadow: 5px 14px 0px #9a00ff; border-bottom: 1px solid #000; }
  
- #main { padding-top: 2em; padding-bottom: 2em; }
+ #main { padding-top: 3em; padding-bottom: 2em; }
  
  .page__hero--overlay .page__title { text-shadow: 3px 2px 0px #00ff00; }
  
@@ -1631,11 +1646,11 @@
  
  .page__title { line-height: 1.5; font-size: 1.73em; text-shadow: 2px 2.5px 0 #63ff00; font-family: 'JetBrains Mono'; }
  
- .archive__subtitle { padding-bottom: 0.5em; font-size: 1.3em; color: #000000; border-bottom: 1px solid #f2f3f3; font-family: 'JetBrains Mono', monospace; text-shadow: 2px 2.5px 0 #63ff00; }
+ .archive__subtitle { padding-bottom: 0.6em; font-size: 1.3em; color: #000000; border-bottom: 1px solid #f2f3f3; font-family: 'JetBrains Mono', monospace; text-shadow: 2px 2.5px 0 #63ff00; }
  
  .page__hero--overlay .page__title { font-family: 'JetBrains Mono'; text-shadow: 0px 0px 2px #9a00ff; }
  
- .archive__item a[rel="permalink"] { position: static; color: #000000; font-size: 0.9em; text-decoration-line: initial; }
+ .archive__item a[rel="permalink"] {position: static;color: #000000;font-size: 0.8em;text-decoration-line: initial;}
  
  @media (min-width: 64em) { .author__avatar { display: block; width: auto; height: auto; padding-bottom: 1em; text-align: center; } }
  b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, #goog-wm-sb, #goog-wm-sb, .highlight, .archive__item-teaser { -webkit-transition-property: none; -moz-transition-property: none; -o-transition-property: none; transition-property: none; }
@@ -1685,7 +1700,7 @@
  
  .page__meta p, .comment__date p, .comment__date p { margin: 0; font-size: 0.85em; }
  
- .page__meta, .comment__date, .comment__date { margin-top: 0em; color: #646769; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: .75em; }
+ .page__meta, .comment__date, .comment__date { margin-top: 0em; color: #000000; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: .75em; }
  
  form { margin: 0 0 0 0; padding: 0em; }
  
@@ -1710,4 +1725,6 @@
  time { font-family: 'JetBrains Mono', monospace; font-size: 0.9em; text-transform: lowercase; }
  
  .page__meta p, .comment__date p, .comment__date p { font-family: 'JetBrains Mono', monospace; font-size: 0.8em; }
+ 
+ .awesome { height: calc(100% - 300px); }
  

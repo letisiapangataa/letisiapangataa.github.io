@@ -1,6 +1,6 @@
 main:
-  - title: "Projects"
-    url: /projects/
+  - title: "Portfolio"
+    url: /portfolio/
   - title: "Visuals + Design"
     url: /visuals_and_design/
   - title: "Software"

@@ -1,5 +1,5 @@
 ---
-title: "Officially setup the projectfolio"
+title: "Project Documentation"
 header:
   overlay_color: "#000"
   overlay_filter: "0.7"
@@ -8,8 +8,6 @@ header:
 categories:
   - projects
 ---
-
-Check out my projects and work in the navigation bar above.
 
 I've always wanted to get all my work in documentation form to keep record on my projects. My projects page takes note on the exact primary points that I've wanted to get across, from the technologies I've used to the minor technical complexities I've had to implement and work with.
 
