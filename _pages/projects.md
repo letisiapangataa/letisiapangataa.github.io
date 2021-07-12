@@ -33,6 +33,7 @@ Published, developed and designed multiple Windows 8 Applications at 18 years ol
 
 My highest downloaded application reached over 20,000+ downloads. Implemented in-app purchases, advertisements and profitable features.
 
+---------------
 ### Laradise Projects Design (2013)
 <p></p>
 ![](https://res.cloudinary.com/louiy9obu/image/upload/v1625800099/11741302_508381542650938_8993926400792846974_o_zt72rj.png)
@@ -154,13 +155,14 @@ My Kids Holiday Program was an extensive course program, designed to assist the 
 # 2015
 ## Publishing Startup
 ### Code Tutor ® Education
-
+<p></p>
 Inspired by my Kids Holiday Program, I've decided to embark on a new venture, Code Tutor ® (rebranded to Code Tutor ® Education). Code Tutor ® Education was a publishing company set on a mission to inspire future technology endeavours.
 
 
 ---------------
 
 ### Code Tutor ® Logo (First Edition)
+<p></p>
 ![](https://res.cloudinary.com/louiy9obu/image/upload/v1625800096/10983323_494552557367170_5322903568701703394_n_eqgizk.png)
 
 ---------------
@@ -186,7 +188,7 @@ Under significant development stages during the startup process, I've implemente
 # 2016 to Present
 ## Undergraduate Student
 ### University of Auckland
-
+<p></p>
 Tackling academia as a self-taught computer programmer and designer, provided a fresh set of challenges. Academia structured, style of learning took dispute with my creative and practical learning style. 
 
 ---------------
