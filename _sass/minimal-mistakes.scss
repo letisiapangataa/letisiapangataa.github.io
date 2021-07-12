@@ -76,6 +76,7 @@
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
 /*!
  * Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
  * Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
@@ -1243,7 +1244,7 @@
  
  .page__content h1:hover .header-link, .page__content h2:hover .header-link, .page__content h3:hover .header-link, .page__content h4:hover .header-link, .page__content h5:hover .header-link, .page__content h6:hover .header-link { opacity: 1; }
  
- .page__content p, .page__content li, .page__content dl { font-size: 1em; }
+ .page__content p, .page__content li, .page__content dl {font-size: 0.95em;}
  
  .page__content p { margin: 0 0 1.3em; }
  
@@ -1659,7 +1660,7 @@
  
  .page__footer-follow a { padding-right: 10px; font-family: 'JetBrains Mono', monospace; }
  
- .page__footer-copyright {font-family: 'JetBrains Mono', monospace;font-size: 0.6em;text-shadow: none;}
+ .page__footer-copyright { font-family: 'JetBrains Mono', monospace; font-size: 0.6em; text-shadow: none; }
  
  .page__title { line-height: 1.5; font-size: 1.5em; font-family: 'JetBrains Mono'; }
  
