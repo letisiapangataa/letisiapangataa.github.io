@@ -77,6 +77,7 @@
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
 /*!
  * Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
  * Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
@@ -1244,7 +1245,7 @@
  
  .page__content h1:hover .header-link, .page__content h2:hover .header-link, .page__content h3:hover .header-link, .page__content h4:hover .header-link, .page__content h5:hover .header-link, .page__content h6:hover .header-link { opacity: 1; }
  
- .page__content p, .page__content li, .page__content dl {font-size: 0.95em;}
+ .page__content p, .page__content li, .page__content dl { font-size: 0.95em; }
  
  .page__content p { margin: 0 0 1.3em; }
  
@@ -1638,13 +1639,13 @@
  @media (min-width: 64em) { .author__avatar img { padding: 0px; } }
  .greedy-nav a { display: block; margin: 0 1rem; color: #3400ff; text-decoration: none; -webkit-transition: none; transition: none; font-family: 'JetBrains Mono', monospace; color: #FFFF; }
  
- .masthead { position: relative; -webkit-animation: intro 0.3s both; -webkit-animation-delay: 0.15s; animation-delay: 0.15s; z-index: 20; background-color: #080808; box-shadow: 11px 13px 0px #cacaca2e; border-bottom: 1px solid #000; padding: 1em; }
+ .masthead {position: relative;-webkit-animation: intro 0.3s both;-webkit-animation-delay: 0.15s;animation-delay: 0.15s;z-index: 20;background-color: #080808;box-shadow: 11px 13px 0px #cacaca40;border-bottom: 1px solid #000;padding: 1em;}
  
  .greedy-nav { position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; min-height: 2em; background: none; }
  
  .icon { display: inline-block; fill: currentColor; width: 1em; height: 1.1em; line-height: 1; position: relative; top: -0.1em; vertical-align: middle; color: #fff; }
  
- .page__footer { clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%; margin-top: 1em; color: #ffffff; -webkit-animation: intro 0.3s both; animation: intro 0.3s both; -webkit-animation-delay: 0.45s; animation-delay: 0.45s; background-color: #080808; box-shadow: 5px -12px 0px #f2f3f3; font-size: 1.05em; }
+ .page__footer {clear: both;float: left;margin-left: 0;margin-right: 0;width: 100%;margin-top: 1em;color: #ffffff;-webkit-animation: intro 0.3s both;animation: intro 0.3s both;-webkit-animation-delay: 0.45s;animation-delay: 0.45s;background-color: #080808;box-shadow: 5px -12px 0px #cacaca40;font-size: 1.05em;}
  
  .page__hero--overlay .page__title, .page__hero--overlay .page__meta, .page__hero--overlay .comment__date, .page__hero--overlay .comment__date, .page__hero--overlay .comment__date, .page__hero--overlay .comment__date, .page__hero--overlay .page__lead, .page__hero--overlay .btn, .page__hero--overlay #goog-wm-sb, .page__hero--overlay #goog-wm-sb, .page__hero--overlay #goog-wm-sb, .page__hero--overlay #goog-wm-sb { color: #fff; text-shadow: 0px 0px 2px #9a00ff; font-family: 'JetBrains Mono', monospace; line-height: 1.5; }
  
