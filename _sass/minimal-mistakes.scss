@@ -88,6 +88,10 @@
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
 /*!
  * Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
  * Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
@@ -502,7 +506,7 @@
  
  .btn--primary:hover { background-color: #595f64; color: #fff; }
  
- .btn--inverse { background-color: #fff; color: #3d4144; border: 1px solid #f2f3f3; }
+ .btn--inverse { background-color: #ffffff; color: #000000; border: 1px solid #f2f2f2; box-shadow: 0.3em 0.3em #f2f2f2; }
  
  .btn--inverse:visited { background-color: #fff; color: #3d4144; }
  
@@ -911,7 +915,7 @@
  
  .search-content .archive__item { margin-bottom: 2em; }
  
- @media (min-width: 64em) { .search-content .archive__item { width: 75%; } }
+ @media (min-width: 64em) { .search-content .archive__item { width: 30%; } }
  @media (min-width: 80em) { .search-content .archive__item { width: 50%; padding-top: 1em; font-size: 1em; } }
  .search-content .archive__item-title { margin-top: 0; }
  
@@ -1523,7 +1527,7 @@
  
  .sidebar h2, .sidebar h3, .sidebar h4, .sidebar h5, .sidebar h6 { margin-bottom: 0; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; }
  
- .sidebar p, .sidebar li { font-family: 'JetBrains Mono', monospace; font-size: 0.65em; line-height: 0; padding: 0.5em; list-style: none; }
+ .sidebar p, .sidebar li { font-family: 'JetBrains Mono', monospace; font-size: 0.65em; line-height: 2; list-style: none; }
  
  .sidebar img { width: 100%; text-align: center; }
  
@@ -1563,7 +1567,7 @@
  .author__urls-wrapper .author__urls span.label { font-size: 1.1em; font-family: 'JetBrains Mono', monospace; line-break: anywhere; }
  
  @media (min-width: 64em) { .author__urls-wrapper { display: block; } }
- .author__urls-wrapper button { position: relative; padding: 1em; margin-left: 1em; font-size: 0.8em; }
+ .author__urls-wrapper button { position: relative; padding: 0.8em; margin-left: 2em; font-size: 0.8em; }
  
  .author__urls-wrapper button a { font-size: 1em; }
  
@@ -1571,7 +1575,7 @@
  .author__urls-wrapper button.open:before { pointer-events: auto; }
  
  @media (min-width: 64em) { .author__urls-wrapper button { display: none; } }
- .author__urls { display: none; position: absolute; right: 0; padding: 2em; margin-top: 15px; padding: 10px; list-style-type: none; border: 1px solid #f2f3f3; border-radius: 4px; background: #fff; cursor: default; }
+ .author__urls { display: none; position: absolute; right: 0; margin-top: 15px; padding: 12px; list-style-type: none; border: 1px solid #f2f3f3; border-radius: 4px; background: #fff; cursor: default; box-shadow: 0.3em 0.3em #f2f2f2; }
  
  .author__urls.is--visible { display: block; }
  
