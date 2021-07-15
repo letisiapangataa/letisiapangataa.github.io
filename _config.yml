@@ -64,12 +64,12 @@ author:
  
   bio    : ""
   links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw"
-      url: "https://www.linkedin.com/in/letisiapangataa/"
     - label: "Github"
       icon: "fab fa-fw"
       url: "https://github.com/letisiapangataa"
+    - label: "LinkedIn"
+      icon: "fab fa-fw"
+      url: "https://www.linkedin.com/in/letisiapangataa/"
     # - label: "YouTube"
     #   icon: "fab fa-fw"
     #   url: "https://www.youtube.com/channel/UCnWTpRSfYSxAWmCRUpl4PBQ/featured"
