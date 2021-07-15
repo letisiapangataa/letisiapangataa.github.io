@@ -61,7 +61,7 @@ plugins:
 
 author:
   name   : "Letisia Pangata'a"
-  avatar : "https://res.cloudinary.com/louiy9obu/image/upload/v1625809388/BF2134CC-61DC-4F6F-A101-92FADA00AE7E_bvdfza.jpg"
+  # avatar : "https://res.cloudinary.com/louiy9obu/image/upload/v1625809388/BF2134CC-61DC-4F6F-A101-92FADA00AE7E_bvdfza.jpg"
   bio    : ""
   links:
     - label: "Github"
