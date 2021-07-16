@@ -1,5 +1,5 @@
 ---
-title: "University of Auckland"
+title: "Undergraduate Student"
 permalink: /portfolio/university-of-auckland/
 author_profile: true
 ---
