@@ -8,7 +8,7 @@ author_profile: true
 # 2016 to Present
 ## Undergraduate Student
 <p></p>
-Tackling academia as a self-taught computer programmer and designer, provided a fresh set of challenges. Academia structured, style of learning took dispute with my creative and practical learning style. 
+Tackling academia as a student who was once a self-taught computer programmer and designer, provided a fresh set of challenges. Academia structured learning challenged my creative and practical learning style. 
 
 ---------------
 <p></p>
@@ -18,7 +18,7 @@ Tackling academia as a self-taught computer programmer and designer, provided a 
 
 ---------------
 
-Despite, thoroughly enjoying and learning many complementary, advantageous knowledge that are fundamental to my practice of Computer Science and Information Systems, I've learned that I perform at my best and most skilled when implementing my technology-based knowledge, technical skills, and creativity in varied, active and practical ways.
+Despite, thoroughly enjoying and learning many complementary, advantageous knowledge that are fundamental to my practice of Computer Science and Information Systems, I've learned that I best perform at my most skilled when implementing my technology-based knowledge, technical skills, and creativity in varied practical ways.
 
 My talent and skill sets can be showcased through problem solving, innovation, entrepreneurship, business analytics, creative directing, visual design, providing technical solutions and technology based initiatives.
 

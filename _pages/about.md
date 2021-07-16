@@ -2,9 +2,9 @@
 permalink: /about/
 ---
 
-Mālō e lelei. Kia ora. Hello.
+**Mālō e lelei. Kia ora. Hello.**
 
-Ko hoku hingoa ko Letisia. Ko Letisia tōku ingoa. My name is Letisia.
+*Ko hoku hingoa ko Letisia. Ko Letisia tōku ingoa. My name is Letisia.*
 
 Student of computers with a passion for creative arts, business and entrepreneurship, to science and technology. 
 
