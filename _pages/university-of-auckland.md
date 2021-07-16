@@ -7,6 +7,7 @@ author_profile: true
 ---------------
 # 2016 to Present
 ## Undergraduate Student
+### University of Auckland
 <p></p>
 Tackling academia as a student who was once a self-taught computer programmer and designer, provided a fresh set of challenges. Academia structured learning challenged my creative and practical learning style. 
 
