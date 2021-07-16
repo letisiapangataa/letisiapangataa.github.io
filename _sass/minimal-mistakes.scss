@@ -99,6 +99,7 @@
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
 /*!
  * Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
  * Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
@@ -1353,7 +1354,7 @@
  @media (min-width: 64em) { .taxonomy__index { grid-template-columns: repeat(3, 1fr); } }
  .taxonomy__index a { display: -webkit-box; display: -ms-flexbox; display: flex; padding: 0.25em 0; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; color: inherit; text-decoration: none; border-bottom: 1px solid #f2f3f3; }
  
- .back-to-top { display: block; clear: both; color: #000000; font-size: 0.8em; text-transform: inherit; text-align: right; font-weight: bold; text-decoration: none; padding-top: 2em; }
+ .back-to-top {display: block;clear: both;color: #000000;font-size: 0.8em;text-transform: inherit;text-align: right;font-weight: bold;text-decoration: none;padding-top: 2em;display: none;}
  
  .page__comments { float: left; margin-left: 0; margin-right: 0; width: 100%; clear: both; }
  
@@ -1676,7 +1677,7 @@
  
  b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, #goog-wm-sb, #goog-wm-sb, .highlight, .archive__item-teaser { -webkit-transition: none; transition: none; }
  
- .page__hero--overlay {position: relative;margin-bottom: 0.3em;padding: 5em 0em 4em 0em;clear: both;background-size: cover;background-repeat: no-repeat;background-position: center;-webkit-animation: intro 0.3s both;animation: intro 0.3s both;-webkit-animation-delay: 0.25s;animation-delay: 0.25s;box-shadow: 5px 14px 0px #cacaca2b;border-bottom: 1px solid #000;}
+ .page__hero--overlay { position: relative; margin-bottom: 0.3em; padding: 5em 0em 4em 0em; clear: both; background-size: cover; background-repeat: no-repeat; background-position: center; -webkit-animation: intro 0.3s both; animation: intro 0.3s both; -webkit-animation-delay: 0.25s; animation-delay: 0.25s; box-shadow: 5px 14px 0px #cacaca2b; border-bottom: 1px solid #000; }
  
  #main { padding-top: 3em; padding-bottom: 3em; }
  
