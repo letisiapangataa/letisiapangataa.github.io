@@ -1,6 +1,6 @@
 ---
 title: "Windows 8 Applications"
-permalink: /portfolio/windows-8-applications
+permalink: /portfolio/windows-8-applications/
 author_profile: true
 ---
 

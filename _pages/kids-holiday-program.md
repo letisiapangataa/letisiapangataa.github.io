@@ -1,6 +1,6 @@
 ---
 title: "Kids Holiday Program"
-permalink: /portfolio/kids-holiday-program
+permalink: /portfolio/kids-holiday-program/
 author_profile: true
 ---
 
