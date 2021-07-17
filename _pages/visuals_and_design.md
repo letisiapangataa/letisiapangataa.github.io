@@ -11,6 +11,6 @@ Below is a specialised list of each UX / UI Design projects that I've participat
 <p></p><p></p>
 # Contents
 <p></p>
-**[2013](/portfolio/windows-8-applications/)** - Windows 8 Applications (Published Applications)
+<!-- **[2013](/portfolio/windows-8-applications/)** - Windows 8 Applications (Published Applications) -->
 <p></p><p></p>
 ---------------
