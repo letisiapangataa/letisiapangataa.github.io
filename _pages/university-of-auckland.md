@@ -17,6 +17,21 @@ Tackling academia as a student who was once a self-taught computer programmer an
 
 <p></p><p></p>
 ---------------
+<p></p><p></p>
+### "Me In A Minute" by Letisia Pangata'a
+<p></p>
+
+<video width="100%" height="100%">
+  <source src="https://res.cloudinary.com/louiy9obu/video/upload/v1626964614/me_in_a_minute_letisia_pangataa-1_s33gmf.mp4" type="video/mp4">
+  <source src="https://res.cloudinary.com/louiy9obu/video/upload/v1626964614/me_in_a_minute_letisia_pangataa-1_s33gmf.mp4" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+
+One of my assignments for my courses that I've taken during university. We were assigned the task to conduct a 1 minute speech on our professional experience and aspirations as students. 
+
+<p></p><p></p>
+---------------
+<p></p>
 ### INFOSYS 220 Laboratory Classes
 <p></p>
 ![](https://res.cloudinary.com/louiy9obu/image/upload/v1625811592/IMG_2830_ygjhxn.jpg)

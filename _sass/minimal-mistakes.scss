@@ -109,6 +109,7 @@
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
 /*!
  * Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
  * Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
@@ -263,11 +264,11 @@
  
  article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section { display: block; }
  
- audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+ audio, canvas, video {display: inline-block; *display: inline; *zoom: 1;border: 1px solid #000;}
  
  audio:not([controls]) { display: none; }
  
- a {color: #000000;}
+ a { color: #000000; }
  
  a:hover, a:active { outline: 0; color: #000000; text-decoration: none; text-decoration-line: line-through; }
  
