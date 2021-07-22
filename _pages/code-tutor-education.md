@@ -1,13 +1,12 @@
 ---
-title: "Code Tutor ® Education"
+title: "Publishing Startup"
 permalink: /portfolio/code-tutor-education/
 author_profile: true
 ---
 
 ---------------
 # 2015
-## Publishing Startup
-### Code Tutor ® Education
+## Code Tutor ® Education
 <p></p>
 Inspired by my Kids Holiday Program, I've decided to embark on a new venture, Code Tutor ® (rebranded to Code Tutor ® Education). Code Tutor ® Education was a publishing company set on a mission to inspire future technology endeavours.
 

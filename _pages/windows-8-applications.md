@@ -1,5 +1,5 @@
 ---
-title: "Windows 8 Applications"
+title: "Laradise Projects"
 permalink: /portfolio/windows-8-applications/
 author_profile: true
 ---
@@ -7,8 +7,7 @@ author_profile: true
 ---------------
 # 2013
 ## Windows 8 Applications
-### Laradise Projects
-<p></p>
+<p></p><p></p>
 Published, developed and designed multiple Windows 8 Applications at 18 years old as a self-taught computer programmer.
 
 My highest downloaded application reached over 20,000+ downloads. Implemented in-app purchases, advertisements and profitable features.

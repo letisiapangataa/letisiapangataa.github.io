@@ -6,9 +6,8 @@ author_profile: true
 
 ---------------
 # 2014
-## Kids Holiday Program
-### Coder Factory
- 
+## Coder Factory
+ <p></p>
 During my time as a Teaching Assistant at the Coder Factory, I was assigned the task to develop a Kids Holiday Program focused on kids learning to code. 
 
 ---------------
