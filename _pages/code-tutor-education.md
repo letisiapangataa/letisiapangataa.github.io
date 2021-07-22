@@ -1,5 +1,5 @@
 ---
-title: "Publishing Startup (2015)"
+title: "Startup Founder (2015)"
 permalink: /portfolio/code-tutor-education/
 author_profile: true
 ---
