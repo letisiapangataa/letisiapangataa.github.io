@@ -21,7 +21,7 @@ Tackling academia as a student who was once a self-taught computer programmer an
 ### "Me In A Minute" by Letisia Pangata'a
 <p></p>
 
-<video width="100%" height="100%" control>
+<video width="100%" height="100%" controls>
   <source src="https://res.cloudinary.com/louiy9obu/video/upload/v1626964614/me_in_a_minute_letisia_pangataa-1_s33gmf.mp4" type="video/mp4">
   <source src="https://res.cloudinary.com/louiy9obu/video/upload/v1626964614/me_in_a_minute_letisia_pangataa-1_s33gmf.mp4" type="video/ogg">
 Your browser does not support the video tag.
