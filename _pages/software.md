@@ -6,7 +6,7 @@ author_profile: true
 
 Listed below, I've provided a specific list of each of my software engineering projects that I've worked on independently, collaboratively or academically.
 
-I've provided the GitHub link (if noted) and description of each technology stack, methodology or design pattern used to achieve the desired outcome.
+I've provided a GitHub link (if noted) and a description of each technology stack, methodology or design pattern used to achieve the desired outcome.
 
 ---------------
 <p></p><p></p>

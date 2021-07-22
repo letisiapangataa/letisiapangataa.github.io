@@ -1,13 +1,13 @@
 ---
-title: "Kids Holiday Program"
+title: "Kids Holiday Program (2014)"
 permalink: /portfolio/kids-holiday-program/
 author_profile: true
 ---
 
 ---------------
-# 2014
-## Coder Factory
- <p></p>
+<p></p>
+### Coder Factory (Sydney, Australia)
+<p></p>
 During my time as a Teaching Assistant at the Coder Factory, I was assigned the task to develop a Kids Holiday Program focused on kids learning to code. 
 
 ---------------

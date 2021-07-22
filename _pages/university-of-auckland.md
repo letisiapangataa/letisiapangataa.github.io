@@ -1,26 +1,22 @@
 ---
-title: "University of Auckland"
+title: "University of Auckland (2016)"
 permalink: /portfolio/university-of-auckland/
 author_profile: true
 ---
-
 ---------------
-# 2016 to Present
+<p></p>
 ### Undergraduate Student
----------------
-<p></p><p></p>
+<p></p>
 Tackling academia as a student who was once a self-taught computer programmer and designer, provided a fresh set of challenges. Academia structured learning challenged my creative and practical learning style. 
-
+<p></p>
 ---------------
 <p></p><p></p>
-# Contents
+### Contents
 <p></p>
 **[2013](/portfolio/windows-8-applications/)** - Windows 8 Applications (Published Applications)
 
-
 <p></p><p></p>
 ---------------
-<p></p>
 ### INFOSYS 220 Laboratory Classes
 <p></p>
 ![](https://res.cloudinary.com/louiy9obu/image/upload/v1625811592/IMG_2830_ygjhxn.jpg)
