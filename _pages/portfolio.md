@@ -3,7 +3,7 @@ title: "Portfolio"
 permalink: /portfolio/
 author_profile: true
 ---
-Over the trajectory of my career, I've developed and worked on many projects that showcase my skill sets and creativity, whether they're personal profitable works to startup and professional projects. 
+Over the trajectory of my career, I've developed and worked on many projects that showcase my skill sets and creativity, whether they're individual profitable works to startup and professional projects. 
 
 Each project has provided me a set of challenges and accomplishments from project management, visual design and software development.
 
