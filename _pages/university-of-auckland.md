@@ -26,10 +26,8 @@ Tackling academia as a full-time and part-time student who once was a self-taugh
   <source src="https://res.cloudinary.com/louiy9obu/video/upload/v1626964614/me_in_a_minute_letisia_pangataa-1_s33gmf.mp4" type="video/ogg">
 Your browser does not support the video tag.
 </video>
-
-One of my assignments for my courses that I've taken during University. 
-
-We were assigned the task to conduct a 1 minute speech on our professional experience and aspirations as students. 
+<p></p>
+One of my assignments for my courses that I've taken during University. We were assigned the task to conduct a 1 minute speech on our professional experience and aspirations as students. 
 
 <p></p><p></p>
 ---------------
