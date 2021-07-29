@@ -7,7 +7,7 @@ author_profile: true
 <p></p>
 ### Undergraduate Student
 <p></p>
-Tackling academia as a full-time / part-time student who has once begun her journey as a self-taught computer programmer and designer, has provided a fresh set of challenges. Academia structured learning challenged my creative and practical learning style with foundation and structure.
+Tackling academia as a full-time and part-time student who has once begun her journey as a self-taught computer programmer and designer, has provided a fresh set of challenges. Academia structured learning challenged my creative and practical learning style with foundation and structure.
 <p></p>
 ---------------
 <p></p><p></p>
