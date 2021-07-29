@@ -7,7 +7,7 @@ author_profile: true
 <p></p>
 ### Undergraduate Student
 <p></p>
-Tackling academia as a student who once was a self-taught computer programmer and designer, provided a fresh set of challenges. Academia structured learning challenged my creative and practical learning style. 
+Tackling academia as a full-time and part-time student who once was a self-taught computer programmer and designer, provided a fresh set of challenges. Academia structured learning challenged my creative and practical learning style. 
 <p></p>
 ---------------
 <p></p><p></p>
@@ -27,7 +27,9 @@ Tackling academia as a student who once was a self-taught computer programmer an
 Your browser does not support the video tag.
 </video>
 
-One of my assignments for my courses that I've taken during university. We were assigned the task to conduct a 1 minute speech on our professional experience and aspirations as students. 
+One of my assignments for my courses that I've taken during University. 
+
+We were assigned the task to conduct a 1 minute speech on our professional experience and aspirations as students. 
 
 <p></p><p></p>
 ---------------
