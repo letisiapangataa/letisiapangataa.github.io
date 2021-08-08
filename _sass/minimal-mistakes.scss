@@ -110,6 +110,9 @@
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
 /*!
  * Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
  * Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
@@ -264,7 +267,7 @@
  
  article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section { display: block; }
  
- audio, canvas, video {display: inline-block; *display: inline; *zoom: 1;border: 1px solid #000;}
+ audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; border: 1px solid #000; }
  
  audio:not([controls]) { display: none; }
  
@@ -1585,7 +1588,7 @@
  .author__urls-wrapper .author__urls span.label { font-size: 0.6em; font-family: 'JetBrains Mono'; line-break: anywhere; letter-spacing: 0.03em; text-transform: lowercase; }
  
  @media (min-width: 64em) { .author__urls-wrapper { display: block; } }
- .author__urls-wrapper button { position: relative; padding: 0.8em; margin-left: 2em; font-size: 0.8em; }
+ .author__urls-wrapper button {position: relative;padding: 0.8em;margin-left: 0em;font-size: 0.8em;}
  
  .author__urls-wrapper button a { font-size: 1em; }
  
@@ -1593,12 +1596,12 @@
  .author__urls-wrapper button.open:before { pointer-events: auto; }
  
  @media (min-width: 64em) { .author__urls-wrapper button { display: none; } }
- .author__urls { right: 0; list-style-type: none; border-radius: 4px; background: #fff; cursor: default; }
+ .author__urls {right: 0;list-style-type: none;border-radius: 4px;background: #fff;cursor: default;padding-left: 0.3em;}
  
  .author__urls.is--visible { display: block; }
  
  @media (min-width: 64em) { .author__urls { display: inline-block; position: relative; margin: 0; padding: 0; border: 0; box-shadow: none; width: 100%; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; } }
- .author__urls:before { display: block; content: ""; position: absolute; top: -11px; left: calc(50% - 10px); width: 0; border-style: solid; border-width: 0 10px 10px; border-color: #f2f3f3 transparent; z-index: 0; }
+ .author__urls:before {display: block;content: "";position: absolute;top: -11px;left: calc(50% - 10px);width: 0;border-style: solid;border-width: 0 10px 10px;border-color: #f2f3f3 transparent;z-index: 0;}
  
  @media (min-width: 64em) { .author__urls:before { display: none; } }
  .author__urls:after { display: block; content: ""; position: absolute; top: -10px; left: calc(50% - 10px); width: 0; border-style: solid; border-width: 0 10px 10px; border-color: #fff transparent; z-index: 1; }
