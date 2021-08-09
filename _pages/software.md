@@ -12,8 +12,8 @@ I've provided a GitHub link (if noted) and a description of each technology stac
 <p></p><p></p>
 # Contents
 <p></p>
-**[2013](/portfolio/windows-8-applications/)** - Windows 8 Applications (Published Applications)
-
+**[(2013) Windows 8 Applications](/portfolio/windows-8-applications/)**
+<br>Published Applications
 
 <p></p><p></p>
 ---------------

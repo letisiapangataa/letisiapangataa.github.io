@@ -13,7 +13,8 @@ Tackling academia as a full-time and part-time student who has once begun her jo
 <p></p><p></p>
 ### Contents
 <p></p>
-**[2013](/portfolio/windows-8-applications/)** - Windows 8 Applications (Published Applications)
+**[(2013) Windows 8 Applications](/portfolio/windows-8-applications/)**
+<br>Published Applications
 
 <p></p><p></p>
 ---------------
