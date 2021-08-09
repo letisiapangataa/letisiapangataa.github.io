@@ -6,6 +6,6 @@ author_profile: true
 
 ---------------
 <p></p><p></p>
-<!-- **[2013](/portfolio/windows-8-applications/)** - Windows 8 Applications (Published Applications) -->
+<!-- [**(2013) Windows 8 Applications** <br>Published Applications](/portfolio/windows-8-applications/) -->
 <p></p><p></p>
 ---------------
