@@ -28,7 +28,7 @@ Tackling academia as a full-time and part-time student who has once begun her jo
 Your browser does not support the video tag.
 </video>
 <p></p>
-"Me In A Minute" is one of my assignments that I've taken during my time in University. We were assigned the task to conduct a 1 minute speech on our professional experience and aspirations as students. 
+One of my assignments that I've taken during my time in University. We were assigned the task to conduct a 1 minute speech on our professional experience and aspirations as students. 
 
 <p></p><p></p>
 ---------------
