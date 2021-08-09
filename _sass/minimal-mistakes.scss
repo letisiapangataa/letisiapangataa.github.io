@@ -342,9 +342,9 @@
  
  blockquote cite:before { content: "\2014"; padding-right: 5px; }
  
- a:visited { color: #4e91a5; }
+ a:visited { color: #000000; text-decoration-line: none; }
  
- a:hover { color: #235e70; outline: 0; }
+ a:hover { color: #000000; text-decoration-line: none; }
  
  tt, code, kbd, samp, pre { font-family: Monaco, Consolas, "Lucida Console", monospace; }
  
@@ -378,7 +378,7 @@
  
  figcaption a { -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
  
- figcaption a:hover { color: #235e70; }
+ figcaption a:hover { color: #000000; text-decoration-line: none; }
  
  svg:not(:root) { overflow: hidden; }
  
@@ -604,9 +604,9 @@
  
  .notice h4 + p { margin-top: 0; padding-top: 0; }
  
- .notice a { color: #bdc1c4; }
+ .notice a { color: #000000; }
  
- .notice a:hover { color: #717476; }
+ .notice a:hover { color: #000000; }
  
  .notice code { background-color: #fcfcfc; }
  
@@ -624,9 +624,9 @@
  
  .notice--primary h4 + p { margin-top: 0; padding-top: 0; }
  
- .notice--primary a { color: #6f777d; }
+ .notice--primary a { color: #000000; }
  
- .notice--primary a:hover { color: #43474b; }
+ .notice--primary a:hover { color: #000000; }
  
  .notice--primary code { background-color: #f8f8f9; }
  

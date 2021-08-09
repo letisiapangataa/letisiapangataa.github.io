@@ -14,13 +14,16 @@ I've provided an overall list of projects I've worked on independently, collabor
 # Contents
 <p></p>
 
-**[2016](/portfolio/university-of-auckland/)** - Undergraduate Student (University of Auckland)
+**[(2016) University of Auckland](/portfolio/university-of-auckland/)** <br>Undergraduate Student
 
-**[2015](/portfolio/code-tutor-education/)** - Code Tutor ® Education (Publishing Startup)
+**[(2015) Code Tutor ® Education](/portfolio/code-tutor-education/)**
+<br>Publishing Startup
 
-**[2014](/portfolio/kids-holiday-program/)** - Kids Holiday Program (Educational Course)
+**[(2014) Kids Holiday Program](/portfolio/kids-holiday-program/)**
+<br>Educational Course
 
-**[2013](/portfolio/windows-8-applications/)** - Windows 8 Applications (Published Applications)
+**[(2013) Windows 8 Applications](/portfolio/windows-8-applications/)**
+<br>Published Applications
 
 <p></p><p></p>
 ---------------
