@@ -16,7 +16,7 @@
 title: "Letisia's Technology Portfolio"
 title_separator: "|"
 email: contact@letisiapangataa.com
-description: "Official Technology Portfolio by Letisia Pangata'a."
+description: "Official Technology Portfolio by Letisia Pangata'a. Ko hoku hingoa ko Letisia. Ko Letisia tōku ingoa. My name is Letisia. Student of computers with a passion for creative arts, business and entrepreneurship, to science and technology. Inspired by my interests and Tongan heritage, focused on providing creative insight and discipline in science into personal and professional projects. Mālō aupito’ from Aotearoa, New Zealand."
 url: "https://letisiapangataa.github.io"
 repository: "letisiapangataa/letisiapangataa.github.io"
 masthead_title: "Letisia's Technology Portfolio"
@@ -70,23 +70,33 @@ author:
     - label: "Github"
       icon: "fab fa-fw"
       url: "https://github.com/letisiapangataa"
-    # - label: "YouTube"
-    #   icon: "fab fa-fw"
-    #   url: "https://www.youtube.com/channel/UCnWTpRSfYSxAWmCRUpl4PBQ/featured"
-    # - label: "Twitter"
-    #   icon: "fab fa-fw"
-    #   url: "https://twitter.com/letisiapangataa"
+    - label: "YouTube"
+      icon: "fab fa-fw"
+      url: "https://www.youtube.com/channel/UCnWTpRSfYSxAWmCRUpl4PBQ/featured"
+    - label: "Twitter"
+      icon: "fab fa-fw"
+      url: "https://twitter.com/letisiapangataa"
     - label: "HackerRank"
       icon: "fab fa-fw"
       url: "https://www.hackerrank.com/letisiapangataa?hr_r=1"
 
 footer:
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw"
+      url: "https://www.linkedin.com/in/letisiapangataa/"
     - label: "Github"
+      icon: "fab fa-fw"
       url: "https://github.com/letisiapangataa"
+    - label: "YouTube"
+      icon: "fab fa-fw"
+      url: "https://www.youtube.com/channel/UCnWTpRSfYSxAWmCRUpl4PBQ/featured"
+    - label: "Twitter"
+      icon: "fab fa-fw"
+      url: "https://twitter.com/letisiapangataa"
     - label: "HackerRank"
+      icon: "fab fa-fw"
       url: "https://www.hackerrank.com/letisiapangataa?hr_r=1"
-
 
 teaser: /assets/images/500x300.png
 
