@@ -7,6 +7,8 @@ author_profile: true
 
 ---------------
 <p></p><p></p>
+[**(2021) Self Equipped** <br>E-Commerce Specialist](/portfolio/self-equipped/)
+
 [**(2016) University of Auckland** <br>Undergraduate Student](/portfolio/university-of-auckland/)
 
 [**(2015) Code Tutor ® Education** <br>Publishing Startup](/portfolio/code-tutor-education/)
