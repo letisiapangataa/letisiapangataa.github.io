@@ -1,5 +1,5 @@
 ---
-title: "Karnaugh Maps, Boolean Algebra and Logic Circuits"
+title: "PHYSICS 140 : Karnaugh Maps, Boolean Algebra and Logic Circuits"
 header:
   overlay_color: "#000"
   overlay_filter: "0.7"
