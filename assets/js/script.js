@@ -51,37 +51,37 @@ stage.addChild(background);
 var waves1, waves2, waves3, waves4, waves5, computer, sun, leaves;
 
 
-function buildWaves()
-{
-  waves1 = PIXI.Sprite.from('https://res.cloudinary.com/louiy9obu/image/upload/v1630422570/wave_ffexp3.png');
-  waves2 = PIXI.Sprite.from('https://res.cloudinary.com/louiy9obu/image/upload/v1630422570/wave_ffexp3.png');
-  waves3 = PIXI.Sprite.from('https://res.cloudinary.com/louiy9obu/image/upload/v1630422570/wave_ffexp3.png');
-  waves4 = PIXI.Sprite.from('https://res.cloudinary.com/louiy9obu/image/upload/v1630422570/wave_ffexp3.png');
-  waves5 = PIXI.Sprite.from('https://res.cloudinary.com/louiy9obu/image/upload/v1630422570/wave_ffexp3.png');
+// function buildWaves()
+// {
+//   waves1 = PIXI.Sprite.from('https://res.cloudinary.com/louiy9obu/image/upload/v1630422570/wave_ffexp3.png');
+//   waves2 = PIXI.Sprite.from('https://res.cloudinary.com/louiy9obu/image/upload/v1630422570/wave_ffexp3.png');
+//   waves3 = PIXI.Sprite.from('https://res.cloudinary.com/louiy9obu/image/upload/v1630422570/wave_ffexp3.png');
+//   waves4 = PIXI.Sprite.from('https://res.cloudinary.com/louiy9obu/image/upload/v1630422570/wave_ffexp3.png');
+//   waves5 = PIXI.Sprite.from('https://res.cloudinary.com/louiy9obu/image/upload/v1630422570/wave_ffexp3.png');
 
-  waves1.anchor.set(1.5, 0.17);
-  waves2.anchor.set(1, 0.10);
-  waves3.anchor.set(0.5, 0.13);
-  waves4.anchor.set(-0.2, 0.10);
-  waves5.anchor.set(-0.7, 0.10);
+//   waves1.anchor.set(1.5, 0.17);
+//   waves2.anchor.set(1, 0.10);
+//   waves3.anchor.set(0.5, 0.13);
+//   waves4.anchor.set(-0.2, 0.10);
+//   waves5.anchor.set(-0.7, 0.10);
 
-  waves1.x = stageWidth / 2;
-  waves1.y = stageHeight / 2;
+//   waves1.x = stageWidth / 2;
+//   waves1.y = stageHeight / 2;
 
-  waves2.x = stageWidth / 2;
-  waves2.y = stageHeight / 2;
+//   waves2.x = stageWidth / 2;
+//   waves2.y = stageHeight / 2;
 
-  waves3.x = stageWidth / 2;
-  waves3.y = stageHeight / 2;
+//   waves3.x = stageWidth / 2;
+//   waves3.y = stageHeight / 2;
 
-  waves4.x = stageWidth / 2;
-  waves4.y = stageHeight / 2;
+//   waves4.x = stageWidth / 2;
+//   waves4.y = stageHeight / 2;
 
-  waves5.x = stageWidth / 2;
-  waves5.y = stageHeight / 2;
+//   waves5.x = stageWidth / 2;
+//   waves5.y = stageHeight / 2;
 
-  stage.addChild(waves1, waves2, waves3, waves4, waves5);
-};
+//   stage.addChild(waves1, waves2, waves3, waves4, waves5);
+// };
 
 function buildComputer()
 {
@@ -113,117 +113,117 @@ function buildSun()
   stage.addChild(sun);
 };
 
-function buildLeaves()
-{
-  leaves = PIXI.Sprite.from('https://res.cloudinary.com/louiy9obu/image/upload/v1630422571/leaf-2_bwoyu8.png');
+// function buildLeaves()
+// {
+//   leaves = PIXI.Sprite.from('https://res.cloudinary.com/louiy9obu/image/upload/v1630422571/leaf-2_bwoyu8.png');
 
-  leaves.width = leaves.width / 1;
-  leaves.height = leaves.height / 1;
+//   leaves.width = leaves.width / 1;
+//   leaves.height = leaves.height / 1;
 
-  leaves.anchor.set(1.5, 0.27, 1, 2);
+//   leaves.anchor.set(1.5, 0.27, 1, 2);
 
-  leaves.x = stageWidth / 2+40;
-  leaves.y = stageHeight / 2;
+//   leaves.x = stageWidth / 2+40;
+//   leaves.y = stageHeight / 2;
 
-  leaves.pivot.set(20,2);
+//   leaves.pivot.set(20,2);
 
-  stage.addChild(leaves);
-};
+//   stage.addChild(leaves);
+// };
 
-function animateText() {
+// function animateText() {
 
-  // first a bit of logic to determine whether the movement direction should be changed
+//   // first a bit of logic to determine whether the movement direction should be changed
 
-  // if the (text + text's width) is already at or just outside the stage's right border
-  // or if it's at or just outside the stage's left border, then ...
-  if (
-    ( text.x + text.width ) >= stageWidth ||
-    ( text.x <= 0 )
-  ) {
+//   // if the (text + text's width) is already at or just outside the stage's right border
+//   // or if it's at or just outside the stage's left border, then ...
+//   if (
+//     ( text.x + text.width ) >= stageWidth ||
+//     ( text.x <= 0 )
+//   ) {
 
-    // reverse the direction by changing the text.vx value to negative
-    // multiply the existing value by -1
-    text.vx *= -1;
+//     // reverse the direction by changing the text.vx value to negative
+//     // multiply the existing value by -1
+//     text.vx *= -1;
 
-  }
+//   }
 
-  // now do the same check for the top and bottom stage borders
-  if (
-    ( text.y + text.height ) >= stageHeight ||
-    ( text.y <= 0 )
-  ) {
+//   // now do the same check for the top and bottom stage borders
+//   if (
+//     ( text.y + text.height ) >= stageHeight ||
+//     ( text.y <= 0 )
+//   ) {
 
-    // reverse the direction by changing the text.vx value to negative
-    // multiply the existing value by -1
-    text.vy *= -1;
+//     // reverse the direction by changing the text.vx value to negative
+//     // multiply the existing value by -1
+//     text.vy *= -1;
 
-  }
+//   }
 
-  // add the text's movement speed to the text's horizontal position
-  text.x += text.vx;
-  // add the text's movement speed to the text's vertical position
-  text.y += text.vy;
+//   // add the text's movement speed to the text's horizontal position
+//   text.x += text.vx;
+//   // add the text's movement speed to the text's vertical position
+//   text.y += text.vy;
 
-}
+// }
 
-function animateRectangle() {
+// function animateRectangle() {
 
-  // first a bit of logic to determine whether the movement direction should be changed
+//   // first a bit of logic to determine whether the movement direction should be changed
 
-  // if the (text + text's width) is already at or just outside the stage's right border
-  // or if it's at or just outside the stage's left border, then ...
-  if (
-    ( rectangle.x + rectangle.width ) >= stageWidth ||
-    ( rectangle.x <= 0 )
-  ) {
+//   // if the (text + text's width) is already at or just outside the stage's right border
+//   // or if it's at or just outside the stage's left border, then ...
+//   if (
+//     ( rectangle.x + rectangle.width ) >= stageWidth ||
+//     ( rectangle.x <= 0 )
+//   ) {
 
-    // reverse the direction by changing the text.vx value to negative
-    // multiply the existing value by -1
-    rectangle.vx *= -1;
+//     // reverse the direction by changing the text.vx value to negative
+//     // multiply the existing value by -1
+//     rectangle.vx *= -1;
 
-  }
+//   }
 
-  // now do the same check for the top and bottom stage borders
-  if (
-    ( rectangle.y + rectangle.height ) >= stageHeight ||
-    ( rectangle.y <= 0 )
-  ) {
+//   // now do the same check for the top and bottom stage borders
+//   if (
+//     ( rectangle.y + rectangle.height ) >= stageHeight ||
+//     ( rectangle.y <= 0 )
+//   ) {
 
-    // reverse the direction by changing the text.vx value to negative
-    // multiply the existing value by -1
-    rectangle.vy *= -1;
+//     // reverse the direction by changing the text.vx value to negative
+//     // multiply the existing value by -1
+//     rectangle.vy *= -1;
 
-  }
+//   }
 
-  // add the text's movement speed to the text's horizontal position
-  rectangle.x += rectangle.vx;
-  // add the text's movement speed to the text's vertical position
-  rectangle.y += rectangle.vy;
+//   // add the text's movement speed to the text's horizontal position
+//   rectangle.x += rectangle.vx;
+//   // add the text's movement speed to the text's vertical position
+//   rectangle.y += rectangle.vy;
 
-}
+// }
 
-let count = 0;
+// let count = 0;
 
-function animateWaves() {
+// function animateWaves() {
 
-  waves1.scale.x = 1 + Math.sin(count) * 0.04;
-  waves1.scale.y = 1 + Math.cos(count) * 0.04;
+//   waves1.scale.x = 1 + Math.sin(count) * 0.04;
+//   waves1.scale.y = 1 + Math.cos(count) * 0.04;
 
-  waves2.scale.x = 1 + Math.sin(count) * 0.04;
-  waves2.scale.y = 1 + Math.cos(count) * 0.04;
+//   waves2.scale.x = 1 + Math.sin(count) * 0.04;
+//   waves2.scale.y = 1 + Math.cos(count) * 0.04;
 
-  count += 0.1;
+//   count += 0.1;
 
-}
+// }
 
-function animateComputer() {
+// function animateComputer() {
 
-  computer.scale.x = 1 + Math.sin(count) * 0.04;
-  computer.scale.y = 1 + Math.cos(count) * 0.04;
+//   computer.scale.x = 1 + Math.sin(count) * 0.04;
+//   computer.scale.y = 1 + Math.cos(count) * 0.04;
 
-  count += 0.1;
+//   count += 0.1;
 
-}
+// }
 
 function runAnimationTest() {
 
@@ -243,9 +243,10 @@ function runAnimationTest() {
 
 // buildTextObject();
 // buildSquare();
-buildSun();
+
 // buildWaves();
 // buildLeaves();
+buildSun();
 buildComputer();
 
 
