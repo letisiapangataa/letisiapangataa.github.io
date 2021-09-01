@@ -43,7 +43,7 @@ renderer.resize(stageWidth, stageHeight);
 
 stage = new Container();
 
-const background = PIXI.Sprite.from('https://res.cloudinary.com/louiy9obu/image/upload/v1630422544/background_jyteaq.png');
+const background = PIXI.Sprite.from('https://res.cloudinary.com/louiy9obu/image/upload/v1630504998/bg1_w14ihb.png');
 background.width = stageWidth;
 background.height = stageHeight;
 stage.addChild(background);
@@ -100,7 +100,7 @@ function buildComputer()
 
 function buildSun()
 {
-  sun = PIXI.Sprite.from('https://res.cloudinary.com/louiy9obu/image/upload/v1630422570/sun_ph31mn.png');
+  sun = PIXI.Sprite.from('https://res.cloudinary.com/louiy9obu/image/upload/v1630505661/moon_white_light_y3jwte.png');
 
   sun.width = sun.width / 1;
   sun.height = sun.height / 1;
@@ -202,7 +202,7 @@ function buildSun()
 
 // }
 
-// let count = 0;
+let count = 0;
 
 // function animateWaves() {
 
@@ -225,6 +225,24 @@ function buildSun()
 
 // }
 
+function animateSun() {
+
+  sun.scale.x = 1 + Math.sin(count) * 0.04;
+  sun.scale.y = 1 + Math.cos(count) * 0.04;
+
+  count += 0.1;
+
+}
+
+// function animateBackground() {
+
+//   background.scale.x = 1 + Math.sin(count) * 0.04;
+//   background.scale.y = 1 + Math.cos(count) * 0.04;
+
+//   count += 0.1;
+
+// }
+
 function runAnimationTest() {
 
   // Loop this function at a default rate of 60 frames per second
@@ -235,6 +253,8 @@ function runAnimationTest() {
   // animateRectangle();
   // animateWaves();
   // animateComputer();
+  animateSun();
+  // animateBackground();
 
   // render the stage a.k.a. construct the stage graphically
   renderer.render(stage);
