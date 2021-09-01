@@ -211,21 +211,6 @@ function runAnimationTest() {
 
 }
 
-function resize() {
-  if (window.innerWidth / window.innerHeight >= ratio) {
-      var w = window.innerHeight * ratio;
-      var h = window.innerHeight;
-  } else {
-      var w = window.innerWidth;
-      var h = window.innerWidth / ratio;
-  }
-  renderer.view.style.width = w + 'px';
-  renderer.view.style.height = h + 'px';
-}
-window.onresize = function(event) {
-  resize();
-};
-
 buildTextObject();
 buildSquare();
 buildWaves();
