@@ -48,66 +48,86 @@ background.width = stageWidth;
 background.height = stageHeight;
 stage.addChild(background);
 
-var text, rectangle, Waves1, Waves2;
+var waves1, waves2, waves3, waves4, waves5, computer, sun, leaves;
 
-function buildTextObject() {
-
-  // build some text
-  text = new Text(
-    "Letisia's Technology Portfolio", { // "Hello World!" will be the initial text value
-      fontFamily: "Helvetica",
-      fontSize: 50,
-      fill: "white"
-    }
-  );
-
-  // set the text position roughly at the centre of the stage
-  text.position.set(stageWidth / 2, stageHeight / 2);
-
-  // set the text movement speed
-  text.vx = 5;
-  text.vy = 5;
-
-  // add the text to the stage so it becomes visible once rendered below
-  stage.addChild(text);
-
-}
-
-function buildSquare()
-{
-  rectangle = new Graphics();
-  rectangle.lineStyle(4, 0xFF3300, 1);
-  rectangle.beginFill(0x66CCFF);
-  rectangle.drawRect(0, 0, 64, 64);
-  rectangle.endFill();
-  rectangle.x = 170;
-  rectangle.y = 170;
-  rectangle.vx = 7;
-  rectangle.vy = 7;
-  stage.addChild(rectangle);
-};
 
 function buildWaves()
 {
-  Waves1 = PIXI.Sprite.from('https://res.cloudinary.com/louiy9obu/image/upload/v1630422570/wave_ffexp3.png');
-  Waves2 = PIXI.Sprite.from('https://res.cloudinary.com/louiy9obu/image/upload/v1630422570/wave_ffexp3.png');
-  Waves3 = PIXI.Sprite.from('https://res.cloudinary.com/louiy9obu/image/upload/v1630422570/wave_ffexp3.png');
+  waves1 = PIXI.Sprite.from('https://res.cloudinary.com/louiy9obu/image/upload/v1630422570/wave_ffexp3.png');
+  waves2 = PIXI.Sprite.from('https://res.cloudinary.com/louiy9obu/image/upload/v1630422570/wave_ffexp3.png');
+  waves3 = PIXI.Sprite.from('https://res.cloudinary.com/louiy9obu/image/upload/v1630422570/wave_ffexp3.png');
+  waves4 = PIXI.Sprite.from('https://res.cloudinary.com/louiy9obu/image/upload/v1630422570/wave_ffexp3.png');
+  waves5 = PIXI.Sprite.from('https://res.cloudinary.com/louiy9obu/image/upload/v1630422570/wave_ffexp3.png');
 
+  waves1.anchor.set(1.5, 0.17);
+  waves2.anchor.set(1, 0.10);
+  waves3.anchor.set(0.5, 0.13);
+  waves4.anchor.set(-0.2, 0.10);
+  waves5.anchor.set(-0.7, 0.10);
 
-  Waves1.anchor.set(1.5, 0.17);
-  Waves2.anchor.set(1, 0.16);
-  Waves3.anchor.set(0.8, 0.17);
+  waves1.x = stageWidth / 2;
+  waves1.y = stageHeight / 2;
 
-  Waves1.x = stageWidth / 2;
-  Waves1.y = stageHeight / 2;
+  waves2.x = stageWidth / 2;
+  waves2.y = stageHeight / 2;
 
-  Waves2.x = stageWidth / 2;
-  Waves2.y = stageHeight / 2;
+  waves3.x = stageWidth / 2;
+  waves3.y = stageHeight / 2;
 
-  Waves3.x = stageWidth / 2;
-  Waves3.y = stageHeight / 2;
+  waves4.x = stageWidth / 2;
+  waves4.y = stageHeight / 2;
 
-  stage.addChild(Waves1, Waves2, Waves3);
+  waves5.x = stageWidth / 2;
+  waves5.y = stageHeight / 2;
+
+  stage.addChild(waves1, waves2, waves3, waves4, waves5);
+};
+
+function buildComputer()
+{
+  computer = PIXI.Sprite.from('https://res.cloudinary.com/louiy9obu/image/upload/v1630501240/IMG_8387_2_ydskhm.png');
+
+  computer.width = computer.width / 2;
+  computer.height = computer.height / 2;
+
+  computer.anchor.set(0.5, 0.5);
+
+  computer.x = stageWidth / 2;
+  computer.y = stageHeight / 2;
+
+  stage.addChild(computer);
+};
+
+function buildSun()
+{
+  sun = PIXI.Sprite.from('https://res.cloudinary.com/louiy9obu/image/upload/v1630422570/sun_ph31mn.png');
+
+  sun.width = sun.width / 1;
+  sun.height = sun.height / 1;
+
+  sun.anchor.set(0.5, 0.5);
+
+  sun.x = stageWidth / 2;
+  sun.y = stageHeight / 2;
+
+  stage.addChild(sun);
+};
+
+function buildLeaves()
+{
+  leaves = PIXI.Sprite.from('https://res.cloudinary.com/louiy9obu/image/upload/v1630422571/leaf-2_bwoyu8.png');
+
+  leaves.width = leaves.width / 1;
+  leaves.height = leaves.height / 1;
+
+  leaves.anchor.set(1.5, 0.27, 1, 2);
+
+  leaves.x = stageWidth / 2+40;
+  leaves.y = stageHeight / 2;
+
+  leaves.pivot.set(20,2);
+
+  stage.addChild(leaves);
 };
 
 function animateText() {
@@ -186,11 +206,20 @@ let count = 0;
 
 function animateWaves() {
 
-  Waves1.scale.x = 1 + Math.sin(count) * 0.04;
-  Waves1.scale.y = 1 + Math.cos(count) * 0.04;
+  waves1.scale.x = 1 + Math.sin(count) * 0.04;
+  waves1.scale.y = 1 + Math.cos(count) * 0.04;
 
-  Waves2.scale.x = 1 + Math.sin(count) * 0.04;
-  Waves2.scale.y = 1 + Math.cos(count) * 0.04;
+  waves2.scale.x = 1 + Math.sin(count) * 0.04;
+  waves2.scale.y = 1 + Math.cos(count) * 0.04;
+
+  count += 0.1;
+
+}
+
+function animateComputer() {
+
+  computer.scale.x = 1 + Math.sin(count) * 0.04;
+  computer.scale.y = 1 + Math.cos(count) * 0.04;
 
   count += 0.1;
 
@@ -202,16 +231,22 @@ function runAnimationTest() {
   requestAnimationFrame(runAnimationTest);
 
   // perform animation
-  animateText();
-  animateRectangle();
-  animateWaves();
+  // animateText();
+  // animateRectangle();
+  // animateWaves();
+  // animateComputer();
 
   // render the stage a.k.a. construct the stage graphically
   renderer.render(stage);
 
 }
 
-buildTextObject();
-buildSquare();
-buildWaves();
+// buildTextObject();
+// buildSquare();
+buildSun();
+// buildWaves();
+// buildLeaves();
+buildComputer();
+
+
 runAnimationTest();
