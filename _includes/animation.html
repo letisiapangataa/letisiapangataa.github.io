@@ -1,0 +1,13 @@
+<script>
+    // Create the application helper and add its render target to the page
+    let app = new PIXI.Application({ width: 1000, height: 450 });
+    document.body.appendChild(app.view);
+
+    // Create the sprite and add it to the stage
+    let sprite = PIXI.Sprite.from('https://res.cloudinary.com/louiy9obu/image/upload/v1628415752/119733933_2564855710491190_8394578309449864302_n_e2ne9x.jpg');
+    let sprite1 = PIXI.Sprite.from('https://res.cloudinary.com/louiy9obu/image/upload/v1626007342/favicon_psdggj.png');
+    app.stage.addChild(sprite);
+    app.stage.addChild(sprite1);
+
+    // Add a ticker callback to move the sprite back and forth
+</script>

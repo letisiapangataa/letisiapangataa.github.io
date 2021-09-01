@@ -117,6 +117,11 @@
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
 /*!
  * Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
  * Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
@@ -271,7 +276,7 @@
  
  article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section { display: block; }
  
- audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; border: 1px solid #000; }
+ audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
  
  audio:not([controls]) { display: none; }
  
@@ -890,7 +895,7 @@
  
  .page__footer::after { clear: both; content: ""; display: table; }
  
- .page__footer footer { clear: both; margin-left: auto; margin-right: auto; margin-top: 2em; max-width: 100%; padding: 0 1em 2em; }
+ .page__footer footer { clear: both; margin-left: auto; margin-right: auto; margin-top: 2em; line-height: 2.2; padding: 0 1em 2em; }
  
  .page__footer footer::after { clear: both; content: ""; display: table; }
  
@@ -1354,7 +1359,7 @@
  
  .taxonomy__section { margin-bottom: 2em; padding-bottom: 1em; }
  
- .taxonomy__section:not(:last-child) { border-bottom: solid 1px #f2f3f3; }
+ .taxonomy__section:not(:last-child) {}
  
  .taxonomy__section .archive__item-title { margin-top: 0; }
  
@@ -1671,7 +1676,7 @@
  
  .page__hero--overlay .page__title, .page__hero--overlay .page__meta, .page__hero--overlay .comment__date, .page__hero--overlay .comment__date, .page__hero--overlay .page__lead, .page__hero--overlay .btn, .page__hero--overlay #goog-wm-sb, .page__hero--overlay #goog-wm-sb { color: #fff; }
  
- .page .page__inner-wrap .page__content, .page .page__inner-wrap .page__meta, .page .page__inner-wrap .comment__date, .page .page__inner-wrap .comment__date, .page .page__inner-wrap .comment__date, .page .page__inner-wrap .page__share { position: relative; float: left; margin-left: 0; margin-right: 0; width: 100%; clear: both; font-size: 0.7em; color: #000000; line-height: 2; font-size: 0.9em; }
+ .page .page__inner-wrap .page__content, .page .page__inner-wrap .page__meta, .page .page__inner-wrap .comment__date, .page .page__inner-wrap .comment__date, .page .page__inner-wrap .comment__date, .page .page__inner-wrap .page__share { position: relative; float: left; margin-left: 0; margin-right: 0; width: 100%; clear: both; font-size: 0.87em; color: #000000; line-height: 2; }
  
  .greedy-nav .visible-links a:before { content: ""; position: absolute; left: 0; bottom: 0px; height: 1px; background: #7a82889c; width: 100%; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; -webkit-transform: scaleX(0) translate3d(0, 0, 0); transform: scaleX(0) translate3d(0, 0, 0); }
  
@@ -1694,7 +1699,7 @@
  
  b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, #goog-wm-sb, #goog-wm-sb, .highlight, .archive__item-teaser { -webkit-transition: none; transition: none; }
  
- .page__hero--overlay {position: relative;margin-bottom: 0.3em;padding: 5em 0em 4em 0em;clear: both;background-size: cover;background-repeat: no-repeat;background-position: center;-webkit-animation: intro 0.3s both;animation: intro 0.3s both;-webkit-animation-delay: 0.25s;animation-delay: 0.25s;box-shadow: 5px 14px 0px #cacaca42;border-bottom: 1px solid #000;}
+ .page__hero--overlay { position: relative; margin-bottom: 0.3em; padding: 5em 0em 4em 0em; clear: both; background-size: cover; background-repeat: no-repeat; background-position: center; -webkit-animation: intro 0.3s both; animation: intro 0.3s both; -webkit-animation-delay: 0.25s; animation-delay: 0.25s; box-shadow: 5px 14px 0px #cacaca42; border-bottom: 1px solid #000; }
  
  #main { padding-top: 3em; padding-bottom: 3em; }
  
@@ -1786,5 +1791,5 @@
  
  .page__meta p, .comment__date p, .comment__date p { font-family: 'JetBrains Mono', monospace; font-size: 0.8em; }
  
- .awesome { height: calc(100% - 300px); }
+ #animation { width: 100%; height: 80%; }
  
