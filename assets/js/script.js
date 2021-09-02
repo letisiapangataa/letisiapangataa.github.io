@@ -83,20 +83,20 @@ var waves1, waves2, waves3, waves4, waves5, computer, sun, leaves;
 //   stage.addChild(waves1, waves2, waves3, waves4, waves5);
 // };
 
-function buildComputer()
-{
-  computer = PIXI.Sprite.from('https://res.cloudinary.com/louiy9obu/image/upload/v1630501240/IMG_8387_2_ydskhm.png');
+// function buildComputer()
+// {
+//   computer = PIXI.Sprite.from('https://res.cloudinary.com/louiy9obu/image/upload/v1630501240/IMG_8387_2_ydskhm.png');
 
-  computer.width = computer.width / 2;
-  computer.height = computer.height / 2;
+//   computer.width = computer.width / 2;
+//   computer.height = computer.height / 2;
 
-  computer.anchor.set(0.5, 0.5);
+//   computer.anchor.set(0.5, 0.5);
 
-  computer.x = stageWidth / 2;
-  computer.y = stageHeight / 2;
+//   computer.x = stageWidth / 2;
+//   computer.y = stageHeight / 2;
 
-  stage.addChild(computer);
-};
+//   stage.addChild(computer);
+// };
 
 function buildSun()
 {
@@ -111,6 +111,18 @@ function buildSun()
   sun.y = stageHeight / 2;
 
   stage.addChild(sun);
+
+  computer = PIXI.Sprite.from('https://res.cloudinary.com/louiy9obu/image/upload/v1630501240/IMG_8387_2_ydskhm.png');
+
+  computer.width = computer.width / 2;
+  computer.height = computer.height / 2;
+
+  computer.anchor.set(0.5, 0.5);
+
+  computer.x = stageWidth / 2;
+  computer.y = stageHeight / 2;
+
+  stage.addChild(computer);
 };
 
 // function buildLeaves()
@@ -267,7 +279,19 @@ function runAnimationTest() {
 // buildWaves();
 // buildLeaves();
 buildSun();
-buildComputer();
+// buildComputer();
+
+// computer = PIXI.Sprite.from('https://res.cloudinary.com/louiy9obu/image/upload/v1630501240/IMG_8387_2_ydskhm.png');
+
+// computer.width = computer.width / 2;
+// computer.height = computer.height / 2;
+
+// computer.anchor.set(0.5, 0.5);
+
+// computer.x = stageWidth / 2;
+// computer.y = stageHeight / 2;
+
+// stage.addChild(computer);
 
 
 runAnimationTest();
