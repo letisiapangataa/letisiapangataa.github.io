@@ -1,5 +1,6 @@
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
 /*!
  * Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
  * Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
@@ -1169,7 +1170,7 @@
  
  .page__content h1:hover .header-link, .page__content h2:hover .header-link, .page__content h3:hover .header-link, .page__content h4:hover .header-link, .page__content h5:hover .header-link, .page__content h6:hover .header-link { opacity: 1; }
  
- .page__content p, .page__content li, .page__content dl { font-size: 0.95em; }
+ .page__content p, .page__content li, .page__content dl {font-size: 0.85em;}
  
  .page__content p { margin: 0 0 1.3em; }
  
@@ -1237,7 +1238,7 @@
  
  .taxonomy__section { margin-bottom: 2em; padding-bottom: 1em; }
  
- .taxonomy__section:not(:last-child) {border-bottom: 0;}
+ .taxonomy__section:not(:last-child) { border-bottom: 0; }
  
  .taxonomy__section .archive__item-title { margin-top: 0; }
  
