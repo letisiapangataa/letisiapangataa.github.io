@@ -4,16 +4,8 @@ permalink: /academia/
 author_profile: true
 ---
 ---------------
-<p></p>
-Tackling academia as a full-time and part-time student who has once begun her journey as a self-taught computer programmer and designer, has provided a fresh set of challenges. Academia structured learning challenged my creative and practical learning style with foundation and structure.
-<p></p>
-<!-- ---------------
 <p></p><p></p>
-### Contents
-<p></p>
-**[(2013) Windows 8 Applications](/portfolio/windows-8-applications/)**
-<br>Published Applications
-
-<p></p><p></p> -->
+[**University of Auckland (Class of 2022)** <br>Bachelor in Science, Computer Science and Information Systems](/academia/undergraduate-uoa)
+<!-- [**(2013) Windows 8 Applications** <br>Published Applications](/portfolio/windows-8-applications/) -->
+<p></p><p></p>
 ---------------
-
