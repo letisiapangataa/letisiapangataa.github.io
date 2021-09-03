@@ -5,6 +5,8 @@ main:
     url: /software/
   - title: "Visuals + Design"
     url: /visuals-and-design/
+  - title: "Academia"
+    url: /academia/
   - title: "Categories"
     url: /categories/
   - title: "About"
