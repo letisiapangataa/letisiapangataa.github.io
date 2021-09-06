@@ -1,45 +1,78 @@
-var size = [1920, 1080];
-var ratio = size[0] / size[1];
-var stage = new PIXI.Stage(0x333333, true);
-var renderer = PIXI.autoDetectRenderer(size[0], size[1], null);
+const app = new PIXI.Application({ transparent: true });
 
-document.body.appendChild(renderer.view);
+// document.body.appendChild(app.view);
+var myView = document.getElementById('animation').appendChild(app.view);
+var renderer = PIXI.autoDetectRenderer(myView); 
 
-var texture = new PIXI.RenderTexture();
-r1 = new PIXI.Graphics();
-r1.beginFill(0x00ffff);
-r1.drawRect(0, 0, 100, 100);
-r1.endFill();
-texture.render(r1);
+const loader = PIXI.Loader.shared;
 
-var block = new PIXI.Sprite(texture);
-block.position.x = 100;
-block.position.y = 100;
-block.anchor.x = .5;
-block.anchor.y = .5;
-stage.addChild(block);
-requestAnimFrame(animate);
+loader
+.add('background', 'https://res.cloudinary.com/louiy9obu/image/upload/v1630504998/bg1_w14ihb.png')
+.add('moon', 'https://res.cloudinary.com/louiy9obu/image/upload/v1630505661/moon_white_light_y3jwte.png')
+.add('computer', 'https://res.cloudinary.com/louiy9obu/image/upload/v1630501240/IMG_8387_2_ydskhm.png')
+.load(setup)
+.load(animateMoon)
 
-resize();
+//Listen for loading events
+loader.onProgress.add((loader) => {
+  console.log(loader.progress);
+}); 
 
-function animate() {
-    requestAnimFrame(animate);
-    block.rotation += .01;
-    renderer.render(stage);
+var background, moon, computer;
+
+function setup() {
+  const background = new PIXI.Sprite(
+    loader.resources["background"].texture
+  );
+  background.width = app.screen.width;
+  background.height = app.screen.height;
+
+  background.anchor.set(0.5);
+
+  background.x = app.screen.width / 2;
+  background.y = app.screen.height / 2;
+
+  const moon = new PIXI.Sprite(
+    loader.resources["moon"].texture
+  );
+  moon.width = moon.width / 1.6;
+  moon.height = moon.height / 1.2;
+
+  moon.anchor.set(0.5, 0.5);
+
+  moon.x = app.screen.width / 2;
+  moon.y = app.screen.height / 2;
+
+
+  const computer = new PIXI.Sprite(
+    loader.resources["computer"].texture
+  );
+  computer.width = computer.width / 3.3;
+  computer.height = computer.height / 2.4;
+
+  computer.anchor.set(0.5, 0.5);
+
+  computer.x = app.screen.width / 2;
+  computer.y = app.screen.height / 2;
+
+  app.stage.addChild(background);
+  app.stage.addChild(moon);
+  app.stage.addChild(computer);
 }
 
-function resize() {
-    if (window.innerWidth / window.innerHeight >= ratio) {
-        var w = window.innerHeight * ratio;
-        var h = window.innerHeight;
-    } else {
-        var w = window.innerWidth;
-        var h = window.innerWidth / ratio;
-    }
-    renderer.view.style.width = w + 'px';
-    renderer.view.style.height = h + 'px';
+let count = 0;
+
+function animateMoon() {
+
+  moon.scale.x = 1 + Math.sin(count) * 0.04;
+  moon.scale.y = 1 + Math.cos(count) * 0.04;
+
+  count += 0.1;
+
 }
 
-window.onresize = function(event) {
-    resize();
-};
+app.ticker.add(() => {
+  animateMoon();
+  //   // just for fun, let's rotate mr rabbit a little
+  // computer.rotation += 0.1;
+});
