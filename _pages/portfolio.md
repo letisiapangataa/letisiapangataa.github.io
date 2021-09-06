@@ -12,7 +12,7 @@ author_profile: true
 
 [**(2021) Self Equipped** <br>E-Commerce Specialist](/portfolio/self-equipped/)
 
-<!-- [**(2020) University of Auckland** <br>Undergraduate Student](/portfolio/university-of-auckland/)
+[**(2020) University of Auckland** <br>Undergraduate Student](/portfolio/university-of-auckland/)
 
 [**(2019) University of Auckland** <br>Undergraduate Student](/portfolio/university-of-auckland/)
 
@@ -20,7 +20,7 @@ author_profile: true
 
 [**(2017) University of Auckland** <br>Undergraduate Student](/portfolio/university-of-auckland/)
 
-[**(2016) University of Auckland** <br>Undergraduate Student](/portfolio/university-of-auckland/) -->
+[**(2016) University of Auckland** <br>Undergraduate Student](/portfolio/university-of-auckland/)
 
 [**(2015) Code Tutor ® Education** <br>Publishing Startup](/portfolio/code-tutor-education/)
 
