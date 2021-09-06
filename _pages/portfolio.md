@@ -8,7 +8,7 @@ author_profile: true
 ---------------
 <p></p><p></p>
 
-[**(2021) Certified Lover Boy x Interactive Album** <br>Published Applications](https://certifiedloverboy.vercel.app/)
+[**(2021) Certified Lover Boy x Interactive Album** <br>Application Developer](https://certifiedloverboy.vercel.app/)
 
 [**(2021) Self Equipped** <br>E-Commerce Specialist](/portfolio/self-equipped/)
 
