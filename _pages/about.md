@@ -3,6 +3,8 @@ title: "Mālō e lelei. <br>Kia ora. <br>Hello."
 permalink: /about/
 ---
 
+<p></p>
+
 Ko hoku hingoa ko Letisia. 
 <br>Ko Letisia tōku ingoa. 
 <br>My name is Letisia.
