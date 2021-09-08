@@ -8,7 +8,7 @@ author_profile: true
 ### Publishing Startup (Code Tutor ® Education)
 <p></p>
 
-**Skills :** Business Fundamentals, Branding, Marketing, Social Media Marketing, Project Management, Visual Design, Creative Director, Project Management, E-Commerce, UI Design, Computer Programming.
+**Skills :** Business and E-Commerce Fundamentals, Branding, Marketing, Social Media Marketing, Project Management, Visual Design, Creative Director, Product Development, UI Design, Computer Programming.
 <br>**Technical Skills :** HTML5 Front-End Knowledge, JavaScript, Adobe Creative Suite Software.
 
 Inspired by my Kids Holiday Program I had embarked on a new venture called "Code Tutor ®" rebranded to Code Tutor ® Education. Code Tutor ® Education is a publishing company set on a mission to inspire future technology endeavours.
