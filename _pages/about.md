@@ -2,9 +2,8 @@
 title: "Mālō e lelei. Kia ora. Hello."
 permalink: /about/
 ---
-Ko hoku hingoa ko Letisia. Ko Letisia tōku ingoa. My name is Letisia.
 
-<img class="profile-img" src="https://res.cloudinary.com/louiy9obu/image/upload/v1631100271/Untitled_crjy1c.png">
+Ko hoku hingoa ko Letisia. Ko Letisia tōku ingoa. My name is Letisia.
 
 Student of computers with a passion for creative arts, business and entrepreneurship, to science and technology. 
 

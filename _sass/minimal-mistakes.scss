@@ -6,6 +6,7 @@
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
 /*!
  * Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
  * Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
@@ -174,7 +175,7 @@
  
  sub { bottom: -0.25em; }
  
- img {max-width: 100%;width: auto\9;height: auto;vertical-align: middle;border: 0;-ms-interpolation-mode: bicubic;/* border: 1px solid #000000; */}
+ img { max-width: 100%; width: auto\9; height: auto; vertical-align: middle; border: 0; -ms-interpolation-mode: bicubic; /* border: 1px solid #000000; */ }
  
  #map_canvas img, .google-maps img { max-width: none; }
  
@@ -1679,3 +1680,6 @@
  
  .page__content p, .page__content li, .page__content dl { font-size: 0.85em; }
  
+ .profile-img {
+     width: 400px;
+ }
