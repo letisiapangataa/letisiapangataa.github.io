@@ -1,25 +1,17 @@
 ---
-title: "Laradise Projects (2013)"
+title: "Windows 8 Applications (2013)"
 permalink: /portfolio/windows-8-applications/
 author_profile: true
 ---
 
 ---------------
-### Windows 8 Applications
+### Published Applications (Application Developer)
 <p></p><p></p>
 
-Published, developed and designed multiple Windows 8 Applications at 18 years old as a self-taught computer programmer.
+**Skills :** Computer Programming, Project Management, Visual Design.
+<br>**Technical Skills :** Microsoft XAML Programming Language, Microsoft Advertising SDK Integration, In-App Purchase on Windows 8, Adobe Creative Suite Software.
 
-My highest downloaded application reached over 20,000+ downloads. Implemented in-app purchases, advertisements and profitable features.
-
----------------
-### Laradise Projects Design (2013)
-<p></p>
-![](https://res.cloudinary.com/louiy9obu/image/upload/v1625800099/11741302_508381542650938_8993926400792846974_o_zt72rj.png)
-
-![](https://res.cloudinary.com/louiy9obu/image/upload/v1625800098/12716063_576751749147250_2702725416283053857_o_doowpv.png)
-
-**Tech Stack :** Adobe Creative Suite Software via Adobe Photoshop CS6.
+Published, developed and designed multiple Windows 8 Applications. My highest downloaded application reached over 20,000+ downloads. Implemented in-app purchases, advertisements and profitable features.
 
 ---------------
 <p></p>
@@ -31,7 +23,7 @@ My highest downloaded application reached over 20,000+ downloads. Implemented in
 
 GTA V Cheatbook was my most successful downloaded application, reaching 20,000+ downloads before being forcibly closed. I've implemented Microsoft Advertising SDK during its first production release.
 
-**Tech Stack :** XAML Programming Language, Visual Studio XAML.
+**Tech Stack :** Microsoft XAML Programming Language, Microsoft Visual Studio XAML.
 <br>**Features :** Implemented Microsoft Advertising SDK.
 
 ---------------
@@ -44,7 +36,7 @@ GTA V Cheatbook was my most successful downloaded application, reaching 20,000+ 
 
 GTA V Walkthroughs is one of the in-app features I've implemented in the GTA V Cheatbook (2013). It has generated a highly successful outcome, supplying users with concise user experience and easy-to-navigate user interface.
 
-**Tech Stack :** XAML Programming Language, Visual Studio XAML.
+**Tech Stack :** Microsoft XAML Programming Language, Microsoft Visual Studio XAML.
 <br>**Features :** Implemented Windows 8 In-App Purchase API.
 
 ---------------
@@ -58,7 +50,7 @@ GTA V Walkthroughs is one of the in-app features I've implemented in the GTA V C
 
 Baby Piano is my second most successful application, reaching over 2000 downloads. It has generated a successful outcome and provides an interactive piano with responsive sounds. It was ideally designed for the Windows 8 tablet device for younger audiences.
 
-**Tech Stack :** XAML Programming Language, Visual Studio XAML.
+**Tech Stack :** Microsoft XAML Programming Language, Microsoft Visual Studio XAML.
 <br>**Features :** Implemented Windows 8 PlaySound API, Microsoft Advertising SDK.
 
 ---------------
@@ -70,7 +62,7 @@ Baby Piano is my second most successful application, reaching over 2000 download
 
 Master Baby Piano is an additional, in-app purchase feature for the Baby Piano (2013) application. It provides an extensive range of sounds compared to Baby Piano (2013).
 
-**Tech Stack :** XAML Programming Language, Visual Studio XAML.
+**Tech Stack :** Microsoft XAML Programming Language, Microsoft Visual Studio XAML.
 <br>**Features :** Implemented Windows 8 PlaySound API, Windows 8 In-App Purchasse API, Microsoft Advertising SDK.
 
 ---------------
@@ -84,7 +76,7 @@ Inspired by my Baby Piano (2013) application, I've applied the same programming 
 
 It was designed with intention that it'll be used on a Windows 8 tablet device, for younger and mature audiences wanting to experiment with sound.
 
-**Tech Stack :** XAML Programming Language, Visual Studio XAML.
+**Tech Stack :** Microsfot XAML Programming Language, Microsoft Visual Studio XAML.
 <br>**Features :** Implemented Windows 8 PlaySound API, Microsoft Advertising SDK.
 
 
@@ -97,7 +89,15 @@ It was designed with intention that it'll be used on a Windows 8 tablet device, 
 
 Learn Simple English provides a simple interactive play of basic English words with a provided emphasis on pronounciation.
 
-**Tech Stack :** XAML Programming Language, Visual Studio XAML.
+**Tech Stack :** Microsoft XAML Programming Language, Microsoft Visual Studio XAML.
 <br>**Features :** Implemented Windows 8 PlaySound API, Microsoft Advertising SDK.
 
 ---------------
+
+### Laradise Projects Design (2013)
+<p></p>
+![](https://res.cloudinary.com/louiy9obu/image/upload/v1625800099/11741302_508381542650938_8993926400792846974_o_zt72rj.png)
+
+![](https://res.cloudinary.com/louiy9obu/image/upload/v1625800098/12716063_576751749147250_2702725416283053857_o_doowpv.png)
+
+**Tech Stack :** Adobe Creative Suite Software via Adobe Photoshop CS6.

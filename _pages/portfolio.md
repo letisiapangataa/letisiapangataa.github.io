@@ -10,6 +10,8 @@ author_profile: true
 
 [**(2021) Certified Lover Boy x Interactive Album** <br>Application Developer](https://certifiedloverboy.vercel.app/)
 
+[**(2021) Kolomua** <br>Application Developer](/portfolio/kolomua/)
+
 [**(2021) Self Equipped** <br>E-Commerce Specialist](/portfolio/self-equipped/)
 
 <!-- [**(2020) University of Auckland** <br>Undergraduate Student](/portfolio/university-of-auckland/)
@@ -19,10 +21,11 @@ author_profile: true
 [**(2018) University of Auckland** <br>Undergraduate Student](/portfolio/university-of-auckland/)
 
 [**(2017) University of Auckland** <br>Undergraduate Student](/portfolio/university-of-auckland/) -->
-
-[**(2016 - 2023) University of Auckland** <br>Undergraduate Student](/portfolio/university-of-auckland/)
+[**(2016 - 2023) University of Auckland** <br>Computer Science and Information Systems](/academia)
 
 [**(2015) Code Tutor ® Education** <br>Publishing Startup](/portfolio/code-tutor-education/)
+
+[**(2014) Teaching Assistant** <br>Ruby on Rails](/portfolio/teaching-assistant/)
 
 [**(2014) Kids Holiday Program** <br>Educational Course](/portfolio/kids-holiday-program/)
 
