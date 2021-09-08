@@ -1,12 +1,16 @@
 ---
-title: "Mālō e lelei. Kia ora. Hello."
+title: "Mālō e lelei. <br>Kia ora. <br>Hello."
 permalink: /about/
 ---
 
-Ko hoku hingoa ko Letisia. Ko Letisia tōku ingoa. My name is Letisia.
+Ko hoku hingoa ko Letisia. 
+<br>Ko Letisia tōku ingoa. 
+<br>My name is Letisia.
 
-Student of computers with a passion for creative arts, business and entrepreneurship, to science and technology. 
+Student of Computers at [University of Auckland](/academia) with a passion for Creative Arts, Business and Entrepreneurship to Science and Technology. 
 
-Inspired by my interests and Tongan heritage, focused on providing creative insight into individual and professional projects.
+Actively inspired by problems, solutions, trends, pop culture, individual interests and Tongan heritage, I channel my talents on providing creative insight in combination with science and technology, and being able to implement innovative and efficient solutions into professional projects.
+
+Contact me via [**lpan375@aucklanduni.ac.nz**](mailto:lpan375@aucklanduni.ac.nz) or <a href="https://www.linkedin.com/in/letisiapangataa/" target="_blank">**LinkedIn**</a>.
 
 Mālō aupito’ from Aotearoa, New Zealand.

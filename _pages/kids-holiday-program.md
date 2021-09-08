@@ -12,9 +12,9 @@ author_profile: true
 **Skills :** Computer Programming, Project Management, Presentation, Course Design.
 <br>**Technical Skills :** HTML5, JavaScript, Phaser Framework, Adobe Creative Suite Software.
 
-During my time as a Teaching Assistant at the Coder Factory, I was assigned the task to develop a Kids Holiday Program focused on teaching children to code. 
+During my time as a Teaching Assistant at the Coder Factory, I was assigned the task to develop a Kids Holiday Program to teach kids to code. 
 
-In my time, I was creatively inspired by my Kids Holiday Program that I've grown actively intrigued by the idea of implementing creativity and science together to improve the educational experience of young and mature learners.
+I was creatively inspired by my Kids Holiday Program that I've grown actively intrigued by the idea of implementing creativity and science together to improve the educational experience of young and mature learners.
 
 My Kids Holiday Program was an extensive course program, designed and developed to assist the primary teacher in charge. In particular, this Kids Holiday Program focused on HTML5 Game development using the <u><a href="https://phaser.io/" target="_blank">HTML5 Phaser framework</a></u>.
 
