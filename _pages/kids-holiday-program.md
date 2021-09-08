@@ -9,7 +9,7 @@ author_profile: true
 ### Educational Course (Teaching Assistant)
 <p></p>
 
-**Skills :** Computer Programming, Project Management, Presentation, Course Design.
+**Skills :** Computer Programming, Project Management, Course Design.
 <br>**Technical Skills :** HTML5, JavaScript, Phaser Framework, Adobe Creative Suite Software.
 
 During my time as a Teaching Assistant at the Coder Factory, I was assigned the task to develop a Kids Holiday Program to teach kids to code. 
