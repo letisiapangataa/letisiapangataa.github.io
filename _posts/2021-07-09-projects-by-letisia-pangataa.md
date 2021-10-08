@@ -9,6 +9,8 @@ categories:
   - projects
 ---
 
+**What's new around here?** - **Letisia Pangata'a**
+
 My projects page takes note on the exact primary points that I've wanted to get across, from the technologies I've used to the minor technical complexities I've had to implement and work with.
 
 In past works, I've developed multiple applications, designed and developed an educational course program and experimented with a publishing startup. If you continue to read through, I've ensured to document my successes and failures, which I've learned is always just as important to the process.
