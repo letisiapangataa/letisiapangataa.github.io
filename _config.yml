@@ -64,6 +64,9 @@ author:
   # avatar : "https://res.cloudinary.com/louiy9obu/image/upload/v1628419918/B84D1E9F-0C77-4FE3-9AEE-A7EAC0BCB8D9_evlxba.jpg"
   bio    : ""
   links:
+    - label: "NFTs @ foundation.app"
+      icon: "fab fa-fw"
+      url: "https://foundation.app/@letisiapangataa"
     - label: "LinkedIn"
       icon: "fab fa-fw"
       url: "https://www.linkedin.com/in/letisiapangataa/"
@@ -73,9 +76,18 @@ author:
     - label: "YouTube"
       icon: "fab fa-fw"
       url: "https://www.youtube.com/channel/UCnWTpRSfYSxAWmCRUpl4PBQ/featured"
+    - label: "Instagram"
+      icon: "fab fa-fw"
+      url: "https://www.instagram.com/letisiapangataa/"
+    - label: "Twitter"
+      icon: "fab fa-fw"
+      url: "https://twitter.com/letisiapangataa"
 
 footer:
   links:
+    - label: "NFTs @ foundation.app"
+      icon: "fab fa-fw"
+      url: "https://foundation.app/@letisiapangataa"
     - label: "LinkedIn"
       icon: "fab fa-fw"
       url: "https://www.linkedin.com/in/letisiapangataa/"
@@ -85,6 +97,13 @@ footer:
     - label: "YouTube"
       icon: "fab fa-fw"
       url: "https://www.youtube.com/channel/UCnWTpRSfYSxAWmCRUpl4PBQ/featured"
+    - label: "Instagram"
+      icon: "fab fa-fw"
+      url: "https://www.instagram.com/letisiapangataa/"
+    - label: "Twitter"
+      icon: "fab fa-fw"
+      url: "https://twitter.com/letisiapangataa"
+
 
 teaser: /assets/images/500x300.png
 
