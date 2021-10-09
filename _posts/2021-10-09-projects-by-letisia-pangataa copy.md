@@ -11,4 +11,6 @@ categories:
 
 **I'm officially joining the NFTs squad.** - **Letisia Pangata'a**
 
+Catch me on Foundation @ <a href="https://foundation.app/@letisiapangataa">https://foundation.app/@letisiapangataa</a>
+
 Thanks for reading, stay tuned.
