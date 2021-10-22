@@ -21,7 +21,6 @@ author_profile: true
 [**(2018) University of Auckland** <br>Undergraduate Student](/portfolio/university-of-auckland/)
 
 [**(2017) University of Auckland** <br>Undergraduate Student](/portfolio/university-of-auckland/) -->
-[**(2016 - 2023) University of Auckland** <br>Computer Science and Information Systems](/academia)
 
 [**(2015) Code Tutor ® Education** <br>Publishing Startup](/portfolio/code-tutor-education/)
 
