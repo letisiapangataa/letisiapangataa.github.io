@@ -41,6 +41,8 @@
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
 /* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
+/* ========================================================================== Default skin ========================================================================== */
 /*!
  * Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
  * Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
@@ -1610,7 +1612,7 @@
  
  .icon { display: inline-block; fill: currentColor; width: 1em; height: 1.1em; line-height: 1; position: relative; top: -0.1em; vertical-align: middle; color: #fff; }
  
- .page__footer { clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%; margin-top: 1em; color: #ffffff; -webkit-animation: intro 0.3s both; animation: intro 0.3s both; -webkit-animation-delay: 0.45s; animation-delay: 0.45s; background-color: #080808; box-shadow: 11px -13px 0px #5600ff; font-size: 1.05em; }
+ .page__footer {clear: both;float: left;padding-left: 2.5em;margin-right: 0;width: 100%;margin-top: 1em;color: #ffffff;-webkit-animation: intro 0.3s both;animation: intro 0.3s both;-webkit-animation-delay: 0.45s;animation-delay: 0.45s;background-color: #080808;box-shadow: 11px -13px 0px #5600ff;font-size: 1.05em;}
  
  .page__hero--overlay .page__title, .page__hero--overlay .page__meta, .page__hero--overlay .comment__date, .page__hero--overlay .comment__date, .page__hero--overlay .comment__date, .page__hero--overlay .comment__date, .page__hero--overlay .page__lead, .page__hero--overlay .btn, .page__hero--overlay #goog-wm-sb, .page__hero--overlay #goog-wm-sb, .page__hero--overlay #goog-wm-sb, .page__hero--overlay #goog-wm-sb { color: #fff; text-shadow: 0px 0px 2px #9a00ff; font-family: 'JetBrains Mono', monospace; line-height: 1.5; }
  
@@ -1718,7 +1720,7 @@
  
  .a-title { padding: 2.5em 4em 2.5em; color: #fff; font-size: 4.5vw; }
  
- .a-bg {background: #5600ff;margin-bottom: -1em;box-shadow: 11px 16px 0px #d5d5d561;}
+ .a-bg { background: #5600ff; margin-bottom: -1em; box-shadow: 11px 16px 0px #d5d5d561; }
  
  .a-content { font-size: 0.85em; line-height: 2; }
  
