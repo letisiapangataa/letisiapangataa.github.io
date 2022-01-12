@@ -8,6 +8,8 @@ author_profile: true
 ---------------
 <p></p><p></p>
 
+[**(2022) Microsoft NZ** <br>Cloud Solution Architect Intern](/portfolio/cloud-solution-architect-intern/)
+
 [**(2021) Certified Lover Boy x Interactive Album** <br>Application Developer](https://certifiedloverboy.vercel.app/)
 
 [**(2021) Kolomua** <br>Application Developer](/portfolio/kolomua/)
