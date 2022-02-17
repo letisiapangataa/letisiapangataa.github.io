@@ -19,4 +19,4 @@ My journey so far in reaching this point has not been an easy one, but full of l
 <p></p>
 <img src="https://res.cloudinary.com/louiy9obu/image/upload/v1645069899/MS_omqlmb.png"/>
 <p></p>
-As noted, I am extremely excited to be apart of Microsoft NZ this year and to grow as an individual and professional.
+I am extremely grateful to be apart of Microsoft NZ and looking forward to grow as an individual and professional.
