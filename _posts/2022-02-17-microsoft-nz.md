@@ -13,10 +13,9 @@ categories:
 
 I've started my position as a Cloud Solution Architect Intern at Microsoft NZ. 
 
-My journey so far in reaching this point has not been an easy one, but full of learning experiences, stemming from failures to successes. Last week I was assigned a task to write up a subsidiary to introduce myself. I've attached it below so that others who visit my portfolio may have a fair grasp of who I am.
+Last week I was assigned a task to write up a subsidiary to introduce myself. I've attached it below so that others who visit my portfolio may have a fair grasp of who I am.
 <p></p>
 <img src="https://res.cloudinary.com/louiy9obu/image/upload/v1645069973/Screen_Shot_2022-02-17_at_4.52.43_PM_gsui2h.png" />
 <p></p>
 <img src="https://res.cloudinary.com/louiy9obu/image/upload/v1645069899/MS_omqlmb.png"/>
 <p></p>
-I am extremely grateful to be apart of Microsoft NZ and looking forward to grow as an individual and professional.
