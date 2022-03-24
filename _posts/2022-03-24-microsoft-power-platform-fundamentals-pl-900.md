@@ -14,7 +14,7 @@ categories:
 
 **Preparation for PL-900 Exam** - **Letisia Pangata'a**
 
-To prepare for the PL-900 Microsoft Power Platform Fundamentals exam, you are directed to the MS Learn page, where you are given 12 Modules to complete.
+To prepare for the PL-900 Microsoft Power Platform Fundamentals exam, you're directed to the MS Learn page and given 12 Modules to complete.
 
 As you play the introduction video Dona Sarkar provides an intriguing introduction discussing the value and opportunity that Microsoft Power Platforms provides to small and medium businesses, to big corporations in solving business problems.
 
