@@ -18,4 +18,4 @@ To prepare for the PL-900 Microsoft Power Platform Fundamentals exam, you are di
 
 As you play the introduction video Dona Sarkar provides an intriguing introduction discussing the value and opportunity that Microsoft Power Platforms provides to small and medium businesses, to big corporations in solving business problems.
 
-Microsoft Power Platform provides business value and product capabilities to create simple Power Apps that can connect data with Microsoft Dataverse, build a Power BI Dashboard, automate a process with Power Automate, and build a chatboty with Power Virtual Agents.
+Microsoft Power Platform provides business value and product capabilities to create simple Power Apps that can connect data with Microsoft Dataverse, build a Power BI Dashboard, automate a process with Power Automate, and build a chatbot with Power Virtual Agents.
