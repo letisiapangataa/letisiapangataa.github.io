@@ -84,4 +84,4 @@ These applications typically help improve one or more value drivers, such as per
 
 This allows organizations to have a library of applications to facilitate day to day operations. These apps might include solutions for facilities management, solutions to assist with employee onboarding, solutions for streamling process and more.
 
-Now that we have examined the business value provided by Microsfot Power Platform, we're able to examine different components in more detail.
+Now that we've examined the business value provided by Microsoft Power Platforms, we're able to examine different components in more detail.
