@@ -1,5 +1,5 @@
 ---
-title: "Dataverse for Beginners (PL-900 Introduction)"
+title: "MS Power Platform Data Connectors"
 header:
   overlay_color: "#000"
   overlay_filter: "0.7"
@@ -13,10 +13,10 @@ categories:
   - business processes
 ---
 
-# Microsoft Power Platforms + Business Processes
+# Data Connectors
 
 ##### References
 
-**[https://docs.microsoft.com/en-us/learn/modules/introduction-power-platform/](https://docs.microsoft.com/en-us/learn/modules/introduction-power-platform/)**
+**[https://docs.microsoft.com/en-us/learn/modules/introduction-power-platform/3-data-connectors](https://docs.microsoft.com/en-us/learn/modules/introduction-power-platform/3-data-connectors)**
 
-In 
+Microsoft Power Platform is made powerful by its ability to leverage data
