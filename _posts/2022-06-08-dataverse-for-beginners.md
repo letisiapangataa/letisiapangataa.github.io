@@ -8,6 +8,7 @@ header:
 categories:
   - professional
   - microsoft
+  - power platforms
   - build 2022
   - business processes
 ---
