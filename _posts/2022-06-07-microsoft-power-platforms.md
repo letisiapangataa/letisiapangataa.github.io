@@ -64,4 +64,24 @@ Once created, the APIs can be easily added to the Power App and to any Power Aut
 
 *The image above provides an example the Fusion development approach.*
 
-s
+Leveraging a low code/no code approach minimizes the amount of time that development resources spend working on items like screens, automations, and more.
+
+This frees them up to focus on the more advanced portions of the solution where their skills are more appropriately used. Over 600 pre-built connectors help simplify integration with both internal and external systems.
+
+These connectors mean that organizations do not need to custom build integration solutions from the ground up, which can be costly both initially and to maintain.
+
+In addition to the cost benefits provided by using Microsoft Power Platform, the Power Platform helps to increase performance and efficiency. The flexibility of the platform lets you build applicatiions and solutions that meet your business initiatives and goals.
+
+For example, a dedicated time management Power App could be quickly created to ensure that everyone is capturing their time on projects the same way.
+
+This means that the potential for data entry errors would be dramatically reduced. Integrated approvals built on Power Automate ensures that items like time off requests and other items are being automatically routed to the right person, so they can approve or reject items as quickly as possible.
+
+Microsoft Power Platform helps organizations build solutions that meet their ever-changing needs. Microsoft Power Platform gives organizations the ability to increase their business agility, by allowing them to quickly build application prototypes in hours or days, as opposed to weeks or months.
+
+This ensures by the time the solutions are created, it will still be something that provides value. The business value provided by Microsoft Power Platform extends beyond the value of the platform to the value of the apps themselves that are being built.
+
+These applications typically help improve one or more value drivers, such as performance improvement, direct or indirect cost savings, risk mitigation or business transformation.
+
+This allows organizations to have a library of applications to facilitate day to day operations. These apps might include solutions for facilities management, solutions to assist with employee onboarding, solutions for streamling process and more.
+
+Now that we have examined the business value provided by Microsfot Power Platform, we're able to examine different components in more detail.
