@@ -64,7 +64,7 @@ Once created, the APIs can be easily added to the Power App and to any Power Aut
 
 *The image above provides an example the Fusion development approach.*
 
-Leveraging a low code/no code approach minimizes the amount of time that development resources spend working on items like screens, automations, and more.
+Leveraging a low code / no code approach minimizes the amount of time that development resources spend working on items like screens, automations, and more.
 
 This frees them up to focus on the more advanced portions of the solution where their skills are more appropriately used. Over 600 pre-built connectors help simplify integration with both internal and external systems.
 
