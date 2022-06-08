@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Power Platforms + Business Processes"
+title: "MS Power Platforms + Business Processes"
 header:
   overlay_color: "#000"
   overlay_filter: "0.7"
