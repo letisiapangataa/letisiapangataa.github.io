@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Power Apps for Beginners (Practical 2022)"
+title: "MS Power Apps for Beginners (Practical 2022)"
 header:
   overlay_color: "#000"
   overlay_filter: "0.7"

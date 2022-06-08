@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Microsoft Power Platforms (Breakdown)"
+title: "Introduction to MS Power Platforms (Breakdown)"
 header:
   overlay_color: "#000"
   overlay_filter: "0.7"

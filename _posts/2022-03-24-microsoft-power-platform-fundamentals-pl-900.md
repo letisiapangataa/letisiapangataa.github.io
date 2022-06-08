@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Power Platform Fundamentals (PL-900)"
+title: "MS Power Platform Fundamentals (PL-900)"
 header:
   overlay_color: "#000"
   overlay_filter: "0.7"

@@ -155,6 +155,6 @@ Benefits of business processes are wide-ranging and include:
 
 - **Resource management:** Time and resources are allocated according to needs and goals, thereby minimising waste.
 - **Optimised performance:** Employees are assigned to tasks based on their maximum value, helping them to achieve their full potential and utmost level of satisfaction.
-- **Reduced risk:** Through business process automation, many operational risks are avoided and/or reduced.
-‍- **Accountability:** Everyone is aware of their responsibilities and inputs / outputs are measurable.
+- **Reduced risk:** Through business process automation, many operational risks are avoided and / or reduced.
+- **Accountability:** Everyone is aware of their responsibilities and inputs / outputs are measurable.
 ‍
