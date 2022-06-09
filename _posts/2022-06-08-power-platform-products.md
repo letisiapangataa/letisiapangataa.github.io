@@ -13,7 +13,7 @@ categories:
   - business processes
 ---
 
-# Microsoft Power Platforms + Business Processes
+# MS Power Platforms + Components
 
 ##### References
 
