@@ -1,5 +1,5 @@
 ---
-title: "Pulling It All Together (MS Power Platforms)"
+title: "MS Power Platform Pulling It All Together"
 header:
   overlay_color: "#000"
   overlay_filter: "0.7"

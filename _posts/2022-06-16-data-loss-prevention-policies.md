@@ -1,5 +1,5 @@
 ---
-title: "Data Loss Prevention Policies"
+title: "MS Power Platform Data Loss Prevention Policies"
 header:
   overlay_color: "#000"
   overlay_filter: "0.7"
