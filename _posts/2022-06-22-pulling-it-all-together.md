@@ -1,5 +1,5 @@
 ---
-title: "Data Loss Prevention Policies"
+title: "Pulling It All Together (MS Power Platforms)"
 header:
   overlay_color: "#000"
   overlay_filter: "0.7"
@@ -13,11 +13,11 @@ categories:
   - data
 ---
 
-# Data Loss Prevention Policies
+# Pulling It All Together
 
 ##### References
 
-**[https://docs.microsoft.com/en-us/learn/modules/introduction-power-platform/3a-data-loss-prevention-compliance-privacy-accessibility](https://docs.microsoft.com/en-us/learn/modules/introduction-power-platform/3a-data-loss-prevention-compliance-privacy-accessibility)**
+**[https://docs.microsoft.com/en-us/learn/modules/introduction-power-platform/4-pull-together](https://docs.microsoft.com/en-us/learn/modules/introduction-power-platform/4-pull-together)**
 
 Your organization's data is likely one of the most important assets you are responsible for safeguarding as an administrator.
 
@@ -47,4 +47,4 @@ TLS effectively establishes a security-enhanced browser to server connection to 
 
 One of the things that Microsoft values the most is making sure that Power Platform is accessible and inclusive to all kinds of users all over the world. An accessible canvas app will alow users with vision, hearing, and other impairments to successfully use the app.
 
-In addition to being a requirement for many governments and organizations, following the below guidelines increases usability for all users, regardless of their abilities. You can use the Accessibilty Checker to help review potential accessibility issues in your app. For more details and suggestions on making your canvas apps more accessible, visit **[https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/accessible-apps](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/accessible-apps)**.
+In addition to being a requirement for many governments and organizations, following the below guidelines increases usability for all users, regardless of their abilities. You can use the Accessibilty Checker to help review potential accessibility issues in your app. For more details and suggestions on making your canvas apps more accessible, visit https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/accessible-apps.
