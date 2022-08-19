@@ -23,11 +23,14 @@ Dataverse connects easily to all aspects of Microsoft Power Platform so that you
 
 In this module, you will :
 
-- Explain what environments, tables, columns, annd relationships are in Microsoft Dataverse.
+Explain what environments, tables, columns, annd relationships are in Microsoft Dataverse.
 
-- Describe the difference between Microsoft Dataverse and Common Data Model.
+Describe the difference between Microsoft Dataverse and Common Data Model.
 
-- Explain use cases and limitations of business rules and process flows.
+Explain use cases and limitations of business rules and process flows.
 
 ## Overview of Dataverse
 
+Microsoft Dataverse is a cloud-based solution that easily structures a variety of data and business logic to support interconnected applications and processes in a secure and compliant manner.
+
+Managemd
