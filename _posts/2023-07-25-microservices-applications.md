@@ -12,10 +12,10 @@ categories:
   - architecture
 ---
 
-# Microservices for Beginners
+# Let's start with what is microservices?
 
-What are microservices?
+Microservices is an architectural approach to building applications where each core function or service is built and deployed independently.
 
-Microservices are an architectural approach to building applications where each core function or service is build and deployed independently.
+They serve as individual components to the application that serve independent business needs but operate collectively as an application.
 
 Microservice architecture is distributed and loosely coupled, so one component's failure won't break the whole app.
