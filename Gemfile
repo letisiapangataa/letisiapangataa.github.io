@@ -15,6 +15,14 @@ group :jekyll_plugins do
   gem "jekyll-include-cache"
   gem "jekyll-algolia"
   gem "jekyll-github-metadata"
+  gem "jekyll-seo-tag"
+  gem "jekyll-archives"
+  gem "jekyll-redirect-from"
+  gem "jekyll-compose"
 end
 
 gem "webrick", "~> 1.7"
+
+# Performance and optimization
+gem "jekyll-minifier"
+gem "jekyll-compress-images"

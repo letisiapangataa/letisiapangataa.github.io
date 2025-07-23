@@ -1,0 +1,184 @@
+---
+layout: default
+---
+
+<!DOCTYPE html>
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+    
+    <!-- Modern Framework Enhancements -->
+    <meta name="theme-color" content="#667eea">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="{{ site.title }}">
+    
+    <!-- Progressive Web App -->
+    <link rel="manifest" href="/manifest.json">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="/assets/css/main.css" as="style">
+    <link rel="preload" href="/assets/js/modern-framework.js" as="script">
+    
+    <!-- Modern fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Critical CSS inlined -->
+    <style>
+      /* Critical above-the-fold styles */
+      body { 
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; 
+        opacity: 0;
+        transition: opacity 0.3s ease-in;
+      }
+      body.loaded { opacity: 1; }
+      
+      .modern-loader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+        transition: opacity 0.5s ease-out;
+      }
+      
+      .loader-content {
+        text-align: center;
+        color: white;
+      }
+      
+      .loader-spinner {
+        width: 50px;
+        height: 50px;
+        border: 3px solid rgba(255,255,255,0.3);
+        border-radius: 50%;
+        border-top-color: white;
+        animation: spin 1s ease-in-out infinite;
+        margin: 0 auto 1rem;
+      }
+      
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+    </style>
+  </head>
+
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+    {% include_cached skip-links.html %}
+    {% include_cached browser-upgrade.html %}
+    {% include_cached masthead.html %}
+
+    <div class="initial-content">
+      {{ content }}
+    </div>
+
+    {% if site.search == true %}
+      <div class="search-content">
+        {% include_cached search/search_form.html %}
+      </div>
+    {% endif %}
+
+    <div id="footer" class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include_cached footer.html %}
+      </footer>
+    </div>
+
+    <!-- Modern Framework JavaScript -->
+    <script>
+      // Feature detection and polyfill loading
+      (function() {
+        const features = {
+          intersectionObserver: 'IntersectionObserver' in window,
+          serviceWorker: 'serviceWorker' in navigator,
+          webP: false
+        };
+        
+        // WebP detection
+        const webP = new Image();
+        webP.onload = webP.onerror = function () {
+          features.webP = (webP.height === 2);
+          document.documentElement.classList.add(features.webP ? 'webp' : 'no-webp');
+        };
+        webP.src = 'data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA';
+        
+        // Add feature classes to html element
+        Object.keys(features).forEach(feature => {
+          if (features[feature]) {
+            document.documentElement.classList.add(feature);
+          } else {
+            document.documentElement.classList.add('no-' + feature);
+          }
+        });
+        
+        // Remove no-js class
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+        
+        // Mark body as loaded
+        window.addEventListener('load', () => {
+          document.body.classList.add('loaded');
+        });
+      })();
+    </script>
+    
+    {% include scripts.html %}
+    {% include analytics.html %}
+    {% include /comments-providers/scripts.html %}
+    
+    <!-- Load modern framework -->
+    <script src="/assets/js/modern-framework.js" defer></script>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "{{ site.author.name }}",
+      "url": "{{ site.url }}",
+      "sameAs": [
+        "{{ site.author.links | where: 'label', 'LinkedIn' | map: 'url' | first }}",
+        "{{ site.author.links | where: 'label', 'GitHub' | map: 'url' | first }}",
+        "{{ site.author.links | where: 'label', 'Twitter' | map: 'url' | first }}"
+      ],
+      "jobTitle": "Cloud Solution Architect",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Technology Industry"
+      },
+      "description": "{{ site.description }}"
+    }
+    </script>
+    
+    {% if page.layout == "single" and page.categories contains "technical" %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "TechArticle",
+      "headline": "{{ page.title }}",
+      "description": "{{ page.excerpt | strip_html | truncate: 160 }}",
+      "author": {
+        "@type": "Person",
+        "name": "{{ site.author.name }}"
+      },
+      "datePublished": "{{ page.date | date_to_xmlschema }}",
+      "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ page.url | absolute_url }}"
+      }
+    }
+    </script>
+    {% endif %}
+    
+  </body>
+</html>

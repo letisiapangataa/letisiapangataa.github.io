@@ -1,14 +1,16 @@
 main:
-  - title: "Portfolio"
-    url: /portfolio/
-  - title: "Software"
-    url: /software/
-  - title: "Visuals + Design"
-    url: /visuals-and-design/
-  - title: "Academia"
-    url: /academia/
-  - title: "Categories"
-    url: /categories/
+  - title: "Home"
+    url: /
   - title: "About"
     url: /about/
+  - title: "Portfolio"
+    url: /portfolio/
+  - title: "Blog"
+    url: /posts/
+  - title: "Experience"
+    url: /experience/
+  - title: "Contact"
+    url: /contact/
+  - title: "Categories"
+    url: /categories/
     

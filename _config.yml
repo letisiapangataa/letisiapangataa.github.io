@@ -15,19 +15,36 @@
 # in the templates via {{ site.myvariable }}.
 title: "Letisia's Technology Portfolio"
 title_separator: "|"
+subtitle: "Cloud Solutions • Innovation • Technology Leadership"
 email: contact@letisiapangataa.com
-description: "Official Technology Portfolio by Letisia Pangata'a."
+description: "Technology portfolio showcasing cloud architecture, innovation, and leadership in the digital transformation space. Follow my journey from Microsoft to new frontiers in tech."
 url: "https://letisiapangataa.github.io"
+baseurl: ""
 repository: "letisiapangataa/letisiapangataa.github.io"
 masthead_title: "Letisia's Technology Portfolio"
 twitter_username: letisiapangataa
 github_username: letisiapangataa
-minimal_mistakes_skin: default
+linkedin_username: letisiapangataa
+minimal_mistakes_skin: "dark"
 search: true
+search_full_content: true
+search_provider: lunr
+lunr:
+  search_within_pages: true
 
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -58,69 +75,54 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-github-metadata
+  - jekyll-seo-tag
+  - jekyll-archives
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 author:
-  # name   : "Letisia Pangata'a"
-  # avatar : "https://res.cloudinary.com/louiy9obu/image/upload/v1628419918/B84D1E9F-0C77-4FE3-9AEE-A7EAC0BCB8D9_evlxba.jpg"
-  # bio    : ""
+  name   : "Letisia Pangata'a"
+  avatar : "https://res.cloudinary.com/louiy9obu/image/upload/v1628419918/B84D1E9F-0C77-4FE3-9AEE-A7EAC0BCB8D9_evlxba.jpg"
+  bio    : "Cloud Solution Architect • Technology Leader • Innovation Catalyst<br/>Bridging business needs with cutting-edge cloud solutions"
+  location: "Auckland, New Zealand 🇳🇿"
   links:
-    # - label: "opensea.io"
-    #   icon: "fab fa-fw"
-    #   url: "https://opensea.io/letisiapangataa"
-    # - label: "rarible.com"
-    #   icon: "fab fa-fw"
-    #   url: "https://rarible.com/letisiapangataa"
-    # - label: "foundation.app"
-    #   icon: "fab fa-fw"
-    #   url: "https://foundation.app/@letisiapangataa"
-    - label: "Github"
-      icon: "fab fa-fw"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:contact@letisiapangataa.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
       url: "https://github.com/letisiapangataa"
     - label: "LinkedIn"
-      icon: "fab fa-fw"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/letisiapangataa/"
-  #  - label: "YouTube"
-  #    icon: "fab fa-fw"
-  #    url: "https://www.youtube.com/channel/UCnWTpRSfYSxAWmCRUpl4PBQ/featured"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw"
-    #   url: "https://www.instagram.com/letisiapangataa/"
-  #  - label: "Twitter"
-  #    icon: "fab fa-fw"
-  #    url: "https://twitter.com/letisiapangataa"
-  #   - label: "TikTok"
-  #    icon: "fab fa-fw"
-  #    url: "https://www.tiktok.com/@letisiapangataa"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/letisiapangataa"
 
 footer:
   links:
-    # - label: "opensea.io"
-    #   icon: "fab fa-fw"
-    #   url: "https://opensea.io/letisiapangataa"
-    # - label: "rarible.com"
-    #   icon: "fab fa-fw"
-    #   url: "https://rarible.com/letisiapangataa"
-    # - label: "foundation.app"
-    #   icon: "fab fa-fw"
-    #   url: "https://foundation.app/@letisiapangataa"
-    # - label: "Github"
-    #   icon: "fab fa-fw"
-    #   url: "https://github.com/letisiapangataa"
-    # - label: "LinkedIn"
-    #   icon: "fab fa-fw"
-    #   url: "https://www.linkedin.com/in/letisiapangataa/"
-    # - label: "YouTube"
-    #  icon: "fab fa-fw"
-    #   url: "https://www.youtube.com/channel/UCnWTpRSfYSxAWmCRUpl4PBQ/featured"
-    # # - label: "Instagram"
-    # #   icon: "fab fa-fw"
-    # #   url: "https://www.instagram.com/letisiapangataa/"
-    # - label: "Twitter"
-    #  icon: "fab fa-fw"
-    #   url: "https://twitter.com/letisiapangataa"
-    # - label: "TikTok"
-    #  icon: "fab fa-fw"
-    #   url: "https://www.tiktok.com/@letisiapangataa"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/letisiapangataa"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/letisiapangataa/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/letisiapangataa"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:contact@letisiapangataa.com"
 
 
 teaser: /assets/images/500x300.png
@@ -138,6 +140,8 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
+      classes: wide
   # _pages
   - scope:
       path: "_pages"
@@ -145,6 +149,35 @@ defaults:
     values:
       layout: single
       author_profile: true
+      classes: wide
+
+# SEO Related
+google_site_verification: 
+bing_site_verification:
+yandex_site_verification:
+naver_site_verification:
+
+# Social Sharing
+twitter:
+  username: "letisiapangataa"
+facebook:
+  username: 
+  app_id:
+  publisher:
+og_image: "https://res.cloudinary.com/louiy9obu/image/upload/v1626002590/letisias_projects_fjlv67.png"
+
+# Analytics
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: 
+    anonymize_ip: false
+
+# Comments
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "letisia-tech-portfolio"
 
 category_archive:
   type: liquid
