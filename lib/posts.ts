@@ -35,7 +35,7 @@ export function getAllPosts(): Post[] {
         slug,
         title: matterResult.data.title || slug,
         date: matterResult.data.date || new Date().toISOString(),
-        excerpt: matterResult.data.excerpt || matterResult.content.substring(0, 150) + '...',
+        excerpt: matterResult.data.excerpt || matterResult.data.description || matterResult.content.substring(0, 150) + '...',
         content: matterResult.content,
         featuredImage: matterResult.data.featuredImage || matterResult.data.image,
       }
@@ -54,7 +54,7 @@ export function getPostBySlug(slug: string): Post | null {
       slug,
       title: matterResult.data.title || slug,
       date: matterResult.data.date || new Date().toISOString(),
-      excerpt: matterResult.data.excerpt || matterResult.content.substring(0, 150) + '...',
+      excerpt: matterResult.data.excerpt || matterResult.data.description || matterResult.content.substring(0, 150) + '...',
       content: matterResult.content,
       featuredImage: matterResult.data.featuredImage || matterResult.data.image,
     }

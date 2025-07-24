@@ -1,7 +1,7 @@
 ---
 title: "The Future of AI in Scientific Research"
 date: "2024-01-25"
-description: "Exploring how artificial intelligence is revolutionizing scientific discovery and research methodologies across various disciplines."
+excerpt: "Exploring how artificial intelligence is revolutionizing scientific discovery and research methodologies across various disciplines."
 featuredImage: "/images/ai-featured.svg"
 ---
 
