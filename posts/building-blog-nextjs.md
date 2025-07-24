@@ -2,7 +2,7 @@
 title: "Building a Blog with Next.js"
 date: "2025-01-20"
 excerpt: "A guide to creating a static blog with Next.js, TypeScript, and Tailwind CSS that can be deployed to GitHub Pages."
-featuredImage: "/images/nextjs-featured.svg"
+featuredImage: "/images/welcome-featured.svg"
 ---
 
 Creating a blog with Next.js is a fantastic way to share your thoughts and ideas with the world. In this post, I'll walk you through the key components of building a modern, fast blog.
