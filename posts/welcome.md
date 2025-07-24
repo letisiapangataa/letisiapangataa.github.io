@@ -2,9 +2,8 @@
 title: "Welcome to My Blog"
 date: "2025-01-15"
 excerpt: "Welcome to my personal blog! This is my first post where I introduce myself and share what you can expect from this space."
+featuredImage: "/images/welcome-featured.svg"
 ---
-
-# Welcome to My Blog
 
 Hello and welcome to my personal blog! I'm excited to share this space with you where I'll be posting about various topics that interest me.
 

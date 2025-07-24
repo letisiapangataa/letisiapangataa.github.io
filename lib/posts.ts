@@ -12,6 +12,7 @@ export interface Post {
   date: string
   excerpt: string
   content: string
+  featuredImage?: string
 }
 
 export function getAllPosts(): Post[] {
@@ -36,6 +37,7 @@ export function getAllPosts(): Post[] {
         date: matterResult.data.date || new Date().toISOString(),
         excerpt: matterResult.data.excerpt || matterResult.content.substring(0, 150) + '...',
         content: matterResult.content,
+        featuredImage: matterResult.data.featuredImage || matterResult.data.image,
       }
     })
 
@@ -54,6 +56,7 @@ export function getPostBySlug(slug: string): Post | null {
       date: matterResult.data.date || new Date().toISOString(),
       excerpt: matterResult.data.excerpt || matterResult.content.substring(0, 150) + '...',
       content: matterResult.content,
+      featuredImage: matterResult.data.featuredImage || matterResult.data.image,
     }
   } catch (error) {
     return null

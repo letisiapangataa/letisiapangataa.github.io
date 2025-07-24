@@ -1,15 +1,17 @@
-# Letisia Pangataa's Blog
+# Letisia's Technology Portfolio
 
-A modern, fast blog built with Next.js, TypeScript, and Tailwind CSS. Deployed automatically to GitHub Pages.
+A modern, responsive blog built with Next.js, TypeScript, and Tailwind CSS, deployed on GitHub Pages.
 
-## Features
+## 🚀 Features
 
-- 📝 Markdown support for blog posts
-- 🎨 Beautiful, responsive design with Tailwind CSS
-- ⚡ Fast static site generation with Next.js
-- 🔒 Type-safe development with TypeScript
-- 🚀 Automatic deployment to GitHub Pages
-- 📱 Mobile-friendly responsive design
+- **Next.js 14** with TypeScript for type-safe development
+- **Tailwind CSS** for modern, responsive styling
+- **Markdown Support** for blog posts with frontmatter
+- **Featured Images** with full-screen hero display
+- **Social Media Sharing** for blog posts
+- **SEO Optimized** with structured data and meta tags
+- **GitHub Pages** deployment with automatic CI/CD
+- **Responsive Design** optimized for all devices
 
 ## Getting Started
 
@@ -80,12 +82,74 @@ This will generate a static site in the `out` directory.
 └── public/             # Static assets
 ```
 
+## 🚀 Deployment Instructions
+
+### Automatic Deployment (Recommended)
+
+1. **Push to GitHub**: All changes pushed to the `main` branch will automatically trigger deployment via GitHub Actions.
+
+2. **GitHub Pages Settings**: 
+   - Go to your repository settings
+   - Navigate to Pages section
+   - Source: Deploy from a branch
+   - Branch: `gh-pages` (this is created automatically by the workflow)
+
+### Manual Deployment
+
+If you need to deploy manually:
+
+```powershell
+# Build the project
+npm run build
+
+# The static files will be in the 'out' directory
+# These can be deployed to any static hosting service
+```
+
+## 📝 Adding New Blog Posts
+
+1. Create a new `.md` file in the `posts/` directory
+2. Add frontmatter with required fields:
+
+```markdown
+---
+title: "Your Post Title"
+date: "2024-01-26"
+description: "Brief description of your post"
+featuredImage: "/images/your-image.svg"
+---
+
+# Your post content here...
+```
+
+3. Add your featured image to `public/images/`
+4. Push to GitHub - the post will automatically be deployed!
+
+## 🖼️ Featured Images
+
+- Create SVG images for best scalability
+- Recommended size: 1200x600px
+- Place in `public/images/`
+- Reference in frontmatter: `featuredImage: "/images/filename.svg"`
+
 ## Customization
 
 - **Styling**: Modify `tailwind.config.js` and `styles/globals.css`
 - **Layout**: Edit `components/Layout.tsx`
 - **Configuration**: Update `next.config.js` for deployment settings
 - **Content**: Add/edit posts in the `posts` directory
+
+## 📊 SEO Features
+
+- **Structured Data**: JSON-LD for better search engine understanding
+- **Open Graph**: Social media preview optimization
+- **Twitter Cards**: Enhanced Twitter sharing
+- **Sitemap**: Auto-generated for search engines
+- **Robots.txt**: Search engine crawling directives
+
+## 🌐 Live Site
+
+Visit: [https://letisiapangataa.github.io](https://letisiapangataa.github.io)
 
 ## Technologies Used
 
@@ -94,6 +158,10 @@ This will generate a static site in the `out` directory.
 - [Tailwind CSS](https://tailwindcss.com/) - Styling
 - [Gray Matter](https://github.com/jonschlinkert/gray-matter) - Frontmatter parsing
 - [Remark](https://remark.js.org/) - Markdown processing
+
+## 📄 License
+
+© 2025 Letisia Pangata'a. All Rights Reserved.
 
 ## License
 

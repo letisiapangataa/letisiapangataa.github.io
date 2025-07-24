@@ -1,0 +1,105 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#ec4899;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="neuralGlow" cx="50%" cy="50%" r="40%">
+      <stop offset="0%" style="stop-color:rgba(255,255,255,0.4);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgba(255,255,255,0);stop-opacity:0" />
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="600" fill="url(#aiGrad)"/>
+  
+  <!-- Neural network nodes and connections -->
+  <g opacity="0.7">
+    <!-- Layer 1 -->
+    <circle cx="200" cy="150" r="8" fill="rgba(255,255,255,0.8)" filter="url(#glow)"/>
+    <circle cx="200" cy="250" r="8" fill="rgba(255,255,255,0.8)" filter="url(#glow)"/>
+    <circle cx="200" cy="350" r="8" fill="rgba(255,255,255,0.8)" filter="url(#glow)"/>
+    <circle cx="200" cy="450" r="8" fill="rgba(255,255,255,0.8)" filter="url(#glow)"/>
+    
+    <!-- Layer 2 -->
+    <circle cx="400" cy="100" r="8" fill="rgba(255,255,255,0.8)" filter="url(#glow)"/>
+    <circle cx="400" cy="200" r="8" fill="rgba(255,255,255,0.8)" filter="url(#glow)"/>
+    <circle cx="400" cy="300" r="8" fill="rgba(255,255,255,0.8)" filter="url(#glow)"/>
+    <circle cx="400" cy="400" r="8" fill="rgba(255,255,255,0.8)" filter="url(#glow)"/>
+    <circle cx="400" cy="500" r="8" fill="rgba(255,255,255,0.8)" filter="url(#glow)"/>
+    
+    <!-- Layer 3 -->
+    <circle cx="600" cy="150" r="8" fill="rgba(255,255,255,0.8)" filter="url(#glow)"/>
+    <circle cx="600" cy="250" r="8" fill="rgba(255,255,255,0.8)" filter="url(#glow)"/>
+    <circle cx="600" cy="350" r="8" fill="rgba(255,255,255,0.8)" filter="url(#glow)"/>
+    <circle cx="600" cy="450" r="8" fill="rgba(255,255,255,0.8)" filter="url(#glow)"/>
+    
+    <!-- Layer 4 (Output) -->
+    <circle cx="800" cy="250" r="8" fill="rgba(255,255,255,0.8)" filter="url(#glow)"/>
+    <circle cx="800" cy="350" r="8" fill="rgba(255,255,255,0.8)" filter="url(#glow)"/>
+    
+    <!-- Connections (sample) -->
+    <line x1="208" y1="150" x2="392" y2="100" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <line x1="208" y1="150" x2="392" y2="200" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <line x1="208" y1="250" x2="392" y2="200" stroke="rgba(255,255,255,0.4)" stroke-width="2"/>
+    <line x1="208" y1="250" x2="392" y2="300" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <line x1="208" y1="350" x2="392" y2="300" stroke="rgba(255,255,255,0.4)" stroke-width="2"/>
+    <line x1="208" y1="350" x2="392" y2="400" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    
+    <line x1="408" y1="200" x2="592" y2="150" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <line x1="408" y1="300" x2="592" y2="250" stroke="rgba(255,255,255,0.4)" stroke-width="2"/>
+    <line x1="408" y1="300" x2="592" y2="350" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <line x1="408" y1="400" x2="592" y2="450" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    
+    <line x1="608" y1="250" x2="792" y2="250" stroke="rgba(255,255,255,0.5)" stroke-width="3"/>
+    <line x1="608" y1="350" x2="792" y2="350" stroke="rgba(255,255,255,0.5)" stroke-width="3"/>
+  </g>
+  
+  <!-- Floating data points -->
+  <g opacity="0.6">
+    <circle cx="100" cy="100" r="3" fill="rgba(255,255,255,0.8)"/>
+    <circle cx="950" cy="150" r="4" fill="rgba(255,255,255,0.7)"/>
+    <circle cx="150" cy="500" r="2" fill="rgba(255,255,255,0.9)"/>
+    <circle cx="1050" cy="400" r="3" fill="rgba(255,255,255,0.8)"/>
+    <circle cx="50" cy="300" r="2.5" fill="rgba(255,255,255,0.8)"/>
+    <circle cx="1100" cy="200" r="3.5" fill="rgba(255,255,255,0.7)"/>
+  </g>
+  
+  <!-- Binary code streams -->
+  <g opacity="0.3" font-family="monospace" font-size="12" fill="rgba(255,255,255,0.6)">
+    <text x="900" y="80">01001000 01100101</text>
+    <text x="920" y="100">01101100 01101100</text>
+    <text x="940" y="120">01101111 00100000</text>
+    
+    <text x="50" y="550">01010111 01101111</text>
+    <text x="70" y="570">01110010 01101100</text>
+  </g>
+  
+  <!-- Central focal area -->
+  <ellipse cx="600" cy="300" rx="250" ry="150" fill="url(#neuralGlow)"/>
+  
+  <!-- AI/Tech symbols -->
+  <g transform="translate(550, 270)">
+    <!-- Brain/AI symbol -->
+    <path d="M0,20 Q10,0 20,5 Q35,0 50,10 Q60,20 55,35 Q50,50 35,55 Q20,60 10,50 Q0,35 0,20 Z" 
+          fill="rgba(255,255,255,0.2)" stroke="rgba(255,255,255,0.5)" stroke-width="2"/>
+    <circle cx="15" cy="25" r="2" fill="rgba(255,255,255,0.8)"/>
+    <circle cx="35" cy="30" r="2" fill="rgba(255,255,255,0.8)"/>
+    <circle cx="25" cy="40" r="1.5" fill="rgba(255,255,255,0.7)"/>
+    <path d="M10,30 Q25,25 40,35" stroke="rgba(255,255,255,0.6)" stroke-width="1.5" fill="none"/>
+  </g>
+  
+  <!-- Main title -->
+  <text x="600" y="480" text-anchor="middle" fill="white" font-family="Inter, sans-serif" font-size="42" font-weight="800">AI & Machine Learning</text>
+  <text x="600" y="520" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-family="Inter, sans-serif" font-size="22" font-weight="500">🤖 Intelligent Systems</text>
+  <text x="600" y="545" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-family="Inter, sans-serif" font-size="16">Transforming data into insights</text>
+</svg>
