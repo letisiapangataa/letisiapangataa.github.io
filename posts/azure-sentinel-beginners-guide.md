@@ -8,7 +8,7 @@ difficulty: "Easy"
 
 Azure Sentinel is Microsoft's cloud-native Security Information and Event Management (SIEM) and Security Orchestration, Automation, and Response (SOAR) solution. If you're new to security monitoring or considering a move to cloud-native security tools, this guide will help you understand what Azure Sentinel is, why it matters, and how to get started.
 
-Please refer to this link [https://learn.microsoft.com/en-us/azure/sentinel/overview?tabs=defender-portal](https://learn.microsoft.com/en-us/azure/sentinel/overview?tabs=defender-portal) for further information.
+Please refer to this link [Microsoft Sentinel Documentation](https://learn.microsoft.com/en-us/azure/sentinel/overview?tabs=defender-portal) for further information.
 
 ## What is Azure Sentinel?
 
