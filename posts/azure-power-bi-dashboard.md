@@ -1,16 +1,34 @@
 ---
-title: " Building a Real-Time Security Monitoring Dashboard with Azure Sentinel and Power BI"
+title: "Security Monitoring Dashboard : Azure Sentinel and Power BI"
 date: "2025-07-25"
-excerpt: "A comprehensive guide to creating an enterprise-grade security dashboard for hackathons and production environments."
-featuredImage: "/images/ai-featured.svg"
+excerpt: "A technical guide to creating an enterprise-grade security dashboard with Azure Sentinel and Power BI."
+featuredImage: "/images/azure-sentinel-power-bi-featured.svg"
 ---
 
+This is an independently led **Applied Learning Project** of a Security Monitoring Dashboard, developed as part of a practical demonstration of cloud-native security integration. It builds upon my experience as a Cloud Solution Architect Intern at Microsoft, where I gained hands-on exposure to Microsoft’s cybersecurity solutions and the broader suite of Microsoft products, including the Power Platform.
 
-## Introduction: The Security Challenge
+The project combines insights from real-world security engagements and my academic background in cybersecurity, data analytics, and cloud engineering, applying hands-on skills in threat modeling, **Azure Sentinel**, and **Power BI** developed through both industry, independent and tertiary education.
 
-In today's rapidly evolving threat landscape, security teams need real-time visibility into their organization's security posture. Traditional security tools often operate in silos, making it difficult to correlate events and identify sophisticated attacks. This blog post walks through building a comprehensive security monitoring dashboard that integrates **Azure Sentinel** (Microsoft's cloud-native SIEM) with **Power BI** to create stunning, actionable visualizations.
+**Technologies Used:**  
+Azure Sentinel, Log Analytics, Power BI, KQL, DAX, Azure AD
 
-## What We're Building
+**Project Repository (GitHub):**  
+[Azure Sentinel Power BI Dashboard](https://github.com/letisiapangataa/azure-sentinel-power-bi-dashboard)
+
+**Author:**  
+Letisia Pangata’a
+
+**Date:**  
+July 2025
+
+**License:**  
+MIT License
+
+## Introduction : The Security Challenge
+
+Today’s security teams need up-to-date views of their organisation’s security posture. Older tools often work separately, making it difficult to connect events and identify hidden threats. This post explains how to build a security dashboard using **Azure Sentinel** and **Power BI** for clear, connected and useful visualisations - compiling together security information into a single dashboard.
+
+## Idea : What We Want
 
 Our Security Monitoring Dashboard provides:
 - **Real-time threat visualization** across multiple data sources
@@ -19,7 +37,7 @@ Our Security Monitoring Dashboard provides:
 - **Executive-level dashboards** with security KPIs
 - **Drill-down capabilities** for detailed threat analysis
 
-## Architecture Overview
+## Blueprint : Architecture Overview
 
 ```
 ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
@@ -32,22 +50,22 @@ Our Security Monitoring Dashboard provides:
 └─────────────────┘    └──────────────────┘    └─────────────────┘
 ```
 
-## Technology Stack
+## Tools : Technology Stack
 
 ### Core Components
 - **Azure Sentinel**: Cloud-native SIEM and SOAR solution
-- **Log Analytics**: Centralized log collection and querying engine
-- **Power BI**: Business intelligence and visualization platform
-- **KQL (Kusto Query Language)**: Microsoft's powerful query language
+- **Log Analytics**: Centralised log collection and querying engine
+- **Power BI**: Business intelligence and visualisation platform
+- **KQL (Kusto Query Language)**: Microsoft's powerful query language (relatively new to me)
 
 ### Supporting Services
 - **Azure Active Directory**: Identity and access management
 - **Microsoft Defender**: Endpoint and cloud workload protection
 - **Azure Monitor**: Comprehensive monitoring solution
 
-## Development Process
+## Step-By-Step : Development Process
 
-### Phase 1: Data Foundation Setup
+### Step 1 : Data Foundation Setup
 
 #### 1.1 Azure Sentinel Configuration
 First, we set up Azure Sentinel to collect security data from various sources:
@@ -67,7 +85,7 @@ The Log Analytics workspace serves as our data lake:
 - **Data Export**: Long-term storage for compliance
 - **Access Control**: Role-based permissions
 
-### Phase 2: Query Development
+### Step 2 : Query Development
 
 #### 2.1 KQL Query Design
 We developed seven core queries targeting different threat scenarios:
@@ -106,7 +124,7 @@ CommonSecurityLog
 - **Index-friendly** where clauses
 - **Incremental refresh** patterns
 
-### Phase 3: Power BI Dashboard Development
+### Step 3 : Power BI Dashboard Development
 
 #### 3.1 Data Connection Architecture
 We implemented a robust connection strategy:
@@ -169,7 +187,7 @@ SWITCH(
 )
 ```
 
-### Phase 4: Visualization Strategy
+### Step 4 : Visualisation Strategy (Visuals, Visuals, Visuals)
 
 #### 4.1 Color Psychology in Security Dashboards
 We implemented a consistent color scheme based on security industry standards:
@@ -188,7 +206,7 @@ We implemented a consistent color scheme based on security industry standards:
 
 ## Technical Challenges and Solutions
 
-### Challenge 1: Data Volume and Performance
+### Challenge 1 : Data Volume and Performance
 **Problem**: Azure Sentinel generates massive amounts of data
 **Solution**: 
 - Implemented incremental refresh strategies
@@ -196,7 +214,7 @@ We implemented a consistent color scheme based on security industry standards:
 - Created aggregated summary tables
 - Optimized KQL queries with proper indexing
 
-### Challenge 2: Real-time Requirements
+### Challenge 2 : Real-time Requirements
 **Problem**: Security teams need near real-time visibility
 **Solution**:
 - 15-minute refresh cycles for critical metrics
@@ -204,7 +222,7 @@ We implemented a consistent color scheme based on security industry standards:
 - Push notifications for threshold breaches
 - Mobile-optimized dashboards
 
-### Challenge 3: Security and Compliance
+### Challenge 3 : Security and Compliance
 **Problem**: Sensitive security data requires strict access controls
 **Solution**:
 - Row-level security implementation
@@ -224,7 +242,7 @@ We implemented a consistent color scheme based on security industry standards:
 - Implement proper error handling
 ```
 
-### 2. Power BI Optimization
+### 2. Power BI Optimisation
 - **Data Model Design**: Star schema for optimal performance
 - **Relationship Management**: Proper cardinality settings
 - **Memory Optimization**: Efficient data types
@@ -270,11 +288,6 @@ We implemented a consistent color scheme based on security industry standards:
 - **60% faster** executive security reporting
 - **100% increase** in security team efficiency
 
-### User Feedback
-*"The geographic threat map immediately showed us attack patterns we never noticed before."* - Security Operations Manager
-
-*"Having real-time security scores helps us make data-driven decisions about resource allocation."* - CISO
-
 ## Lessons Learned
 
 ### Technical Insights
@@ -304,7 +317,7 @@ We implemented a consistent color scheme based on security industry standards:
 
 ## Conclusion
 
-Building a comprehensive security monitoring dashboard requires careful planning, technical expertise, and a deep understanding of security operations workflows. By combining Azure Sentinel's powerful data collection capabilities with Power BI's visualization strengths, we created a solution that provides real-time security insights while maintaining enterprise-grade security and performance standards.
+Building a comprehensive security monitoring dashboard requires careful planning, technical expertise, and a deep understanding of security operations workflows. By combining Azure Sentinel's powerful data collection capabilities with Power BI's visualisation strengths, we created a solution that provides real-time security insights while maintaining enterprise-grade security and performance standards.
 
 The key to success lies in:
 - **Understanding your audience**: Different stakeholders need different views
@@ -312,19 +325,19 @@ The key to success lies in:
 - **Iterating based on feedback**: Continuous improvement drives adoption
 - **Maintaining security standards**: Never compromise on data protection
 
-This hackathon project demonstrates that with the right tools, techniques, and approach, any organization can build world-class security monitoring capabilities that rival commercial solutions.
+This project demonstrates that with the right tools, techniques, and approach, any organisation can build world-class security monitoring capabilities that rival commercial solutions.
 
 ---
 
 ## About This Project
 
-This Security Monitoring Dashboard was developed as a hackathon project to demonstrate the integration capabilities between Azure Sentinel and Power BI. The complete source code, queries, and documentation are available in the project repository.
+This Security Monitoring Dashboard was developed as an independent Applied Learning Project to demonstrate the integration capabilities and potential between the technologies of **Azure Sentinel** and **Power BI** specifically. The complete source code, queries, and documentation are available in the project repository.
 
 **Technologies Used**: Azure Sentinel, Log Analytics, Power BI, KQL, DAX, Azure AD
 
 **Project Repository**: [Azure Sentinel Power BI Dashboard](https://github.com/letisiapangataa/azure-sentinel-power-bi-dashboard)
 
-**Author**: Security Engineering Team  
+**Author**: Letisia Pangata'a 
 **Date**: July 2025  
 **License**: MIT License
 

@@ -76,13 +76,13 @@ export default function Post({ post }: PostProps) {
 
       {/* Full-Screen Featured Image */}
       {post.featuredImage && (
-        <div className="relative w-full h-96 mb-8 overflow-hidden">
+        <div className="relative w-full h-96 mb-8 overflow-hidden bg-gray-100">
           <img
             src={post.featuredImage}
             alt={post.title}
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none" />
         </div>
       )}
 
