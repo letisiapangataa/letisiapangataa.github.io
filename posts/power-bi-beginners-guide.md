@@ -1,17 +1,14 @@
 ---
-title: "Power BI for Beginners: Your Complete Guide to Data Visualization and Analytics"
+title: "Power BI for Beginners"
 date: "2025-07-25"
-excerpt: "A comprehensive beginner's guide to Microsoft Power BI - the leading business intelligence platform. Learn data visualization, dashboard creation, and analytics fundamentals with hands-on examples from real-world experience."
+excerpt: "A beginner's guide to Microsoft Power BI."
 featuredImage: "/images/power-bi-beginners-guide.svg"
 difficulty: "Easy"
 ---
 
-As a Cloud Solution Architect Intern at Microsoft, I've had the opportunity to work extensively with Microsoft's Power Platform, particularly Power BI. Through hands-on experience with enterprise clients and internal projects, I've seen firsthand how Power BI transforms raw data into actionable insights that drive business decisions.
+As a Cloud Solution Architect at Microsoft, I've had the opportunity to work extensively with Microsoft's Power Platform, particularly Power BI. Through hands-on experience with enterprise clients and internal projects, I've seen firsthand how Power BI transforms raw data into actionable insights that drive business decisions.
 
 This guide combines practical insights from my work at Microsoft with comprehensive beginner-friendly explanations to help you master Power BI from the ground up.
-
-**Author Background:**  
-Cloud Solution Architect Intern at Microsoft | Data Analytics & Cybersecurity Experience
 
 **Technologies Covered:**  
 Power BI Desktop, Power BI Service, DAX, Power Query, Azure Integration
