@@ -51,7 +51,7 @@ export default function Home({ posts }: HomeProps) {
         <meta property="og:url" content="https://letisiapangataa.github.io" />
         <meta property="og:site_name" content="Letisia's Technology Portfolio" />
         <meta property="og:locale" content="en_US" />
-        <meta property="og:image" content="https://letisiapangataa.github.io/images/azure-sentinel-power-bi-featured.svg" />
+        <meta property="og:image" content="https://letisiapangataa.github.io/images/azure-sentinel-power-bi-featured.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:image:alt" content="Letisia's Technology Portfolio - Cloud, AI & Cybersecurity" />
@@ -62,7 +62,7 @@ export default function Home({ posts }: HomeProps) {
         <meta name="twitter:creator" content="@letisiapangataa" />
         <meta name="twitter:title" content="Letisia's Technology Portfolio - Empowering Innovation with Cloud, AI & Cybersecurity" />
         <meta name="twitter:description" content="Explore cutting-edge technology insights from Letisia Pangata'a - Cloud Solution Architect specializing in Azure, cybersecurity, Power BI, and AI solutions." />
-        <meta name="twitter:image" content="https://letisiapangataa.github.io/images/azure-sentinel-power-bi-featured.svg" />
+        <meta name="twitter:image" content="https://letisiapangataa.github.io/images/azure-sentinel-power-bi-featured.png" />
         <meta name="twitter:image:alt" content="Letisia's Technology Portfolio - Cloud, AI & Cybersecurity" />
         
         {/* Additional SEO Meta Tags */}

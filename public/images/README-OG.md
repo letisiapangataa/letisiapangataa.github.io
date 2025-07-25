@@ -1,14 +1,30 @@
-# Default Open Graph Image
+# Featured Images Guide
 
-This directory should contain a default Open Graph image named `default-og-image.png` or `default-og-image.jpg` with dimensions 1200x630 pixels.
+This directory contains featured images for blog posts and social media sharing.
 
-For now, we're using the Azure Sentinel Power BI featured image as the fallback.
+## Current Images:
+- `azure-sentinel-power-bi-featured.png` - Primary featured image (PNG format for better compatibility)
+- `azure-sentinel-power-bi-featured.svg` - Vector version (use for print or high-resolution displays)
 
-## Recommended Image Specifications:
-- **Dimensions**: 1200 x 630 pixels
-- **Format**: PNG or JPG
+## Image Format Recommendations:
+
+### For Social Media Sharing & Web Display:
+- **Use PNG or JPG** for featured images in blog posts
+- **Dimensions**: 1200 x 630 pixels (optimal for Open Graph)
+- **Format**: PNG or JPG (NOT SVG)
 - **File size**: Less than 5MB
-- **Content**: Should represent your brand/portfolio
 
-## Current Fallback:
-- `/images/azure-sentinel-power-bi-featured.svg`
+### Why PNG/JPG over SVG for Featured Images:
+- ✅ **Social Media Compatibility**: Facebook, Twitter, LinkedIn support PNG/JPG
+- ✅ **Universal Browser Support**: All browsers display PNG/JPG correctly
+- ✅ **Preview Generation**: Social platforms can generate previews
+- ✅ **Thumbnail Creation**: Better for responsive image generation
+
+### When to Use SVG:
+- ✅ Icons and simple graphics
+- ✅ Logos that need to scale
+- ✅ Print materials
+- ✅ High-DPI displays where file size matters
+
+## Current Usage:
+- All blog posts now use `/images/azure-sentinel-power-bi-featured.png` for better compatibility
