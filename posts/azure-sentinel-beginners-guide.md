@@ -17,7 +17,7 @@ Azure Sentinel is a scalable, cloud-native security analytics platform that help
 - **Investigate** incidents with interactive workbooks and dashboards
 - **Respond** to threats with automated playbooks and workflows
 
-Think of it as your organization's security command center in the cloud, providing a bird's-eye view of your entire digital environment.
+Think of it as your organisation's security command center in the cloud, providing a bird's-eye view of your entire digital environment.
 
 ## Why Choose Azure Sentinel?
 
