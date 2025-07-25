@@ -10,9 +10,21 @@ interface ShareButtonsProps {
 export default function ShareButtons({ title, url, description, featuredImage }: ShareButtonsProps) {
   const [copied, setCopied] = useState(false)
 
-  const shareUrl = typeof window !== 'undefined' ? window.location.href : url
+  // Construct the full URL properly
+  const baseUrl = 'https://letisiapangataa.github.io'
+  const fullUrl = typeof window !== 'undefined' 
+    ? window.location.href 
+    : url.startsWith('http') 
+      ? url 
+      : `${baseUrl}${url}`
+  
+  // Debug logging (remove in production)
+  if (typeof window !== 'undefined') {
+    console.log('ShareButtons Debug:', { title, url, fullUrl, description })
+  }
+  
   const encodedTitle = encodeURIComponent(title)
-  const encodedUrl = encodeURIComponent(shareUrl)
+  const encodedUrl = encodeURIComponent(fullUrl)
   const encodedDescription = encodeURIComponent(description || title)
   
   // Enhanced sharing text with image information
@@ -20,17 +32,17 @@ export default function ShareButtons({ title, url, description, featuredImage }:
   const encodedShareText = encodeURIComponent(shareText)
 
   const shareLinks = {
-    twitter: `https://twitter.com/intent/tweet?text=${encodedShareText}&url=${encodedUrl}&via=letisiapangataa`,
+    twitter: `https://twitter.com/intent/tweet?text=${encodedTitle}&url=${encodedUrl}&via=letisiapangataa`,
     linkedin: `https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}`,
-    facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}&quote=${encodedShareText}`,
+    facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`,
     reddit: `https://reddit.com/submit?url=${encodedUrl}&title=${encodedTitle}`,
     email: `mailto:?subject=${encodedTitle}&body=${encodedDescription}%0A%0ARead more: ${encodedUrl}`,
-    whatsapp: `https://wa.me/?text=${encodedShareText} ${encodedUrl}`,
+    whatsapp: `https://wa.me/?text=${encodedTitle}%20${encodedUrl}`,
   }
 
   const copyToClipboard = async () => {
     try {
-      await navigator.clipboard.writeText(shareUrl)
+      await navigator.clipboard.writeText(fullUrl)
       setCopied(true)
       setTimeout(() => setCopied(false), 2000)
     } catch (err) {
@@ -55,6 +67,13 @@ export default function ShareButtons({ title, url, description, featuredImage }:
       )}
       
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+        {/* Debug info (remove in production) */}
+        {process.env.NODE_ENV === 'development' && (
+          <div className="col-span-full mb-4 p-3 bg-gray-100 rounded text-xs">
+            <strong>Debug:</strong> Full URL: {fullUrl}
+          </div>
+        )}
+        
         {/* Twitter */}
         <a
           href={shareLinks.twitter}
