@@ -1,7 +1,7 @@
 ---
-title: "Azure Sentinel for Beginners: Your Complete Guide to Cloud-Native SIEM"
+title: "Azure Sentinel for Beginners"
 date: "2025-07-25"
-excerpt: "A beginner's guide to Azure Sentinel - Microsoft's cloud-native Security Information and Event Management (SIEM) solution. Learn the fundamentals, key features, and get started with hands-on examples."
+excerpt: "A beginner's guide to Azure Sentinel, Microsoft's cloud-native Security Information and Event Management (SIEM) solution."
 featuredImage: "/images/azure-sentinel-beginners-guide.svg"
 difficulty: "Easy"
 ---
