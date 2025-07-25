@@ -6,6 +6,19 @@ import Layout from '../../components/Layout'
 import ShareButtons from '../../components/ShareButtons'
 import { format } from 'date-fns'
 
+const getDifficultyColor = (difficulty?: string) => {
+  switch (difficulty) {
+    case 'Easy':
+      return 'bg-green-100 text-green-800'
+    case 'Intermediate':
+      return 'bg-yellow-100 text-yellow-800'
+    case 'Difficult':
+      return 'bg-red-100 text-red-800'
+    default:
+      return 'bg-gray-100 text-gray-800'
+  }
+}
+
 interface PostProps {
   post: {
     slug: string
@@ -14,6 +27,7 @@ interface PostProps {
     content: string
     excerpt: string
     featuredImage?: string
+    difficulty?: 'Easy' | 'Intermediate' | 'Difficult'
   }
 }
 
@@ -92,16 +106,23 @@ export default function Post({ post }: PostProps) {
               <h1 className="text-5xl font-bold text-gray-900 mb-4">
               {post.title} 🧪
               </h1>
-                <p className="text-gray-500">
-                {format(new Date(post.date), 'MMMM dd, yyyy')} 👩🏽‍🔬{' '}
-                <a
-                  href="https://www.linkedin.com/in/letisiapangataa/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Letisia Pangata&apos;a
-                </a>
-                </p>
+                <div className="flex items-center gap-3 mb-4">
+                  <p className="text-gray-500">
+                  {format(new Date(post.date), 'MMMM dd, yyyy')} 👩🏽‍🔬{' '}
+                  <a
+                    href="https://www.linkedin.com/in/letisiapangataa/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Letisia Pangata&apos;a
+                  </a>
+                  </p>
+                  {post.difficulty && (
+                    <span className={`px-3 py-1 rounded-full text-sm font-medium ${getDifficultyColor(post.difficulty)}`}>
+                      📊 {post.difficulty}
+                    </span>
+                  )}
+                </div>
             </header>
 
             <div 

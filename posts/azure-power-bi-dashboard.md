@@ -3,6 +3,7 @@ title: "Security Monitoring Dashboard : Azure Sentinel and Power BI"
 date: "2025-07-25"
 excerpt: "A technical guide to creating an enterprise-grade security dashboard with Azure Sentinel and Power BI."
 featuredImage: "/images/azure-sentinel-power-bi-featured.svg"
+difficulty: "Difficult"
 ---
 
 This is an independently led **Applied Learning Project** of a Security Monitoring Dashboard, developed as part of a practical demonstration of cloud-native security integration. It builds upon my experience as a Cloud Solution Architect Intern at Microsoft, where I gained hands-on exposure to Microsoft’s cybersecurity solutions and the broader suite of Microsoft products, including the Power Platform.

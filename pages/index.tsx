@@ -5,6 +5,19 @@ import { getAllPosts } from '../lib/posts'
 import Layout from '../components/Layout'
 import { format } from 'date-fns'
 
+const getDifficultyColor = (difficulty?: string) => {
+  switch (difficulty) {
+    case 'Easy':
+      return 'bg-green-100 text-green-800'
+    case 'Intermediate':
+      return 'bg-yellow-100 text-yellow-800'
+    case 'Difficult':
+      return 'bg-red-100 text-red-800'
+    default:
+      return 'bg-gray-100 text-gray-800'
+  }
+}
+
 interface Post {
   slug: string
   title: string
@@ -12,6 +25,7 @@ interface Post {
   excerpt: string
   content: string
   featuredImage?: string
+  difficulty?: 'Easy' | 'Intermediate' | 'Difficult'
 }
 
 interface HomeProps {
@@ -54,17 +68,24 @@ export default function Home({ posts }: HomeProps) {
                   {post.title}
                   </h3>
                 </Link>
-                <p className="text-gray-500 text-m mb-3 leading-relaxed">
-                  {format(new Date(post.date), 'MMMM dd, yyyy')} 👩🏽‍🔬{' '}
-                  <a
-                  href="https://www.linkedin.com/in/letisiapangataa/"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <div className="flex items-center gap-3 mb-3">
+                  <p className="text-gray-500 text-m leading-relaxed">
+                    {format(new Date(post.date), 'MMMM dd, yyyy')} 👩🏽‍🔬{' '}
+                    <a
+                    href="https://www.linkedin.com/in/letisiapangataa/"
+                    target="_blank"
+                    rel="noopener noreferrer"
 
-                  >
-                  Letisia Pangata&apos;a
-                  </a>
-                </p>
+                    >
+                    Letisia Pangata&apos;a
+                    </a>
+                  </p>
+                  {post.difficulty && (
+                    <span className={`px-2 py-1 rounded-full text-xs font-medium ${getDifficultyColor(post.difficulty)}`}>
+                      {post.difficulty}
+                    </span>
+                  )}
+                </div>
                 <p className="text-gray-700 leading-relaxed mb-2">
                   {post.excerpt}
                 </p>

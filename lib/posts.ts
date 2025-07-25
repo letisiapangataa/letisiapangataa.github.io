@@ -13,6 +13,7 @@ export interface Post {
   excerpt: string
   content: string
   featuredImage?: string
+  difficulty?: 'Easy' | 'Intermediate' | 'Difficult'
 }
 
 export function getAllPosts(): Post[] {
@@ -38,6 +39,7 @@ export function getAllPosts(): Post[] {
         excerpt: matterResult.data.excerpt || matterResult.data.description || matterResult.content.substring(0, 150) + '...',
         content: matterResult.content,
         featuredImage: matterResult.data.featuredImage || matterResult.data.image,
+        difficulty: matterResult.data.difficulty || 'Intermediate',
       }
     })
 
@@ -57,6 +59,7 @@ export function getPostBySlug(slug: string): Post | null {
       excerpt: matterResult.data.excerpt || matterResult.data.description || matterResult.content.substring(0, 150) + '...',
       content: matterResult.content,
       featuredImage: matterResult.data.featuredImage || matterResult.data.image,
+      difficulty: matterResult.data.difficulty || 'Intermediate',
     }
   } catch (error) {
     return null
