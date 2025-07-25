@@ -12,14 +12,14 @@ Please refer to this link [https://learn.microsoft.com/en-us/azure/sentinel/over
 
 ## What is Azure Sentinel?
 
-Azure Sentinel is a scalable, cloud-native security analytics platform that helps organizations:
+Azure Sentinel is a scalable, cloud-native security analytics platform that helps organisations:
 
 - **Collect** security data from virtually any source
 - **Detect** threats using built-in machine learning and analytics
 - **Investigate** incidents with interactive workbooks and dashboards
 - **Respond** to threats with automated playbooks and workflows
 
-Think of it as your organisation's security command center in the cloud, providing a bird's-eye view of your entire digital environment.
+Think of it as your organisation's security command centre in the cloud, providing a bird's-eye view of your entire digital environment.
 
 ## Why Choose Azure Sentinel?
 
@@ -32,7 +32,7 @@ Think of it as your organisation's security command center in the cloud, providi
 ### 2. **Intelligent Security Analytics**
 - Built-in machine learning detects sophisticated threats
 - AI reduces false positives
-- Behavioral analytics identify anomalous activities
+- Behavioural analytics identify anomalous activities
 - Threat intelligence integration
 
 ### 3. **Comprehensive Data Collection**
@@ -52,7 +52,7 @@ Think of it as your organisation's security command center in the cloud, providi
 ### 1. **Data Connectors**
 Data connectors are the entry points for your security data. Azure Sentinel offers several types:
 
-- **Microsoft Services**: Azure AD, Office 365, Azure Security Center
+- **Microsoft Services**: Azure AD, Office 365, Azure Security Centre
 - **Security Solutions**: Palo Alto, Fortinet, Check Point, CrowdStrike
 - **Cloud Platforms**: AWS CloudTrail, Google Cloud Platform
 - **Network Devices**: Firewalls, proxies, DNS servers
@@ -64,13 +64,13 @@ Analytics rules define what constitutes suspicious or malicious activity:
 - **Scheduled Rules**: Run queries at regular intervals
 - **Microsoft Security Rules**: Alerts from other Microsoft security products
 - **Fusion Rules**: ML-powered correlation of multiple weak signals
-- **Anomaly Rules**: Machine learning-based behavioral analysis
+- **Anomaly Rules**: Machine learning-based behavioural analysis
 
 ### 3. **Workbooks**
 Interactive dashboards that provide visual insights into your security data:
 
 - Pre-built templates for common scenarios
-- Custom visualizations using KQL queries
+- Custom visualisations using KQL queries
 - Real-time and historical views
 - Shareable across teams
 
@@ -90,7 +90,7 @@ Before setting up Azure Sentinel, ensure you have:
 - **Azure subscription** with appropriate permissions
 - **Log Analytics workspace** (Sentinel's data store)
 - **Security Reader** or **Sentinel Contributor** role
-- Understanding of your organization's data sources
+- Understanding of your organisation's data sources
 
 ### Step 2: Enable Azure Sentinel
 1. Navigate to the Azure portal
@@ -114,7 +114,7 @@ Azure Sentinel comes with hundreds of pre-built rules and workbooks:
 1. Navigate to **Analytics** > **Rule templates**
 2. Browse available detection rules
 3. Enable rules relevant to your environment
-4. Check **Workbooks** for visualization templates
+4. Check **Workbooks** for visualisation templates
 
 ## Understanding KQL (Kusto Query Language)
 
@@ -172,7 +172,7 @@ AzureActivity
 ```
 
 ### 3. **Identify Unusual Network Traffic**
-Analyze network connections for anomalous patterns:
+Analyse network connections for anomalous patterns:
 
 ```kql
 CommonSecurityLog
@@ -204,7 +204,7 @@ CommonSecurityLog
 - Define roles and responsibilities
 - Create playbooks for common scenarios
 - Document escalation procedures
-- Practice incident response regularly
+- Practise incident response regularly
 
 ### 5. **Monitor and Tune**
 - Review analytics rule performance regularly
@@ -234,25 +234,25 @@ CommonSecurityLog
 ## Common Challenges and Solutions
 
 ### Challenge 1: Data Ingestion Costs
-**Problem**: Unexpected high costs due to verbose logs
+**Problem**: Unexpected high costs due to verbose logs  
 **Solution**: 
 - Use data collection rules to filter unnecessary data
 - Implement log aggregation before ingestion
 - Set up cost alerts and budgets
 
 ### Challenge 2: Alert Fatigue
-**Problem**: Too many false positive alerts
+**Problem**: Too many false positive alerts  
 **Solution**:
 - Start with high-confidence rules only
 - Tune alert thresholds based on your environment
 - Use machine learning rules to reduce noise
 
 ### Challenge 3: Complex KQL Queries
-**Problem**: Difficulty writing effective queries
+**Problem**: Difficulty writing effective queries  
 **Solution**:
 - Start with simple queries and build complexity
 - Use query templates and examples
-- Practice with sample data sets
+- Practise with sample data sets
 
 ## Next Steps
 
@@ -265,7 +265,7 @@ Once you're comfortable with the basics:
 
 ## Conclusion
 
-Azure Sentinel represents the future of security monitoring - cloud-native, intelligent, and scalable. While the learning curve might seem steep initially, starting with the fundamentals and gradually building your expertise will help you harness its full potential.
+Azure Sentinel represents the future of security monitoring – cloud-native, intelligent, and scalable. While the learning curve might seem steep initially, starting with the fundamentals and gradually building your expertise will help you harness its full potential.
 
 Remember, security is a journey, not a destination. Azure Sentinel provides the tools and intelligence you need to stay ahead of evolving threats while simplifying the complexity of modern security operations.
 

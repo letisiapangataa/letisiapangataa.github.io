@@ -158,7 +158,7 @@ export default function Post({ post }: PostProps) {
                   </p>
                   {post.difficulty && (
                     <span className={`px-3 py-1 rounded-full text-sm font-medium ${getDifficultyColor(post.difficulty)}`}>
-                      📊 {post.difficulty}
+                      {post.difficulty}
                     </span>
                   )}
                 </div>
