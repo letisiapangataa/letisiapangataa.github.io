@@ -6,7 +6,7 @@ featuredImage: "/images/azure-sentinel-power-bi-featured.svg"
 difficulty: "Difficult"
 ---
 
-This is an independently led **Applied Learning Project** of a Security Monitoring Dashboard, developed as part of a practical demonstration of cloud-native security integration. It builds upon my experience as a Cloud Solution Architect Intern at Microsoft, where I gained hands-on exposure to Microsoft’s cybersecurity solutions and the broader suite of Microsoft products, including the Power Platform.
+This is an independently led **Applied Learning Project** of a Security Monitoring Dashboard, developed as part of a practical demonstration of cloud-native security integration. It builds upon my experience as a Cloud Solution Architect Intern at Microsoft, where I gained hands-on exposure to Microsoft’s cybersecurity solutions and the broader suite of Microsoft products.
 
 The project combines insights from real-world security engagements and my academic background in cybersecurity, data analytics, and cloud engineering, applying hands-on skills in threat modeling, **Azure Sentinel**, and **Power BI** developed through both industry, independent and tertiary education.
 
@@ -119,7 +119,7 @@ CommonSecurityLog
 | order by TimeGenerated desc
 ```
 
-#### 2.2 Query Optimization Strategies
+#### 2.2 Query Optimisation Strategies
 - **Time-based filtering** to reduce data volume
 - **Aggregation techniques** for performance
 - **Index-friendly** where clauses
