@@ -1,6 +1,6 @@
 ---
 title: "Microsoft Azure Healthcare Agent Service: Transforming New Zealand Healthcare with AI"
-date: "2025-07-26"
+date: "2025-08-01"
 excerpt: "Exploring how Azure Healthcare Agent Service can revolutionize healthcare delivery in New Zealand through intelligent automation and AI-powered patient interactions."
 featuredImage: "/images/azure-healthcare-agent-nz.svg"
 tags: ["Azure", "Healthcare", "AI", "New Zealand", "Digital Health", "Healthcare Bot", "FHIR", "Māori Health"]
@@ -9,12 +9,12 @@ author: "Letisia Pangataa"
 difficulty: "Intermediate"
 ---
 
-As a Cloud Solution Architect at Microsoft, I've been closely following the evolution of AI in healthcare, particularly how Azure's Healthcare Agent Service is reshaping patient care delivery globally. New Zealand's healthcare sector presents unique opportunities for AI transformation, given the country's progressive digital health initiatives and commitment to improving healthcare accessibility.
+During my time in Microsoft, I've been following the evolution of AI in healthcare, particularly how Azure's Healthcare Agent Service is reshaping patient care delivery globally. New Zealand's healthcare sector presents unique opportunities for AI transformation, given the country's progressive digital health initiatives and commitment to improving healthcare accessibility.
 
-This post explores how Azure Healthcare Agent Service can address New Zealand's specific healthcare challenges while aligning with local regulations and cultural considerations.
+This article explores how Azure Healthcare Agent Service can address New Zealand's specific healthcare challenges while aligning with local regulations and cultural considerations.
 
-**Technologies Covered:**  
-Azure Healthcare Agent Service, Azure AI Services, FHIR, Healthcare Bot Framework, Azure OpenAI Service
+**Technologies:**  
+Azure Healthcare Agent Service, Azure AI Services, FHIR, Healthcare Bot Framework, Azure OpenAI Service.
 
 ## Understanding Azure Healthcare Agent Service
 
