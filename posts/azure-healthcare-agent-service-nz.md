@@ -6,7 +6,7 @@ featuredImage: "/images/azure-healthcare-agent-nz.svg"
 difficulty: "Intermediate"
 ---
 
-During my time in Microsoft, I've been following the evolution of AI in healthcare, particularly how Azure's Healthcare Agent Service is reshaping patient care delivery globally. New Zealand's healthcare sector presents unique opportunities for AI transformation, given the country's progressive digital health initiatives and commitment to improving healthcare accessibility.
+I've been following the evolution of AI in healthcare, particularly how Microsoft Azure's Healthcare Agent Service is reshaping patient care delivery globally. New Zealand's healthcare sector presents unique opportunities for AI transformation, given the country's progressive digital health initiatives and commitment to improving healthcare accessibility.
 
 This article explores how Azure Healthcare Agent Service can address New Zealand's specific healthcare challenges while aligning with local regulations and cultural considerations.
 
