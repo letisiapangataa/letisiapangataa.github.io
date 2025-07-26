@@ -6,20 +6,6 @@
 
 @layer base {
   html {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+    font-family: 'Abadi MT Condensed Light', 'Abadi', 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
-}
-
-.text-blue-600 {
-    --tw-text-opacity: 1;
-    color: rgb(37 99 235 / var(--tw-text-opacity));
-    line-height: 2.3em;
-    font-weight: bold;
-}
-
-.text-gray-900 {
-    --tw-text-opacity: 1;
-    color: rgb(17 24 39 / var(--tw-text-opacity));
-    font-weight: bold;
-    line-height: 1.5;
 }

@@ -270,13 +270,3 @@ Azure Sentinel represents the future of security monitoring – cloud-native, in
 Remember, security is a journey, not a destination. Azure Sentinel provides the tools and intelligence you need to stay ahead of evolving threats while simplifying the complexity of modern security operations.
 
 **Ready to get started?** Begin with the official Microsoft Learn modules and set up your first Azure Sentinel workspace today. The cybersecurity community is here to support your learning journey!
-
----
-
-**Related Topics:**
-- [Security Monitoring Dashboard: Azure Sentinel and Power BI](./azure-power-bi-dashboard)
-- Microsoft Defender for Cloud Integration
-- Advanced KQL for Security Analysis
-- Building Custom Analytics Rules
-
-**Tags:** Azure Sentinel, SIEM, Cloud Security, KQL, Microsoft Security, Cybersecurity, SOC, Threat Detection
