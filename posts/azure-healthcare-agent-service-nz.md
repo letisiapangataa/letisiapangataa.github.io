@@ -5,7 +5,7 @@ excerpt: "Exploring how Azure Healthcare Agent Service can revolutionize healthc
 featuredImage: "/images/azure-healthcare-agent-nz.svg"
 tags: ["Azure", "Healthcare", "AI", "New Zealand", "Digital Health", "Healthcare Bot", "FHIR", "Māori Health"]
 category: "Healthcare AI"
-author: "Letisia Pangataa"
+author: "Letisia Pangata'a"
 difficulty: "Intermediate"
 ---
 

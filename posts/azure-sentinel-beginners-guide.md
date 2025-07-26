@@ -268,5 +268,3 @@ Once you're comfortable with the basics:
 Azure Sentinel represents the future of security monitoring – cloud-native, intelligent, and scalable. While the learning curve might seem steep initially, starting with the fundamentals and gradually building your expertise will help you harness its full potential.
 
 Remember, security is a journey, not a destination. Azure Sentinel provides the tools and intelligence you need to stay ahead of evolving threats while simplifying the complexity of modern security operations.
-
-**Ready to get started?** Begin with the official Microsoft Learn modules and set up your first Azure Sentinel workspace today. The cybersecurity community is here to support your learning journey!
