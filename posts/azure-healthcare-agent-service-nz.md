@@ -3,9 +3,6 @@ title: "Microsoft Azure Healthcare Agent Service: Transforming New Zealand Healt
 date: "2025-08-01"
 excerpt: "Exploring how Azure Healthcare Agent Service can revolutionize healthcare delivery in New Zealand through intelligent automation and AI-powered patient interactions."
 featuredImage: "/images/azure-healthcare-agent-nz.svg"
-tags: ["Azure", "Healthcare", "AI", "New Zealand", "Digital Health", "Healthcare Bot", "FHIR", "Māori Health"]
-category: "Healthcare AI"
-author: "Letisia Pangata'a"
 difficulty: "Intermediate"
 ---
 
