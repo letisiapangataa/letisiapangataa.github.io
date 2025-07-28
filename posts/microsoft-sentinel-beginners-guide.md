@@ -8,7 +8,7 @@ difficulty: "Easy"
 
 ## What is Microsoft Sentinel?
 
-Microsoft Sentinel is a scalable, cloud-native security information and event management (SIEM) and security orchestration automated response (SOAR) solution. It helps organizations detect, investigate, and respond to security threats across the enterprise.
+Microsoft Sentinel is a scalable, cloud-native security information and event management (SIEM) and security orchestration automated response (SOAR) solution. It helps organisations detect, investigate, and respond to security threats across the enterprise.
 
 ## Key Features
 
