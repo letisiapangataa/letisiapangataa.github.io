@@ -1,0 +1,25 @@
+<!-- filepath: c:\Users\lpangataa\OneDrive - Microsoft\Desktop\letisiapangataa.github.io\public\images\sentinel-beginners-guide.svg -->
+<svg width="480" height="240" viewBox="0 0 480 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="480" height="240" rx="24" fill="#F3F6FB"/>
+  <!-- Shield shape for Sentinel -->
+  <path d="M120 60 Q120 160 240 200 Q360 160 360 60 Q240 20 120 60 Z" fill="#0078D4" opacity="0.12"/>
+  <path d="M140 75 Q140 145 240 180 Q340 145 340 75 Q240 45 140 75 Z" fill="#0078D4"/>
+  <!-- Magnifying glass for investigation -->
+  <circle cx="320" cy="120" r="32" fill="#fff" stroke="#43B97F" stroke-width="6"/>
+  <rect x="345" y="145" width="32" height="10" rx="5" fill="#43B97F" transform="rotate(45 345 145)"/>
+  <!-- Analytics bars -->
+  <rect x="180" y="140" width="12" height="40" rx="4" fill="#FFD700"/>
+  <rect x="200" y="120" width="12" height="60" rx="4" fill="#43B97F"/>
+  <rect x="220" y="155" width="12" height="25" rx="4" fill="#0078D4"/>
+  <!-- Cloud icon for cloud-native -->
+  <ellipse cx="90" cy="170" rx="24" ry="14" fill="#fff" stroke="#0078D4" stroke-width="2"/>
+  <ellipse cx="110" cy="170" rx="12" ry="8" fill="#fff" stroke="#0078D4" stroke-width="2"/>
+  <!-- Title text -->
+  <text x="32" y="220" font-size="28" font-family="Segoe UI, Arial, sans-serif" fill="#0078D4" font-weight="bold">
+    Microsoft Sentinel
+  </text>
+  <!-- Subtitle text -->
+  <text x="32" y="250" font-size="16" font-family="Segoe UI, Arial, sans-serif" fill="#0078D4">
+    Beginner's Guide
+  </text>
+</svg>
