@@ -110,18 +110,6 @@ export default function Home({ posts }: HomeProps) {
           {posts.map((post) => (
             <article key={post.slug} className="border-b border-gray-200 pb-8">
               {/* Large Featured Image Above Content */}
-              {post.featuredImage && (
-                <div className="w-full mb-6">
-                  <Link href={`/posts/${post.slug}`}>
-                    <img
-                      src={post.featuredImage}
-                      alt={post.title}
-                      className="w-full h-64 object-cover rounded-lg cursor-pointer hover:opacity-95 transition-opacity shadow-lg"
-                    />
-                  </Link>
-                </div>
-              )}
-              
               {/* Content */}
               <div>
                 <Link href={`/posts/${post.slug}`}>
