@@ -105,9 +105,6 @@ export default function Post({ post }: PostProps) {
         <meta name="twitter:title" content={post.title} />
         <meta name="twitter:description" content={post.excerpt || post.title} />
         
-        {/* Additional SEO Meta Tags */}
-        <meta name="theme-color" content="#0066cc" />
-        <meta name="msapplication-TileColor" content="#0066cc" />
       </Head>
 
       <div className="max-w-6xl mx-auto px-4 py-8">
