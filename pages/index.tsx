@@ -140,7 +140,7 @@ export default function Home({ posts }: HomeProps) {
                 </p>
                 <Link href={`/posts/${post.slug}`}>
                   <span className="text-blue-600 hover:text-blue-800 font-medium cursor-pointer text-m leading-tight">
-                  🧪 More Information
+                  More Information
                   </span>
                 </Link>
               </div>
