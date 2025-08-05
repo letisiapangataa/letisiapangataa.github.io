@@ -2,6 +2,7 @@
 title: "Cybersecurity Trends: August 2025"
 date: "2025-08-05"
 excerpt: "Explore the latest cybersecurity trends, threats, and best practices shaping the digital landscape in August 2025."
+featuredImage: "/images/azure-sentinel-beginners-guide.svg"
 difficulty: "Intermediate"
 ---
 
