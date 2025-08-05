@@ -2,11 +2,9 @@
 title: "Cybersecurity Trends: August 2025"
 date: "2025-08-05"
 excerpt: "Explore the latest cybersecurity trends, threats, and best practices shaping the digital landscape in August 2025."
-featuredImage: "/images/azure-sentinel-beginners-guide.svg"
+featuredImage: "/images/cybersecurity-trends-august-2025.svg"
 difficulty: "Intermediate"
 ---
-
-## Introduction
 
 The cybersecurity landscape is rapidly evolving in 2025, with new threats, technologies, and regulations impacting organisations worldwide. This post highlights the most significant trends and actionable insights for August 2025.
 
