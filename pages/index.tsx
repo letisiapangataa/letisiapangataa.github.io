@@ -45,7 +45,7 @@ export default function Home({ posts }: HomeProps) {
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Letisia's Technology Portfolio - Empowering Innovation with Cloud, AI & Cybersecurity" />
+        <meta property="og:title" content="Letisia's Technology Portfolio - Building Secure Digital Futures with AI, Cloud & Cybersecurity" />
         <meta property="og:description" content="Explore cutting-edge technology insights from Letisia Pangata'a - Cloud Solution Architect specializing in Azure, cybersecurity, Power BI, and AI solutions." />
         <meta property="og:url" content="https://letisiapangataa.github.io" />
         <meta property="og:site_name" content="Letisia's Technology Portfolio" />
@@ -59,14 +59,12 @@ export default function Home({ posts }: HomeProps) {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@letisiapangataa" />
         <meta name="twitter:creator" content="@letisiapangataa" />
-        <meta name="twitter:title" content="Letisia's Technology Portfolio - Empowering Innovation with Cloud, AI & Cybersecurity" />
+        <meta name="twitter:title" content="Letisia's Technology Portfolio - Building Secure Digital Futures with AI, Cloud & Cybersecurity" />
         <meta name="twitter:description" content="Explore cutting-edge technology insights from Letisia Pangata'a - Cloud Solution Architect specializing in Azure, cybersecurity, Power BI, and AI solutions." />
         <meta name="twitter:image" content="https://letisiapangataa.github.io/images/azure-sentinel-power-bi-featured.png" />
         <meta name="twitter:image:alt" content="Letisia's Technology Portfolio - Cloud, AI & Cybersecurity" />
         
         {/* Additional SEO Meta Tags */}
-        <meta name="theme-color" content="#0066cc" />
-        <meta name="msapplication-TileColor" content="#0066cc" />
         
         {/* Structured Data for Website */}
         <script
