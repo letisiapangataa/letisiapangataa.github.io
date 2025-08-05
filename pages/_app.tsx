@@ -6,7 +6,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Letisia Pangataa - Blog</title>
+        <title>Letisia Pangata'a - Blog</title>
         <meta name="description" content="Personal blog by Letisia Pangataa" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>

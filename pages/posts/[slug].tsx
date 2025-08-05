@@ -26,7 +26,6 @@ interface PostProps {
     date: string
     content: string
     excerpt: string
-    featuredImage?: string
     difficulty?: 'Easy' | 'Intermediate' | 'Difficult'
   }
 }
@@ -34,8 +33,7 @@ interface PostProps {
 export default function Post({ post }: PostProps) {
   const baseUrl = 'https://letisiapangataa.github.io'
   const postUrl = `${baseUrl}/posts/${post.slug}`
-  const imageUrl = post.featuredImage ? `${baseUrl}${post.featuredImage}` : `${baseUrl}/images/default-og-image.png`
-  
+
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -64,12 +62,6 @@ export default function Post({ post }: PostProps) {
         "@type": "ImageObject",
         "url": `${baseUrl}/favicon.svg`
       }
-    },
-    "image": {
-      "@type": "ImageObject",
-      "url": imageUrl,
-      "width": 1200,
-      "height": 630
     },
     "keywords": post.difficulty ? `${post.difficulty}, Technology, Cloud Computing, Cybersecurity` : "Technology, Cloud Computing, Cybersecurity",
     "articleSection": "Technology",
@@ -100,10 +92,6 @@ export default function Post({ post }: PostProps) {
         <meta property="og:url" content={postUrl} />
         <meta property="og:site_name" content="Letisia's Technology Portfolio" />
         <meta property="og:locale" content="en_US" />
-        <meta property="og:image" content={imageUrl} />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta property="og:image:alt" content={`Featured image for: ${post.title}`} />
         <meta property="article:author" content="Letisia Pangata'a" />
         <meta property="article:published_time" content={post.date} />
         <meta property="article:modified_time" content={post.date} />
@@ -111,39 +99,22 @@ export default function Post({ post }: PostProps) {
         {post.difficulty && <meta property="article:tag" content={post.difficulty} />}
         
         {/* Twitter */}
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@letisiapangataa" />
         <meta name="twitter:creator" content="@letisiapangataa" />
         <meta name="twitter:title" content={post.title} />
         <meta name="twitter:description" content={post.excerpt || post.title} />
-        <meta name="twitter:image" content={imageUrl} />
-        <meta name="twitter:image:alt" content={`Featured image for: ${post.title}`} />
-        
-        {/* LinkedIn */}
-        <meta property="og:image:secure_url" content={imageUrl} />
         
         {/* Additional SEO Meta Tags */}
         <meta name="theme-color" content="#0066cc" />
         <meta name="msapplication-TileColor" content="#0066cc" />
       </Head>
 
-      {/* Full-Screen Featured Image */}
-      {post.featuredImage && (
-        <div className="relative w-full h-96 mb-8 overflow-hidden bg-gray-100">
-          <img
-            src={post.featuredImage}
-            alt={post.title}
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none" />
-        </div>
-      )}
-
       <div className="max-w-6xl mx-auto px-4 py-8">
         <article>
             <header className="mt-8 mb-8">
               <h1 className="text-5xl font-bold text-gray-900 mb-4">
-              {post.title} 🧪
+              {post.title} 
               </h1>
                 <div className="flex items-center gap-3 mb-4">
                   <p className="text-gray-500">
@@ -170,12 +141,7 @@ export default function Post({ post }: PostProps) {
             />
 
             {/* Social Media Share Buttons */}
-            <ShareButtons 
-              title={post.title}
-              url={`/posts/${post.slug}`}
-              description={post.excerpt || `Check out this post: ${post.title}`}
-              featuredImage={post.featuredImage}
-            />
+
         </article>
           <Link href="/">
             <span className="text-blue-600 hover:text-blue-800 cursor-pointer mb-8 mt-8 inline-block font-bold">
@@ -211,6 +177,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 
   const content = await markdownToHtml(post.content)
 
+  // No need to remove featuredImage, as it should not exist anymore
   return {
     props: {
       post: {

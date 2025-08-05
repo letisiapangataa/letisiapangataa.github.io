@@ -2,7 +2,6 @@
 title: "Introducing Microsoft Fabric"
 date: "2025-07-28"
 excerpt: "Discover Microsoft Fabric: the unified analytics platform for modern data teams."
-featuredImage: "/images/introducing-microsoft-fabric.svg"
 difficulty: "Easy"
 ---
 

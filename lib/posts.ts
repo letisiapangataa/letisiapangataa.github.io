@@ -12,11 +12,10 @@ export interface Post {
   date: string
   excerpt: string
   content: string
-  featuredImage?: string
   difficulty?: 'Easy' | 'Intermediate' | 'Difficult'
 }
 
-export function getAllPosts(): Post[] {
+export function getAllPosts() {
   // Create posts directory if it doesn't exist
   if (!fs.existsSync(postsDirectory)) {
     fs.mkdirSync(postsDirectory, { recursive: true })
@@ -38,7 +37,6 @@ export function getAllPosts(): Post[] {
         date: matterResult.data.date || new Date().toISOString(),
         excerpt: matterResult.data.excerpt || matterResult.data.description || matterResult.content.substring(0, 150) + '...',
         content: matterResult.content,
-        featuredImage: matterResult.data.featuredImage || matterResult.data.image,
         difficulty: matterResult.data.difficulty || 'Intermediate',
       }
     })
@@ -58,7 +56,6 @@ export function getPostBySlug(slug: string): Post | null {
       date: matterResult.data.date || new Date().toISOString(),
       excerpt: matterResult.data.excerpt || matterResult.data.description || matterResult.content.substring(0, 150) + '...',
       content: matterResult.content,
-      featuredImage: matterResult.data.featuredImage || matterResult.data.image,
       difficulty: matterResult.data.difficulty || 'Intermediate',
     }
   } catch (error) {

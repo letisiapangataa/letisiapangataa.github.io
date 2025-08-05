@@ -2,7 +2,6 @@
 title: "How to Pass Microsoft AI-900 Azure AI Fundamentals"
 date: "2025-07-25"
 excerpt: "A guide to passing the Microsoft AI-900 Azure AI Fundamentals certification exam."
-featuredImage: "/images/ai-900-certification-guide.svg"
 difficulty: "Easy"
 ---
 

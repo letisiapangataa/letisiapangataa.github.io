@@ -24,7 +24,6 @@ interface Post {
   date: string
   excerpt: string
   content: string
-  featuredImage?: string
   difficulty?: 'Easy' | 'Intermediate' | 'Difficult'
 }
 
@@ -110,6 +109,7 @@ export default function Home({ posts }: HomeProps) {
           {posts.map((post) => (
             <article key={post.slug} className="border-b border-gray-200 pb-8">
               {/* Large Featured Image Above Content */}
+              {/* Removed all featured image rendering */}
               {/* Content */}
               <div>
                 <Link href={`/posts/${post.slug}`}>
@@ -161,10 +161,10 @@ export default function Home({ posts }: HomeProps) {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const posts = getAllPosts()
+  const posts = getAllPosts().map(({ featuredImage, ...rest }) => rest); // Omit featuredImage
   return {
     props: {
       posts,
     },
-  }
-}
+  };
+};

@@ -1,8 +1,7 @@
 ---
 title: "Cybersecurity Trends: August 2025"
 date: "2025-08-05"
-excerpt: "Explore the latest cybersecurity trends, threats, and best practices shaping the digital landscape in August 2025."
-featuredImage: "/images/cybersecurity-trends-august-2025.svg"
+excerpt: "Latest cybersecurity trends, threats, and best practices shaping the digital landscape in August 2025."
 difficulty: "Intermediate"
 ---
 
@@ -58,4 +57,4 @@ The cybersecurity landscape is rapidly evolving in 2025, with new threats, techn
 
 ## Conclusion
 
-Staying ahead in cybersecurity requires continuous learning, proactive defence, and a culture of security awareness. Review your organisation’s security posture regularly and adapt to the evolving
+Staying ahead in cybersecurity requires continuous learning, proactive defence, and a culture of security awareness.

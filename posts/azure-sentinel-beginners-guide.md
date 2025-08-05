@@ -2,7 +2,6 @@
 title: "Azure Sentinel for Beginners"
 date: "2025-07-25"
 excerpt: "A beginner's guide to Azure Sentinel."
-featuredImage: "/images/azure-sentinel-beginners-guide.svg"
 difficulty: "Easy"
 ---
 

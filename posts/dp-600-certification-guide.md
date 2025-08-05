@@ -2,7 +2,6 @@
 title: "DP-600 - Microsoft Fabric Analytics Engineer : A Passing Guide"
 date: "2025-07-25"
 excerpt: "A beginner's guide to enterprise-scale data analytics solutions using Microsoft Fabric."
-featuredImage: "/images/dp-600-fabric-analytics-guide.svg"
 difficulty: "Easy"
 ---
 

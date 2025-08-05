@@ -2,7 +2,6 @@
 title: "Power BI for Beginners"
 date: "2025-07-25"
 excerpt: "A beginner's guide to Microsoft Power BI."
-featuredImage: "/images/power-bi-beginners-guide.svg"
 difficulty: "Easy"
 ---
 

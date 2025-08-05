@@ -2,7 +2,6 @@
 title: "Microsoft Sentinel for Beginners"
 date: "2025-07-28"
 excerpt: "A practical introduction to cloud-native SIEM and SOAR with Microsoft Sentinel."
-featuredImage: "/images/sentinel-beginners-guide.svg"
 difficulty: "Easy"
 ---
 
