@@ -35,7 +35,7 @@ export default function Home({ posts }: HomeProps) {
   return (
     <Layout>
       <Head>
-        <title>Letisia&apos;s Technology Portfolio - Empowering Innovation with Cloud, AI & Cybersecurity</title>
+        <title>Letisia&apos;s Technology Portfolio - Building Secure Digital Futures with AI, Cloud & Cybersecurity</title>
         <meta name="description" content="Explore cutting-edge technology insights from Letisia Pangata'a - Cloud Solution Architect specializing in Azure, cybersecurity, Power BI, and AI solutions. From beginner-friendly guides to advanced technical implementations." />
         <meta name="keywords" content="Cloud Computing, Azure, Cybersecurity, Power BI, AI, Technology Portfolio, Security Monitoring, Dashboard Development, KQL, DAX" />
         <meta name="author" content="Letisia Pangata'a" />
