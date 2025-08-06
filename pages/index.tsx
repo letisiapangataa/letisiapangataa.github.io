@@ -159,7 +159,7 @@ export default function Home({ posts }: HomeProps) {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const posts = getAllPosts().map(({ featuredImage, ...rest }) => rest); // Omit featuredImage
+  const posts = getAllPosts(); // No need to destructure featuredImage
   return {
     props: {
       posts,
