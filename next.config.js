@@ -1,8 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: 'export',
-  trailingSlash: true,
-  // No basePath or assetPrefix needed for username.github.io deployment
-}
+const isGithubPages = process.env.GITHUB_ACTIONS || process.env.NODE_ENV === 'production';
 
-module.exports = nextConfig
+const repo = 'letisiapangataa.github.io'; // your repo name
+
+module.exports = {
+  output: 'export',
+  assetPrefix: isGithubPages ? `/${repo}/` : '',
+  images: { unoptimized: true },
+  trailingSlash: true,
+  basePath: isGithubPages ? `/${repo}` : '',
+};
