@@ -1,0 +1,21 @@
+{
+  "name": "Letisia Pangataa - Technology Portfolio",
+  "short_name": "Letisia's Blog",
+  "description": "Empowering Innovation with Cloud, AI & Cybersecurity",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/apple-touch-icon.svg",
+      "sizes": "180x180",
+      "type": "image/svg+xml"
+    }
+  ]
+}
