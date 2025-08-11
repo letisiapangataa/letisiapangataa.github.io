@@ -1,5 +1,5 @@
 ---
-title: "Cybersecurity Trends: August 2025"
+title: "Cybersecurity Trends : August 2025"
 date: "2025-08-05"
 excerpt: "Latest cybersecurity trends, threats, and best practices shaping the digital landscape in August 2025."
 difficulty: "Intermediate"

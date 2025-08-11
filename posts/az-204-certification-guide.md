@@ -1,5 +1,5 @@
 ---
-title: "Mastering AZ-204: Azure Developer Associate Certification Journey"
+title: "Mastering AZ-204 : Azure Developer Associate Certification Journey"
 date: "2025-07-26"
 excerpt: "A guide to passing the Microsoft AZ-204 Azure Developer Associate certification exam, from learning path to exam strategy."
 difficulty: "Intermediate"

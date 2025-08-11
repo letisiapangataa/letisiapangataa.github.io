@@ -1,5 +1,5 @@
 ---
-title: "Security Monitoring Dashboard: Azure Sentinel and Power BI"
+title: "Security Monitoring Dashboard : Azure Sentinel and Power BI"
 date: "2025-07-28"
 excerpt: "A technical guide to creating an enterprise-grade security dashboard with Azure Sentinel and Power BI."
 difficulty: "Difficult"

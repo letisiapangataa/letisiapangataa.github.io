@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Fabric: IoT Analytics Pipeline"
+title: "Microsoft Fabric : IoT Analytics Pipeline"
 date: "2025-07-29"
 excerpt: "Deepen your understanding of Microsoft Fabric with advanced features, best practices, and real-world scenarios."
 difficulty: "Intermediate"
