@@ -110,7 +110,7 @@ export default function Post({ post }: PostProps) {
       <div className="max-w-6xl mx-auto px-4 py-8">
         <article>
             <header className="mt-8 mb-8">
-              <h1 className="text-5xl font-bold text-gray-900 mb-4">
+              <h1 className="text-5xl font-bold text-blue-600 mb-4">
               {post.title} 
               </h1>
                 <div className="flex items-center gap-3 mb-4">
