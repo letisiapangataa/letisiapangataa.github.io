@@ -6,8 +6,7 @@ description: "Step-by-step instructions and scripts for creating a secure, autom
 difficulty: "Intermediate"
 ---
 
-Creating a dedicated Windows Server lab is one of the best ways to simulate real-world enterprise IT infrastructure.  
-This guide walks through building a **Windows Server 2022 lab environment** featuring **Active Directory**, **secure RBAC**, **GPO automation**, **monitoring**, and **disaster recovery**—powered by **PowerShell scripting**.
+Creating a dedicated Windows Server lab is one of the best ways to simulate real-world enterprise IT infrastructure. This guide walks you through the building of a **Windows Server 2022 lab environment** featuring **Active Directory**, **secure RBAC**, **GPO automation**, **monitoring**, and **disaster recovery**—powered by **PowerShell scripting**.
 
 ---
 
