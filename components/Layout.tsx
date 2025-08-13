@@ -41,7 +41,7 @@ export default function Layout({ children }: LayoutProps) {
 
       <main>{children}</main>
 
-      <footer className="bg-white border-t mt-20">
+      <footer className="bg-white border-t">
         <div className="max-w-6xl mx-auto px-4 py-8">
           <div className="text-sm text-center text-gray-500">
             <p>&copy; 2025 Letisia Pangata&apos;a. All Rights Reserved.</p>
