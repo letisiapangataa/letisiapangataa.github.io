@@ -14,7 +14,7 @@ export default function Layout({ children }: LayoutProps) {
             <div className="flex items-center">
               <Link href="/">
                 <span className="text-l font-bold text-gray-900 cursor-pointer">
-                  Letisia&apos;s Technology Portfolio
+                  Letisia&apos;s Technical Notebook
                 </span>
               </Link>
             </div>

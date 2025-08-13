@@ -35,34 +35,13 @@ export default function Home({ posts }: HomeProps) {
   return (
     <Layout>
       <Head>
-        <title>Letisia&apos;s Technology Portfolio - Building Secure Digital Futures with AI, Cloud & Cybersecurity</title>
+        <title>Letisia&apos;s Technical Notebook - Building Secure Digital Futures with AI, Cloud & Cybersecurity</title>
         <meta name="description" content="Explore cutting-edge technology insights from Letisia Pangata'a - Cloud Solution Architect specializing in Azure, cybersecurity, Power BI, and AI solutions. From beginner-friendly guides to advanced technical implementations." />
         <meta name="keywords" content="Cloud Computing, Azure, Cybersecurity, Power BI, AI, Technology Portfolio, Security Monitoring, Dashboard Development, KQL, DAX" />
         <meta name="author" content="Letisia Pangata'a" />
         <meta name="robots" content="index, follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="canonical" href="https://letisiapangataa.github.io" />
-        
-        {/* Open Graph / Facebook */}
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="Letisia's Technology Portfolio - Building Secure Digital Futures with AI, Cloud & Cybersecurity" />
-        <meta property="og:description" content="Explore cutting-edge technology insights from Letisia Pangata'a - Cloud Solution Architect specializing in Azure, cybersecurity, Power BI, and AI solutions." />
-        <meta property="og:url" content="https://letisiapangataa.github.io" />
-        <meta property="og:site_name" content="Letisia's Technology Portfolio" />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:image" content="https://letisiapangataa.github.io/images/azure-sentinel-power-bi-featured.png" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta property="og:image:alt" content="Letisia's Technology Portfolio - Cloud, AI & Cybersecurity" />
-        
-        {/* Twitter */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@letisiapangataa" />
-        <meta name="twitter:creator" content="@letisiapangataa" />
-        <meta name="twitter:title" content="Letisia's Technology Portfolio - Building Secure Digital Futures with AI, Cloud & Cybersecurity" />
-        <meta name="twitter:description" content="Explore cutting-edge technology insights from Letisia Pangata'a - Cloud Solution Architect specializing in Azure, cybersecurity, Power BI, and AI solutions." />
-        <meta name="twitter:image" content="https://letisiapangataa.github.io/images/azure-sentinel-power-bi-featured.png" />
-        <meta name="twitter:image:alt" content="Letisia's Technology Portfolio - Cloud, AI & Cybersecurity" />
         
         {/* Additional SEO Meta Tags */}
         
