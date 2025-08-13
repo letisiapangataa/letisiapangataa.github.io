@@ -120,6 +120,7 @@ export default function Post({ post }: PostProps) {
                     href="https://www.linkedin.com/in/letisiapangataa/"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className='text-blue-600 hover:text-blue-800'
                   >
                     Letisia Pangata&apos;a
                   </a>
