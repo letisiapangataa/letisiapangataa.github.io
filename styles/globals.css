@@ -10,3 +10,8 @@
     font-family: 'Abadi MT Condensed Light', 'Abadi', 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 }
+
+.text-5xl {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
