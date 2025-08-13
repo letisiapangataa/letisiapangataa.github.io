@@ -13,24 +13,24 @@ export default function Layout({ children }: LayoutProps) {
           <div className="flex justify-between h-16">
             <div className="flex items-center">
               <Link href="/">
-                <span className="text-l font-bold text-blue-600 hover:text-blue-800 cursor-pointer">
+                <span className="text-l font-bold text-gray-900 hover:text-blue-900 cursor-pointer">
                   Letisia&apos;s Technical Notebook
                 </span>
               </Link>
             </div>
             <div className="flex items-center space-x-8">
               <Link href="https://www.linkedin.com/in/letisiapangataa/" target='_blank'>
-                <span className="text-sm text-blue-600 hover:text-blue-800 cursor-pointer">
+                <span className="text-sm text-gray-700 hover:text-blue-900 cursor-pointer">
                   LinkedIn
                 </span>
               </Link>
               <Link href="https://github.com/letisiapangataa" target='_blank'>
-                <span className="text-sm text-blue-600 hover:text-blue-800 cursor-pointer">
+                <span className="text-sm text-gray-700 hover:text-blue-900 cursor-pointer">
                   GitHub
                 </span>
               </Link>
                <Link href="mailto:lpangataa@outlook.com" target="_blank">
-                <span className="text-sm text-blue-600 hover:text-blue-800 cursor-pointer">
+                <span className="text-sm text-gray-700 hover:text-blue-900 cursor-pointer">
                   Email
                 </span>
               </Link>

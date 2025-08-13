@@ -90,7 +90,7 @@ export default function Home({ posts }: HomeProps) {
               {/* Content */}
               <div>
                 <Link href={`/posts/${post.slug}`}>
-                  <h3 className="text-2xl font-semibold text-blue-600 hover:text-blue-800 cursor-pointer mb-2 leading-snug">
+                  <h3 className="text-2xl font-semibold text-blue-600 hover:underline cursor-pointer mb-2 leading-snug">
                   {post.title}
                   </h3>
                 </Link>
@@ -101,7 +101,7 @@ export default function Home({ posts }: HomeProps) {
                     href="https://www.linkedin.com/in/letisiapangataa/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className='text-blue-600 hover:text-blue-800'
+                    className='text-blue-600 hover:underline'
                     >
                     Letisia Pangata&apos;a
                     </a>

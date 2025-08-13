@@ -110,9 +110,11 @@ export default function Post({ post }: PostProps) {
       <div className="max-w-6xl mx-auto px-4 py-8">
         <article>
             <header className="mt-8 mb-8">
-              <h1 className="text-5xl font-bold text-blue-600 mb-4">
-              {post.title} 
-              </h1>
+                <h1 className="text-5xl font-bold text-blue-600 mb-4">
+                <Link href="/">
+                  <span className="hover:underline cursor-pointer">{post.title}</span>
+                </Link>
+                </h1>
                 <div className="flex items-center gap-3 mb-4">
                   <p className="text-gray-500">
                   {format(new Date(post.date), 'MMMM dd, yyyy')} 👩🏽‍🔬{' '}
@@ -120,7 +122,7 @@ export default function Post({ post }: PostProps) {
                     href="https://www.linkedin.com/in/letisiapangataa/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className='text-blue-600 hover:text-blue-800'
+                    className='text-blue-600 hover:underline'
                   >
                     Letisia Pangata&apos;a
                   </a>
