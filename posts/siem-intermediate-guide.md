@@ -6,7 +6,7 @@ description: "A hands-on guide to leveraging SIEM for advanced security monitori
 difficulty: "Intermediate"
 ---
 
-Security Information and Event Management (SIEM) platforms are more than just log collectors—they are powerful tools for proactive threat detection, investigation, and response. This post explores intermediate SIEM concepts and practical techniques to help you get more value from your SIEM investment.
+Security Information and Event Management (SIEM) platforms are more than just log collectors, they are powerful tools for proactive threat detection, investigation, and response. This post explores intermediate SIEM concepts and practical techniques to help you get more value from your SIEM investment.
 
 ## Threat Hunting with SIEM
 
