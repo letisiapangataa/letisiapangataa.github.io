@@ -7,11 +7,28 @@
 
 @layer base {
   html {
-    font-family: 'Abadi MT Condensed Light', 'Abadi', 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
   }
 }
 
 .text-5xl {
-    font-size: 3rem;
-    line-height: 1.5;
-  }
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 2;
+}
+
+.leading-snug {
+    line-height: 1.8;
+}
+
+.leading-relaxed {
+    line-height: 2;
+}
+
+.prose {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+}

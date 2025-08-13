@@ -90,7 +90,7 @@ export default function Home({ posts }: HomeProps) {
               {/* Content */}
               <div>
                 <Link href={`/posts/${post.slug}`}>
-                  <h3 className="text-2xl font-semibold text-gray-900 hover:text-blue-600 cursor-pointer mb-2 leading-snug">
+                  <h3 className="text-2xl font-semibold text-blue-600 hover:text-blue-600 cursor-pointer mb-2 leading-snug">
                   {post.title}
                   </h3>
                 </Link>
