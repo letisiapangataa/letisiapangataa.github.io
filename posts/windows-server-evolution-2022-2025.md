@@ -1,11 +1,11 @@
 ---
 title: "Revising Windows Server: Evolution from Windows Server 2022 to 2025"
 date: "2025-08-14"
-excerpt: "Revising the evolution of Windows Server, focusing on Windows Server 2022 and the latest features in Windows Server 2025."
+excerpt: "Revising Windows Server concepts, focusing on Windows Server 2022 and the latest features in Windows Server 2025."
 difficulty: Intermediate
 ---
 
-[Windows Server](https://www.microsoft.com/en-us/windows-server) is Microsoft’s enterprise-grade operating system designed to power mission-critical applications, manage IT infrastructure, and provide secure, scalable environments for organizations of all sizes. Since its first release in 2003, Windows Server has continually evolved to meet the demands of modern data centers and cloud environments.
+[Windows Server](https://www.microsoft.com/en-us/windows-server) is Microsoft’s enterprise-grade operating system designed to power mission-critical applications, manage IT infrastructure, and provide secure, scalable environments for organisations of all sizes. Since its first release in 2003, Windows Server has continually evolved to meet the demands of modern data centers and cloud environments.
 
 ---
 
