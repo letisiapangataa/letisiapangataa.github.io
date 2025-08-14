@@ -1,5 +1,5 @@
 ---
-title: "Revising Linux: Why it's important?"
+title: "Revising Linux: Why it's important? What role does it play?"
 date: "2025-08-14"
 excerpt: "A concise overview of Linux, its importance in system engineering, and its role in modern infrastructure management."
 difficulty: Intermediate
