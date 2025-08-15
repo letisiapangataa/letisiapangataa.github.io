@@ -5,8 +5,6 @@ excerpt: "An in-depth, practical guide to PowerShell scripting — core concepts
 difficulty: Intermediate
 ---
 
-## Introduction
-
 PowerShell is a task automation and configuration management framework from Microsoft. It blends a powerful command shell with a scripting language built on .NET, designed for administering Windows and cross-platform environments. For system engineers and infrastructure teams, PowerShell enables repeatable automation, consistent configuration, and simple integration with cloud and DevOps workflows.
 
 ---
