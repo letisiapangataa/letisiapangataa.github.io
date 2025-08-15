@@ -5,8 +5,6 @@ excerpt: "Overview documentation of the design and implementation of a hands-on 
 difficulty: "Difficult"
 ---
 
-## Introduction
-
 In today’s digital landscape, understanding network security is essential for IT professionals and students alike. This blog post walks you through the design and implementation of a hands-on network security lab, aligned with the CCNAv7 curriculum. The lab simulates a real-world enterprise environment, complete with VLAN segmentation, firewall protection, intrusion detection, and secure network management.
 
 ## Lab Topology Overview
@@ -59,7 +57,3 @@ By completing this lab, you will:
 ## Conclusion
 
 This network security lab provides a robust platform for learning and experimentation. Whether you’re preparing for CCNAv7 certification or seeking to enhance your cybersecurity skills, this lab setup offers valuable, real-world experience.
-
----
-
-*Explore the repository for configuration files, setup guides, and analysis scripts to get started!*
