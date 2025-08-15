@@ -24,7 +24,7 @@ The lab is structured to provide a comprehensive learning experience, covering k
 
 ## Network Diagram
 
-![Network Topology Diagram](https://github.com/letisiapangataa/network-security-lab-ccnav7/blob/main/network-security-lab-diagram.drawio.png)
+![Network Topology Diagram](https://raw.githubusercontent.com/letisiapangataa/network-security-lab-ccnav7/refs/heads/main/network-security-lab-diagram.drawio.png)
 
 ## Key Security Features
 
