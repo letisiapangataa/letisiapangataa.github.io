@@ -24,9 +24,7 @@ The lab is structured to provide a comprehensive learning experience, covering k
 
 ## Network Diagram
 
-![Network Topology Diagram](diagrams/vlan-topology.txt)
-
-*For a graphical version, import the topology into draw.io or your preferred diagramming tool.*
+![Network Topology Diagram](https://github.com/letisiapangataa/network-security-lab-ccnav7/blob/main/network-security-lab-diagram.drawio.png)
 
 ## Key Security Features
 
