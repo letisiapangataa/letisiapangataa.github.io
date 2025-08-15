@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with Linux on Windows: An Introduction to WSL"
+title: "Setting Up Linux on Windows: An Introduction to WSL"
 date: "2025-08-15"
 excerpt: "A practical guide to running Linux on Windows using Windows Subsystem for Linux (WSL), including setup steps and key benefits."
 difficulty: Easy
