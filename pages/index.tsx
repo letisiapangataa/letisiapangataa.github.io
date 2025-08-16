@@ -78,9 +78,6 @@ export default function Home({ posts }: HomeProps) {
       </Head>
 
       <div className="max-w-6xl mx-auto px-4 py-8">
-        <header className="text-center mb-12">
-
-        </header>
 
         <div className="space-y-8">
           {posts.map((post) => (

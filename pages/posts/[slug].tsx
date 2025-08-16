@@ -85,31 +85,10 @@ export default function Post({ post }: PostProps) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
         
-        {/* Open Graph / Facebook */}
-        <meta property="og:type" content="article" />
-        <meta property="og:title" content={post.title} />
-        <meta property="og:description" content={post.excerpt || post.title} />
-        <meta property="og:url" content={postUrl} />
-        <meta property="og:site_name" content="Letisia's Technology Portfolio" />
-        <meta property="og:locale" content="en_US" />
-        <meta property="article:author" content="Letisia Pangata'a" />
-        <meta property="article:published_time" content={post.date} />
-        <meta property="article:modified_time" content={post.date} />
-        <meta property="article:section" content="Technology" />
-        {post.difficulty && <meta property="article:tag" content={post.difficulty} />}
-        
-        {/* Twitter */}
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@letisiapangataa" />
-        <meta name="twitter:creator" content="@letisiapangataa" />
-        <meta name="twitter:title" content={post.title} />
-        <meta name="twitter:description" content={post.excerpt || post.title} />
-        
       </Head>
 
       <div className="max-w-6xl mx-auto px-4 py-8">
         <article>
-            <header className="mt-8 mb-8">
                 <h1 className="text-5xl font-bold text-blue-600 mb-4">
                 <Link href="/">
                   <span className="hover:underline cursor-pointer">{post.title}</span>
@@ -133,7 +112,6 @@ export default function Post({ post }: PostProps) {
                     </span>
                   )}
                 </div>
-            </header>
 
             <div 
               className="prose max-w-none text-lg"

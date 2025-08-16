@@ -32,3 +32,113 @@
 .prose {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
 }
+
+/* Mobile nav toggle button */
+.mobile-toggle{
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* Mobile menu hidden by default (small screens) */
+.links.mobile-closed{
+  display: none;
+}
+
+/* When open, stack links vertically on small screens */
+.links.mobile-open{
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  background: #ffffff;
+  padding: .75rem calc(var(--base-padding) * 1);
+  border-bottom: 1px solid #e5e7eb;
+  z-index: 40;
+}
+
+/* Desktop: ensure links inline and visible */
+@media (min-width: 721px){
+  .mobile-toggle{ display: none; }
+  .links{ display: flex !important; position: static; background: transparent; padding: 0; }
+  .links a{ margin-left: 1rem; }
+}
+
+/* Improve tap targets on mobile */
+.site-nav .links a,
+.mobile-toggle{
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+/* Ensure main content spacing for mobile menu overlap */
+@media (max-width: 720px){
+  main .site-container{ padding-top: 1rem; }
+}
+
+/* Responsive base & typography */
+:root{
+  --max-content-width: 900px;
+  --base-padding: 1rem;
+  --muted: #6b7280;
+  --accent: #0ea5a4;
+  /* Responsive base font size (mobile-friendly, scales with viewport) */
+  --base-font-size: clamp(0.95rem, 1.2vw + 0.6rem, 1.05rem);
+}
+
+*{box-sizing: border-box;}
+
+html,body{
+  height: 100%;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+  color: #111827;
+  background: #fff;
+
+  /* Use the responsive base font size */
+  font-size: var(--base-font-size);
+}
+
+/* Fluid type scaling for headings (kept/provided earlier) */
+h1{
+  font-size: 0.5em;
+  line-height: 1.08;
+  margin: .5rem 0;
+  word-break: break-word;
+  letter-spacing: -0.01em;
+}
+
+
+.text-5xl {
+  font-size: clamp(1.5rem, 4.5vw + 0.5rem, 3.2rem);
+  line-height: 1.5;
+}
+
+.text-lg {
+    font-size: 1rem;
+    line-height: 2;
+}
+
+h2{ font-size: clamp(1.25rem, 1.6vw + .9rem, 1.75rem); margin: .5rem 0;}
+h3{ font-size: clamp(1.05rem, 1.2vw + .8rem, 1.25rem); margin: .5rem 0;}
+
+/* Make code blocks scale down gently on small screens */
+pre{
+  padding: 1rem;
+  overflow: auto;
+  font-size: clamp(0.85rem, 0.9vw + 0.7rem, 0.95rem);
+  margin: 1rem 0;
+}
+
+/* Small adjustments for very small devices */
+@media (max-width: 360px){
+  :root{ --base-font-size: clamp(1rem, 1.6vw + 0.5rem, 1.05rem); }
+}
+
+/* ...existing responsive rules remain below */
+
