@@ -1,5 +1,5 @@
 ---
-title: "Building a Student Support Chatbot: Project Overview & Codebase Walkthrough"
+title: "Building an AI-powered Student Support Chatbot: Project Overview & Codebase Walkthrough"
 date: "2025-08-17"
 excerpt: "A detailed look at the design, structure, and development process behind a modular student support chatbot project."
 difficulty: Intermediate
