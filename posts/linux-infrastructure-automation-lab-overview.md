@@ -5,8 +5,6 @@ excerpt: "Explore the significance of Linux in system engineering and how automa
 difficulty: Difficult
 ---
 
-## Introduction
-
 The Linux Infrastructure Automation Lab is a comprehensive toolkit designed to automate, secure, and monitor Linux server environments. It provides scripts, configuration files, and dashboards to help system administrators streamline infrastructure management, enforce security best practices, and ensure operational resilience.
 
 You can find the source code and further documentation for the Linux Infrastructure Automation Lab on [GitHub](https://github.com/letisiapangataa/linux-infra-automation-lab).
