@@ -1,6 +1,6 @@
 ---
 title: "Building a System Monitoring Dashboard with Python, Prometheus, and Grafana"
-date: "2025-08-15"
+date: "2025-08-16"
 excerpt: "A practical guide to developing a real-time system monitoring and alerting dashboard using Python, Prometheus, InfluxDB, and Grafana."
 difficulty: Intermediate
 ---
