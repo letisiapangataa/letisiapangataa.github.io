@@ -5,8 +5,6 @@ excerpt: "A look into the design, structure, and technical challenges of buildin
 difficulty: Intermediate
 ---
 
-## Introduction
-
 The **Database Administration Lab** project was created to provide a hands-on environment for learning, testing, and automating essential database administration tasks. This blog post takes you through the development journey, highlighting the structure, design decisions, and technical challenges encountered along the way.
 
 ---
