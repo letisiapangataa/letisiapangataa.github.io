@@ -5,7 +5,7 @@ excerpt: "A detailed look at the design, structure, and development process behi
 difficulty: Intermediate
 ---
 
-This post discusses development process and codebase structure of the **Student Support Chatbot** project. The chatbot is designed to assist students by answering their queries using a knowledge base and providing a web-based chat interface. The project is organized into three main components: the backend bot, the knowledge base, and the web frontend.
+This post discusses development process and codebase structure of the **A.I-powered Student Support Chatbot** project. The chatbot is designed to assist students by answering their queries using a knowledge base and providing a web-based chat interface. The project is organized into three main components: the backend bot, the knowledge base, and the web frontend.
 
 ---
 
