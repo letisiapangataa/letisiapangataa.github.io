@@ -1,7 +1,7 @@
 ---
 title: "Building a Home Lab with Ansible: Automating My Infrastructure"
 date: "2025-08-18"
-excerpt: "Automate your home lab with Ansible—learn to set up, configure, and manage Linux and Windows servers efficiently."
+excerpt: "Automating my home lab with Ansible, learn to set up, configure, and manage Linux and Windows servers efficiently."
 difficulty: Intermediate
 ---
 
