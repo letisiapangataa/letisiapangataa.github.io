@@ -94,7 +94,7 @@ export default function Post({ post }: PostProps) {
                   <span className="hover:underline cursor-pointer">{post.title}</span>
                 </Link>
                 </h1>
-                <div className="flex items-center gap-3 mb-4">
+                <div className="flex items-center gap-3 mb-8">
                   <p className="text-gray-500">
                   {format(new Date(post.date), 'MMMM dd, yyyy')} 👩🏽‍🔬{' '}
                   <a

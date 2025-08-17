@@ -2,8 +2,10 @@
 title: "Ansible Overview: Automating IT with Ease"
 date: "2025-08-17"
 excerpt: "An overview to Ansible, its core concepts, and how it simplifies automation for system administrators and DevOps teams."
-difficulty: Easy
+difficulty: Intermediate
 ---
+
+## What is Ansible?
 
 **Ansible** is an open-source automation tool that enables IT professionals to automate configuration management, application deployment, and orchestration tasks across servers and cloud environments. Its agentless architecture and human-readable YAML syntax make it accessible for beginners and powerful for advanced users.
 
@@ -49,3 +51,62 @@ Below is a basic playbook to install Nginx on Ubuntu servers:
         name: nginx
         state: started
         enabled: yes
+---
+```
+
+## How to Run Ansible
+
+1. Install Ansible:
+   - On Debian/Ubuntu:
+     ```
+     sudo apt update
+     sudo apt install ansible
+     ```
+   - Or via pip for cross-platform:
+     ```     
+     pip install ansible   
+     ```    
+2. Create an inventory file (INI or YAML):
+   ```  
+   [web]   
+   server1.example.com   
+   server2.example.com  
+   ```  
+3. Run a playbook:
+   ```   
+   ansible-playbook -i inventory.ini nginx-playbook.yml   
+   ```
+
+---
+
+## Use Cases
+
+- Server provisioning and configuration management  and configuration management  
+- Application deployment and release automation  nt and release automation  
+- CI/CD integration and orchestration  D integration and orchestration  
+- Cloud resource provisioning (AWS, Azure, GCP)  rovisioning (AWS, Azure, GCP)  
+- Network automation and device configurationork automation and device configuration
+
+---
+
+## Best Practices
+
+- Use roles to keep playbooks organised and reusable.  to keep playbooks organised and reusable.  
+- Secure secrets with Ansible Vault rather than storing plaintext credentials.  - Secure secrets with Ansible Vault rather than storing plaintext credentials.  
+- Test playbooks in a staging environment before applying to production.  lying to production.  
+- Keep inventories and playbooks in version control (Git).  ol (Git).  
+- Prefer idempotent tasks and explicit handlers for service restarts.handlers for service restarts.
+
+---
+
+## Further Reading
+
+- Official docs: https://docs.ansible.com/  https://docs.ansible.com/  
+- Community roles: https://galaxy.ansible.com/  - Community roles: https://galaxy.ansible.com/  
+- Getting started guide: https://www.ansible.com/resources/get-startedces/get-started
+
+---
+
+## Conclusion
+
+Ansible provides a simple, agentless automation model that scales from small setups to large, complex infrastructures. Its readable YAML playbooks and extensible module ecosystem make it a strong choice for system administrators and DevOps teams aiming to automate reliably and reproducibly.
