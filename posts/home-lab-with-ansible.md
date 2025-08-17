@@ -5,19 +5,9 @@ excerpt: "Automating my home lab with Ansible, learn to set up, configure, and m
 difficulty: Intermediate
 ---
 
-In today’s IT landscape, **automation isn’t optional—it’s essential**. Whether you’re working with cloud-native platforms or managing on-premises servers, tools like **Ansible** help maintain consistency, reduce errors, and save countless hours.  
+In today’s IT landscape, **automation isn’t optional, it’s essential**. Whether you’re working with cloud-native platforms or managing on-premises servers, tools like **Ansible** help maintain consistency, reduce errors, and save countless hours.  
 
 To deepen my hands-on skills, I built a **home lab environment** where Ansible automates everything from OS configuration to service deployment. Here’s a breakdown of how I set it up and what I learned along the way.  
-
----
-
-## Why Build a Home Lab?
-
-A home lab gives you the freedom to:
-- **Experiment safely** without risking production environments.  
-- **Showcase projects** to employers (portfolio-ready).  
-- **Learn by doing**: break things, fix them, and document the process.  
-- **Practice hybrid workflows** that mirror enterprise IT setups.  
 
 ---
 
