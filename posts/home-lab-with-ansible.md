@@ -138,3 +138,9 @@ My next steps include:
 Building a home lab with Ansible isn’t just an academic exercise—it’s a way to **prove your skills** in automation, configuration management, and DevOps practices.  
 
 I’ve shared some of my playbooks and lab setup on the following [GitHub reppository](https://github.com/letisiapangataa/ansible-home-lab). If you’re learning Ansible, I highly recommend setting up a lab—it’s the best way to gain hands-on experience.  
+
+---
+
+## Disclaimer
+
+This project was developed using a combination of publicly available learning resources, reference books, open source projects, and artificial intelligence tools. All efforts have been made to attribute and comply with relevant licenses. Contributions and insights from the broader open source and educational communities are gratefully acknowledged. This software is provided as-is, without warranty of any kind, express or implied. The author assumes no responsibility for any loss, damage, or disruption caused by the use of this code. It is intended for educational and experimental purposes only and may not be suitable for production environments.
