@@ -1,7 +1,7 @@
 ---
 title: "Ansible Overview: Automating IT with Ease"
-date: "2025-08-15"
-excerpt: "An introduction to Ansible, its core concepts, and how it simplifies automation for system administrators and DevOps teams."
+date: "2025-08-17"
+excerpt: "An overview to Ansible, its core concepts, and how it simplifies automation for system administrators and DevOps teams."
 difficulty: Easy
 ---
 
