@@ -1,5 +1,5 @@
 ---
-title: "The Future of Cybersecurity: The Expanding Role of Artificial Intelligence"
+title: "Future of Cybersecurity: The Expanding Role of Artificial Intelligence [Thoughts]"
 date: "2025-08-20"
 excerpt: "How artificial intelligence is transforming cybersecurity, from threat detection to automated response, and what the future holds for digital defence."
 difficulty: Intermediate
