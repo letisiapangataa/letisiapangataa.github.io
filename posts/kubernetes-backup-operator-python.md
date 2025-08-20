@@ -5,7 +5,7 @@ excerpt: "A hands-on guide to building a Kubernetes backup operator in Python, c
 difficulty: Intermediate
 ---
 
-Kubernetes is the de facto standard for running containerised applications, but managing backups for stateful apps (like databases) can be tricky. In this post, we'll walk through a real-world Python project: a Kubernetes operator that automates backups using custom resources, snapshots, and S3-compatible storage. This project is perfect for engineers looking to level up their Python and Kubernetes skills.
+Kubernetes is the de facto standard for running containerised applications, but managing backups for stateful apps (like databases) can be tricky. In this post, we'll walk through a real-world Python project: a Kubernetes operator that automates backups using custom resources, snapshots, and S3-compatible storage.
 
 ---
 
