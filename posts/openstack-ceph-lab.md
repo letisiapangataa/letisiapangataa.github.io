@@ -5,7 +5,7 @@ excerpt: "A hands-on guide to building your own OpenStack and Ceph lab on Ubuntu
 difficulty: Easy
 ---
 
-Have you ever wondered how cloud platforms like OpenStack work behind the scenes? In this project, I set out to build a small lab that brings together OpenStack (for cloud computing) and Ceph (for storage) using Ubuntu. This blog post will walk you through the development and structure of the codebase, using simple language for junior to intermediate learners.
+Have you ever wondered how cloud platforms like OpenStack work behind the scenes? In this project, I set out to build a small lab that brings together OpenStack (for cloud computing) and Ceph (for storage) using Ubuntu. This blog post will walk you through the development and structure of the codebase.
 
 ---
 
