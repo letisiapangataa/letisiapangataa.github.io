@@ -77,9 +77,9 @@ export default function Home({ posts }: HomeProps) {
         />
       </Head>
 
-      <div className="max-w-6xl mx-auto px-4 py-8">
+      <div className="max-w-6xl mx-auto px-4 py-8 mt-8">
 
-        <div className="space-y-8">
+        <div className="space-y-8 mb-8">
           {posts.map((post) => (
             <article key={post.slug} className="border-b border-gray-200 pb-8">
               {/* Large Featured Image Above Content */}
