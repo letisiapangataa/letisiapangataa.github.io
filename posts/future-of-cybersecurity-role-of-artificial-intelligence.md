@@ -1,7 +1,7 @@
 ---
 title: "The Future of Cybersecurity: The Expanding Role of Artificial Intelligence"
 date: "2025-08-20"
-excerpt: "Explore how artificial intelligence is transforming cybersecurity, from threat detection to automated response, and what the future holds for digital defence."
+excerpt: "How artificial intelligence is transforming cybersecurity, from threat detection to automated response, and what the future holds for digital defence."
 difficulty: Intermediate
 ---
 
@@ -53,7 +53,5 @@ Key trends to watch:
 - Continuous learning and adaptation to new threats
 
 ---
-
-## Conclusion
 
 Artificial intelligence is set to revolutionise cybersecurity, offering powerful tools to detect, prevent, and respond to threats at unprecedented speed and scale. As both attackers and defenders embrace AI, the future of digital security will depend on innovation, vigilance, and responsible use of intelligent
