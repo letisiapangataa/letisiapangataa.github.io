@@ -1,5 +1,5 @@
 ---
-title: "Building an OpenStack + Ceph Lab: A Beginner-Friendly Journey"
+title: "Building an OpenStack + Ceph Lab: Beginner Friendly :)"
 date: "2025-08-20"
 excerpt: "A hands-on guide to building your own OpenStack and Ceph lab on Ubuntu, with tips and structure for junior and intermediate learners."
 difficulty: Easy
