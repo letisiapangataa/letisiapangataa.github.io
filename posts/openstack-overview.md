@@ -86,4 +86,4 @@ OpenStack continues to evolve, with growing support for containers (Kubernetes i
 
 ---
 
-OpenStack empowers organisations to build flexible, scalable, and open cloud environments. Whether for private, public, or hybrid cloud, OpenStack remains a cornerstone of open-
+OpenStack empowers organisations to build flexible, scalable, and open cloud environments. Whether for private, public, or hybrid cloud, OpenStack remains a cornerstone of open-source cloud infrastructure, driving innovation and collaboration in the cloud computing ecosystem.
