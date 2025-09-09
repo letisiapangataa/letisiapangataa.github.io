@@ -1,7 +1,7 @@
 ---
 title: "Letisia's Journal : Upskilling, Opportunities, Microsoft AZ-500"
 date: "2025-09-10"
-excerpt: "A new journal feature on my personal career journey in technology, authenticity is where I thrive on."
+excerpt: "A new journal feature on my personal career journey in technology."
 difficulty: Letisia's Journal
 ---
 
