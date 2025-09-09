@@ -13,6 +13,8 @@ const getDifficultyColor = (difficulty?: string) => {
       return 'bg-yellow-100 text-yellow-800'
     case 'Difficult':
       return 'bg-red-100 text-red-800'
+    case 'Letisia\'s Journal':
+      return 'bg-blue-100 text-blue-800' // Assign blue for 'Journal'
     default:
       return 'bg-gray-100 text-gray-800'
   }
@@ -24,7 +26,7 @@ interface Post {
   date: string
   excerpt: string
   content: string
-  difficulty?: 'Easy' | 'Intermediate' | 'Difficult'
+  difficulty?: 'Easy' | 'Intermediate' | 'Difficult' | 'Letisia\'s Journal'
 }
 
 interface HomeProps {

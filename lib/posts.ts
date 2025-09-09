@@ -12,7 +12,7 @@ export interface Post {
   date: string;
   excerpt: string;
   content: string;
-  difficulty?: 'Easy' | 'Intermediate' | 'Difficult';
+  difficulty?: 'Easy' | 'Intermediate' | 'Difficult' | 'Letisia\'s Journal';
 }
 
 export function getAllPosts() {
@@ -46,9 +46,9 @@ export function getPostBySlug(slug: string): Post | null {
 
     return {
       slug,
-      title: matterResult.data.title.replace(/'/g, '&apos;') || slug, // Escape single quotes
+      title: matterResult.data.title || slug, // Do NOT escape single quotes
       date: matterResult.data.date || new Date().toISOString(),
-      excerpt: matterResult.data.excerpt.replace(/'/g, '&apos;') || matterResult.data.description || matterResult.content.substring(0, 150) + '...', // Escape single quotes
+      excerpt: matterResult.data.excerpt || matterResult.data.description || matterResult.content.substring(0, 150) + '...',
       content: matterResult.content,
       difficulty: matterResult.data.difficulty || 'Intermediate',
     };
