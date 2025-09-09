@@ -1,8 +1,8 @@
 ---
-title: "Letisia's Journal : Microsoft AZ-500, September (2025) Update"
+title: "Letisia's Journal : Upskilling, Opportunities, Microsoft AZ-500"
 date: "2025-09-10"
-excerpt: "Update on journey on attaining the Microsoft AZ-500 certification."
-difficulty: journal
+excerpt: "A new journal feature on my personal career journey in technology, authenticity is where I thrive on."
+difficulty: Journal
 ---
 
 Kia ora,
@@ -19,4 +19,4 @@ I see this as a little library of books.
 
 Ka kite ano,
 
-Letisia P.
+Letisia T Pangata'a.
